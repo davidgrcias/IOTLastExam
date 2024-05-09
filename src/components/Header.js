@@ -52,8 +52,8 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/Contact">
-                  <i class="fa-solid fa-address-book"></i> Contact
+                <Link className="nav-link" to="/Game">
+                  <i class="fa-solid fa-gamepad"></i> Game
                 </Link>
               </li>
             </ul>

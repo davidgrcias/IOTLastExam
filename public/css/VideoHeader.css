@@ -15,6 +15,17 @@ https://templatemo.com/tm-583-festava-live
 .custom-icon {
   color: var(--secondary-color);
 }
+#bydavid {
+  background-color: #ee5007 !important;
+  color: #fff !important;
+  transition: 0.4s;
+}
+#bydavid:hover {
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: black;
+  transform: scale(1.2);
+  border-radius: 0% !important;
+}
 
 /*---------------------------------------
   CUSTOM BUTTON               

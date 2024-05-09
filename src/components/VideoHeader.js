@@ -1,9 +1,12 @@
 import React from "react";
-import "./VideoHeader.css";
+import { Helmet } from "react-helmet";
 
 function VideoHeader() {
   return (
     <>
+      <Helmet>
+        <link rel="stylesheet" href="css/VideoHeader.css" />
+      </Helmet>
       {/* Video Header */}
       <section className="hero-section" id="section_1">
         <div className="section-overlay" />
@@ -13,7 +16,11 @@ function VideoHeader() {
               <h1 className="text-white mb-3 lesstop">
                 Welcome to Bali, the Island of Gods
               </h1>
-              <a className="btn custom-btn smoothscroll" href="#section_2">
+              <a
+                className="btn custom-btn smoothscroll"
+                id="bydavid"
+                href="#section_2"
+              >
                 Let's explore
               </a>
             </div>

@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ThingsToDo from "./components/ThingsToDo";
 import About from "./components/About";
-import Contact from "./components/Contact";
+import Game from "./components/Game";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Things-to-do" element={<ThingsToDo />} />
           <Route path="/About" element={<About />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Game" element={<Game />} />
           {/* More routes can be added here */}
         </Routes>
         <Footer />
