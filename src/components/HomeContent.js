@@ -85,15 +85,17 @@ function HomeContent() {
                       className="text-white text-uppercase fw-bold mb-4"
                       style={{ letterSpacing: 3 }}
                     >
-                      Explore The World
+                      The Wonders of Bali Discover the Incredible
+
                     </h4>
                     <h1 className="display-2 text-capitalize text-white mb-4">
-                      Let's The World Together!
+                       Let Bali inspire you
+
+
                     </h1>
                     <p className="mb-5 fs-5">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s,
+                    Immerse yourself in the serene landscapes, vibrant culture, and breathtaking beaches. 
+                    Bali isn't just a destination; it's the beginning of a journey that stays with you forever.
                     </p>
                     <div className="d-flex align-items-center justify-content-center">
                       <a
@@ -218,11 +220,8 @@ function HomeContent() {
                       <div className="service-content text-end">
                         <h5 className="mb-4">WorldWide Tours</h5>
                         <p className="mb-0">
-                          Dolor sit amet consectetur adipisicing elit. Non alias
-                          eum, suscipit expedita corrupti officiis debitis
-                          possimus nam laudantium beatae quidem dolore
-                          consequuntur voluptate rem reiciendis, omnis sequi
-                          harum earum.
+                        Famous more for its enchanting allure than even Indonesia itself, Bali stands as a beacon to travelers from every corner of the globe. Its stunning beauty draws countless tourists, eager to explore its lush landscapes, rich culture, and pristine beaches. Discover why Bali isn't just a place to visit—it's a world to experience.
+
                         </p>
                       </div>
                       <div className="service-icon p-4">
@@ -235,11 +234,8 @@ function HomeContent() {
                       <div className="service-content text-end">
                         <h5 className="mb-4">Hotel Reservation</h5>
                         <p className="mb-0">
-                          Dolor sit amet consectetur adipisicing elit. Non alias
-                          eum, suscipit expedita corrupti officiis debitis
-                          possimus nam laudantium beatae quidem dolore
-                          consequuntur voluptate rem reiciendis, omnis sequi
-                          harum earum.
+                        Nestled in paradise, our hotels in Bali offer more than just a place to sleep. They are gateways to luxury, comfort, and the authentic Balinese hospitality that lingers in the heart of every traveler. Whether it's a beachfront suite or a secluded garden villa, find your perfect retreat and immerse yourself in the serene beauty of Bali. Come, let your next vacation be a tale of indulgence and relaxation at one of Bali's prestigious hotels.
+
                         </p>
                       </div>
                       <div className="service-icon p-4">
@@ -252,11 +248,8 @@ function HomeContent() {
                       <div className="service-content text-end">
                         <h5 className="mb-4">Travel Guides</h5>
                         <p className="mb-0">
-                          Dolor sit amet consectetur adipisicing elit. Non alias
-                          eum, suscipit expedita corrupti officiis debitis
-                          possimus nam laudantium beatae quidem dolore
-                          consequuntur voluptate rem reiciendis, omnis sequi
-                          harum earum.
+                        Navigate the enchanting island of Bali with our expert travel guides. From hidden gems to iconic landmarks, our guides are crafted to help you discover the very best of Bali. Whether you're seeking adventure, relaxation, or cultural immersion, our travel guides provide all the insights you need to create unforgettable memories. Embark on your journey with the ultimate companion—experience Bali like never before.
+
                         </p>
                       </div>
                       <div className="service-icon p-4">
@@ -269,11 +262,7 @@ function HomeContent() {
                       <div className="service-content text-end">
                         <h5 className="mb-4">Event Management</h5>
                         <p className="mb-0">
-                          Dolor sit amet consectetur adipisicing elit. Non alias
-                          eum, suscipit expedita corrupti officiis debitis
-                          possimus nam laudantium beatae quidem dolore
-                          consequuntur voluptate rem reiciendis, omnis sequi
-                          harum earum.
+                        Travel with ease and comfort, knowing Bali is dedicated to the safety of all its visitors. With comprehensive security measures and a welcoming local community, you can relax and enjoy the island's stunning scenery and rich culture. Experience the tranquil peace of Bali, where safety complements the beauty, making every moment worry-free.
                         </p>
                       </div>
                       <div className="service-icon p-4">
@@ -1057,10 +1046,7 @@ function HomeContent() {
               <h5 className="section-title px-3">Explore Tour</h5>
               <h1 className="mb-4">The World</h1>
               <p className="mb-0">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-                tempore nam, architecto doloremque velit explicabo? Voluptate
-                sunt eveniet fuga eligendi! Expedita laudantium fugiat corrupti
-                eum cum repellat a laborum quasi.
+              With a focus on authentic and comprehensive experiences, Nirvana offers curated travel recommendations that combine popular destinations and hidden gems. Nirvana provides all the information you need to plan your dream vacation in Bali. Let us inspire and guide you through the wonders of Bali.
               </p>
             </div>
             <div className="tab-class text-center">
@@ -1400,12 +1386,9 @@ function HomeContent() {
         <div className="container-fluid gallery py-5 my-5">
           <div className="mx-auto text-center mb-5" style={{ maxWidth: 900 }}>
             <h5 className="section-title px-3">Our Gallery</h5>
-            <h1 className="mb-4">Tourism &amp; Traveling Gallery.</h1>
+            <h1 className="mb-4">A Masterpiece of Nature: Crafted by the Divine</h1>
             <p className="mb-0">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-              tempore nam, architecto doloremque velit explicabo? Voluptate sunt
-              eveniet fuga eligendi! Expedita laudantium fugiat corrupti eum cum
-              repellat a laborum quasi.
+            Behold a creation of exquisite beauty, where every aspect of its proportion is a testament to the divine craftsmanship. This natural wonder serves as a perfect highlight, preserving cherished memories in digital form. Embrace the sublime, immortalize your experiences, and keep the essence of beauty alive through your cherished digital keepsakes.
             </p>
           </div>
           <div className="tab-class text-center">
@@ -2019,12 +2002,9 @@ function HomeContent() {
           <div className="container py-5">
             <div className="mx-auto text-center mb-5" style={{ maxWidth: 900 }}>
               <h5 className="section-title px-3">Our Blog</h5>
-              <h1 className="mb-4">Popular Travel Blogs</h1>
+              <h1 className="mb-4">A Top-Tier Destination in Bali: Your Must-Visit Guide</h1>
               <p className="mb-0">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti deserunt tenetur sapiente atque. Magni non explicabo
-                beatae sit, vel reiciendis consectetur numquam id similique sunt
-                error obcaecati ducimus officia maiores.
+              When you journey to Bali, don't miss our highly recommended destinations, celebrated as the most popular spots in recent years. We offer curated recommendations that promise unforgettable experiences, capturing the essence of Bali's vibrant culture and breathtaking landscapes. Discover the places where memories are made, and every visit feels like a discovery. Make your Bali trip truly remarkable by exploring these beloved locales.
               </p>
             </div>
             <div className="row g-4 justify-content-center">
@@ -2345,30 +2325,28 @@ function HomeContent() {
                       <address />
                     </h4>
                     <p className="mb-0">
-                      123 ranking Street, <br /> New York, USA
+                     Universitas Multimedia Nusantara <br/> Indonesia
+
                     </p>
                   </div>
                   <div className="text-center mb-4">
                     <i className="fa fa-phone-alt fa-3x text-primary mb-3" />
                     <h4 className="text-primary">Mobile</h4>
-                    <p className="mb-0">+012 345 67890</p>
-                    <p className="mb-0">+012 345 67890</p>
+                    <p className="mb-0"> 0895707966890</p>
+                    <p className="mb-0"> 089556758755</p>
                   </div>
                   <div className="text-center">
                     <i className="fa fa-envelope-open fa-3x text-primary mb-3" />
                     <h4 className="text-primary">Email</h4>
-                    <p className="mb-0">info@example.com</p>
-                    <p className="mb-0">info@example.com</p>
+                    <p className="mb-0">Kelompok5thebest@gmail.com</p>
+                    <p className="mb-0">Kelompok5smartpeople@gmail.com</p>
                   </div>
                 </div>
               </div>
               <div className="col-lg-8">
                 <h3 className="mb-2">Send us a message</h3>
                 <p className="mb-4">
-                  The contact form is currently inactive. Get a functional and
-                  working contact form with Ajax &amp; PHP in a few minutes.
-                  Just copy and paste the files, add a little code and you're
-                  done.{" "}
+                Please send your feedback about our website so we can develop it from a customer perspective.{" "}
                 </p>
                 <form onSubmit={sendMail}>
                   <div className="row g-3">
