@@ -1,5 +1,35 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
+import ew from "./Image/1ew.jpg"
+import ews from "./Image/2ew.jpg"
+import ewz from "./Image/3ew.jpg"
+import Des from "./Image/2 Beach Club.jpg"
+import Des1 from "./Image/3ew.jpg"
+import Des2 from "./Image/5 Architecture.jpg"
+import Des3 from "./Image/4 Architechure.jpg"
+import Des4 from "./Image/7 sengkedan.jpg"
+import Des5 from "./Image/8 Greenmountain.jpg"
+import Des6 from "./Image/The World Kintamani.jpg"
+import Des7 from "./Image/The World AYANA Resort.jpg"
+import tour from "./Image/historycal.jpeg"
+import tour1 from "./Image/Family.jpg"
+import tour2 from "./Image/Popular Travel Blogs (3) tanah lot.jpg"
+import pop from "./Image/Popular Travel Blogs (1).jpg"
+import pop1 from "./Image/Popular Travel Blogs (2) Nusa penida island.jpg"
+import galery from "./Image/g1.jpg"
+import galery1 from "./Image/g2.jpg"
+import galery2 from "./Image/g3.jpg"
+import galery3 from "./Image/g4.jpg"
+import galery4 from "./Image/g5.jpg"
+import galery5 from "./Image/g6.jpg"
+import galery6 from "./Image/g7.jpg"
+import galery7 from "./Image/g8.jpg"
+import galery8 from "./Image/6 Beach.jpg"
+import galery9 from "./Image/9 Sunset.jpg"
+
+
+
+
 
 import "./Home.css";
 
@@ -75,7 +105,7 @@ function HomeContent() {
             <div className="carousel-inner" role="listbox">
               <div className="carousel-item active">
                 <img
-                  src="assets/img/carousel-2.jpg"
+                  src={ew}
                   className="img-fluid"
                   alt="Image"
                 />
@@ -110,7 +140,7 @@ function HomeContent() {
               </div>
               <div className="carousel-item">
                 <img
-                  src="assets/img/carousel-1.jpg"
+                  src={ews}
                   className="img-fluid"
                   alt="Image"
                 />
@@ -119,16 +149,15 @@ function HomeContent() {
                     <h4
                       className="text-white text-uppercase fw-bold mb-4"
                       style={{ letterSpacing: 3 }}
-                    >
-                      Explore The World
+                    >The Wonders of Bali Discover the Incredible
+                  
                     </h4>
                     <h1 className="display-2 text-capitalize text-white mb-4">
-                      Find Your Perfect Tour At Travel
+                    Let Bali inspire you
                     </h1>
                     <p className="mb-5 fs-5">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s,
+                    Immerse yourself in the serene landscapes, vibrant culture, and breathtaking beaches. 
+                    Bali isn't just a destination; it's the beginning of a journey that stays with you forever.
                     </p>
                     <div className="d-flex align-items-center justify-content-center">
                       <a
@@ -143,7 +172,7 @@ function HomeContent() {
               </div>
               <div className="carousel-item">
                 <img
-                  src="assets/img/carousel-3.jpg"
+                  src={ewz}
                   className="img-fluid"
                   alt="Image"
                 />
@@ -153,15 +182,14 @@ function HomeContent() {
                       className="text-white text-uppercase fw-bold mb-4"
                       style={{ letterSpacing: 3 }}
                     >
-                      Explore The World
+                         The Wonders of Bali Discover the Incredible
                     </h4>
                     <h1 className="display-2 text-capitalize text-white mb-4">
-                      You Like To Go?
+                    Let Bali inspire you
                     </h1>
                     <p className="mb-5 fs-5">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s,
+                    Immerse yourself in the serene landscapes, vibrant culture, and breathtaking beaches. 
+                    Bali isn't just a destination; it's the beginning of a journey that stays with you forever.
                     </p>
                     <div className="d-flex align-items-center justify-content-center">
                       <a
@@ -209,8 +237,8 @@ function HomeContent() {
         <div className="container-fluid bg-light service py-5">
           <div className="container py-5">
             <div className="mx-auto text-center mb-5" style={{ maxWidth: 900 }}>
-              <h5 className="section-title px-3">Searvices</h5>
-              <h1 className="mb-0">Our Services</h1>
+              <h5 className="section-title px-3">Bali</h5>
+              <h1 className="mb-0">Description</h1>
             </div>
             <div className="row g-4">
               <div className="col-lg-6">
@@ -282,11 +310,8 @@ function HomeContent() {
                       <div className="service-content">
                         <h5 className="mb-4">WorldWide Tours</h5>
                         <p className="mb-0">
-                          Dolor sit amet consectetur adipisicing elit. Non alias
-                          eum, suscipit expedita corrupti officiis debitis
-                          possimus nam laudantium beatae quidem dolore
-                          consequuntur voluptate rem reiciendis, omnis sequi
-                          harum earum.
+                        Explore the enchanting allure of Bali, renowned not only for its breathtaking beauty but as a destination that transcends even the charm of Indonesia itself. Bali beckons travelers from around the world, inviting them to delve into its verdant landscapes, vibrant culture, and immaculate beaches. Discover why Bali isn’t merely a place to visit—it’s a realm to be experienced.
+
                         </p>
                       </div>
                     </div>
@@ -299,11 +324,9 @@ function HomeContent() {
                       <div className="service-content">
                         <h5 className="mb-4">Hotel Reservation</h5>
                         <p className="mb-0">
-                          Dolor sit amet consectetur adipisicing elit. Non alias
-                          eum, suscipit expedita corrupti officiis debitis
-                          possimus nam laudantium beatae quidem dolore
-                          consequuntur voluptate rem reiciendis, omnis sequi
-                          harum earum.
+                         Tucked away in this paradise, our hotels in Bali provide more than just accommodations; they offer gateways to opulence,
+                          comfort, and genuine Balinese hospitality that remains etched in the memories of every visitor.
+                          Whether you prefer a beachfront suite or a secluded garden villa, find your ideal sanctuary and immerse yourself in Bali's tranquil beauty. Let your next vacation be a story of luxury and relaxation at one of Bali’s esteemed hotels.
                         </p>
                       </div>
                     </div>
@@ -316,11 +339,8 @@ function HomeContent() {
                       <div className="service-content">
                         <h5 className="mb-4">Travel Guides</h5>
                         <p className="mb-0">
-                          Dolor sit amet consectetur adipisicing elit. Non alias
-                          eum, suscipit expedita corrupti officiis debitis
-                          possimus nam laudantium beatae quidem dolore
-                          consequuntur voluptate rem reiciendis, omnis sequi
-                          harum earum.
+                      Embark on a journey across the magical island of Bali with our expert travel guides.
+                       From undiscovered treasures to celebrated attractions, our guides are meticulously designed to help you uncover the best of Bali. Whether your quest is for adventure, tranquility, or cultural enrichment, our travel guides equip you with all the knowledge needed to forge indelible memories. Begin your adventure with the ultimate companion—experience Bali as never before.
                         </p>
                       </div>
                     </div>
@@ -333,11 +353,7 @@ function HomeContent() {
                       <div className="service-content">
                         <h5 className="mb-4">Event Management</h5>
                         <p className="mb-0">
-                          Dolor sit amet consectetur adipisicing elit. Non alias
-                          eum, suscipit expedita corrupti officiis debitis
-                          possimus nam laudantium beatae quidem dolore
-                          consequuntur voluptate rem reiciendis, omnis sequi
-                          harum earum.
+                        Travel with assurance and ease, secure in the knowledge that Bali prioritizes the safety of all its visitors. With robust security measures and a hospitable local community, you can unwind and savor the island’s spectacular vistas and rich heritage. Experience the serene calm of Bali, where safety enhances the allure, ensuring every moment is blissfully carefree.
                         </p>
                       </div>
                     </div>
@@ -377,63 +393,9 @@ function HomeContent() {
                       All
                     </span>
                   </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    className="d-flex py-2 mx-3 border border-primary bg-light rounded-pill"
-                    data-bs-toggle="pill"
-                    href="#tab-2"
-                  >
-                    <span className="text-dark" style={{ width: 150 }}>
-                      USA
-                    </span>
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    className="d-flex mx-3 py-2 border border-primary bg-light rounded-pill"
-                    data-bs-toggle="pill"
-                    href="#tab-3"
-                  >
-                    <span className="text-dark" style={{ width: 150 }}>
-                      Canada
-                    </span>
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    className="d-flex mx-3 py-2 border border-primary bg-light rounded-pill"
-                    data-bs-toggle="pill"
-                    href="#tab-4"
-                  >
-                    <span className="text-dark" style={{ width: 150 }}>
-                      Europe
-                    </span>
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    className="d-flex mx-3 py-2 border border-primary bg-light rounded-pill"
-                    data-bs-toggle="pill"
-                    href="#tab-5"
-                  >
-                    <span className="text-dark" style={{ width: 150 }}>
-                      China
-                    </span>
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    className="d-flex mx-3 py-2 border border-primary bg-light rounded-pill"
-                    data-bs-toggle="pill"
-                    href="#tab-6"
-                  >
-                    <span className="text-dark" style={{ width: 150 }}>
-                      Singapore
-                    </span>
-                  </a>
-                </li>
+                  </li>
               </ul>
+           
               <div className="tab-content">
                 <div id="tab-1" className="tab-pane fade show p-0 active">
                   <div className="row g-4">
@@ -443,18 +405,13 @@ function HomeContent() {
                           <div className="destination-img">
                             <img
                               className="img-fluid rounded w-100"
-                              src="assets/img/destination-1.jpg"
+                              src={Des}
                               alt
                             />
                             <div className="destination-overlay p-4">
-                              <a
-                                href="#"
-                                className="btn btn-primary text-white rounded-pill border py-2 px-3"
-                              >
-                                20 Photos
-                              </a>
+                           
                               <h4 className="text-white mb-2 mt-3">
-                                New York City
+                                Beach Club
                               </h4>
                               <a href="#" className="btn-hover text-white">
                                 View All Place{" "}
@@ -463,7 +420,7 @@ function HomeContent() {
                             </div>
                             <div className="search-icon">
                               <a
-                                href="assets/img/destination-1.jpg"
+                                href={Des}
                                 data-lightbox="destination-1"
                               >
                                 <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
@@ -475,18 +432,13 @@ function HomeContent() {
                           <div className="destination-img">
                             <img
                               className="img-fluid rounded w-100"
-                              src="assets/img/destination-2.jpg"
+                              src={Des1}
                               alt
                             />
                             <div className="destination-overlay p-4">
-                              <a
-                                href="#"
-                                className="btn btn-primary text-white rounded-pill border py-2 px-3"
-                              >
-                                20 Photos
-                              </a>
+                            
                               <h4 className="text-white mb-2 mt-3">
-                                Las vegas
+                               Bali Sea
                               </h4>
                               <a href="#" className="btn-hover text-white">
                                 View All Place{" "}
@@ -495,7 +447,7 @@ function HomeContent() {
                             </div>
                             <div className="search-icon">
                               <a
-                                href="assets/img/destination-2.jpg"
+                                href={Des1}
                                 data-lightbox="destination-2"
                               >
                                 <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
@@ -507,18 +459,13 @@ function HomeContent() {
                           <div className="destination-img">
                             <img
                               className="img-fluid rounded w-100"
-                              src="assets/img/destination-7.jpg"
+                              src={Des2}
                               alt
                             />
                             <div className="destination-overlay p-4">
-                              <a
-                                href="#"
-                                className="btn btn-primary text-white rounded-pill border py-2 px-3"
-                              >
-                                20 Photos
-                              </a>
+                          
                               <h4 className="text-white mb-2 mt-3">
-                                Los angelas
+                               Handara Gate
                               </h4>
                               <a href="#" className="btn-hover text-white">
                                 View All Place{" "}
@@ -527,7 +474,7 @@ function HomeContent() {
                             </div>
                             <div className="search-icon">
                               <a
-                                href="assets/img/destination-7.jpg"
+                                href={Des2}
                                 data-lightbox="destination-7"
                               >
                                 <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
@@ -539,18 +486,13 @@ function HomeContent() {
                           <div className="destination-img">
                             <img
                               className="img-fluid rounded w-100"
-                              src="assets/img/destination-8.jpg"
+                              src={Des4}
                               alt
                             />
                             <div className="destination-overlay p-4">
-                              <a
-                                href="#"
-                                className="btn btn-primary text-white rounded-pill border py-2 px-3"
-                              >
-                                20 Photos
-                              </a>
+                           
                               <h4 className="text-white mb-2 mt-3">
-                                Los angelas
+                              Sengkedan
                               </h4>
                               <a href="#" className="btn-hover text-white">
                                 View All Place{" "}
@@ -559,7 +501,7 @@ function HomeContent() {
                             </div>
                             <div className="search-icon">
                               <a
-                                href="assets/img/destination-8.jpg"
+                                href={Des4}
                                 data-lightbox="destination-8"
                               >
                                 <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
@@ -573,19 +515,14 @@ function HomeContent() {
                       <div className="destination-img h-100">
                         <img
                           className="img-fluid rounded w-100 h-100"
-                          src="assets/img/destination-9.jpg"
+                          src={Des3}
                           style={{ objectFit: "cover", minHeight: 300 }}
                           alt
                         />
                         <div className="destination-overlay p-4">
-                          <a
-                            href="#"
-                            className="btn btn-primary text-white rounded-pill border py-2 px-3"
-                          >
-                            20 Photos
-                          </a>
+                      
                           <h4 className="text-white mb-2 mt-3">
-                            San francisco
+                           Pura Puseh
                           </h4>
                           <a href="#" className="btn-hover text-white">
                             View All Place{" "}
@@ -594,7 +531,7 @@ function HomeContent() {
                         </div>
                         <div className="search-icon">
                           <a
-                            href="assets/img/destination-9.jpg"
+                            href={Des3}
                             data-lightbox="destination-4"
                           >
                             <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
@@ -606,17 +543,12 @@ function HomeContent() {
                       <div className="destination-img">
                         <img
                           className="img-fluid rounded w-100"
-                          src="assets/img/destination-4.jpg"
+                          src={Des5}
                           alt
                         />
                         <div className="destination-overlay p-4">
-                          <a
-                            href="#"
-                            className="btn btn-primary text-white rounded-pill border py-2 px-3"
-                          >
-                            20 Photos
-                          </a>
-                          <h4 className="text-white mb-2 mt-3">Los angelas</h4>
+                       
+                          <h4 className="text-white mb-2 mt-3">Kelingking Beach</h4>
                           <a href="#" className="btn-hover text-white">
                             View All Place{" "}
                             <i className="fa fa-arrow-right ms-2" />
@@ -624,7 +556,7 @@ function HomeContent() {
                         </div>
                         <div className="search-icon">
                           <a
-                            href="assets/img/destination-4.jpg"
+                            href={Des5}
                             data-lightbox="destination-4"
                           >
                             <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
@@ -636,17 +568,12 @@ function HomeContent() {
                       <div className="destination-img">
                         <img
                           className="img-fluid rounded w-100"
-                          src="assets/img/destination-5.jpg"
+                          src={Des6}
                           alt
                         />
                         <div className="destination-overlay p-4">
-                          <a
-                            href="#"
-                            className="btn btn-primary text-white rounded-pill border py-2 px-3"
-                          >
-                            20 Photos
-                          </a>
-                          <h4 className="text-white mb-2 mt-3">Los angelas</h4>
+                        
+                          <h4 className="text-white mb-2 mt-3">Kintamani</h4>
                           <a href="#" className="btn-hover text-white">
                             View All Place{" "}
                             <i className="fa fa-arrow-right ms-2" />
@@ -654,7 +581,7 @@ function HomeContent() {
                         </div>
                         <div className="search-icon">
                           <a
-                            href="assets/img/destination-5.jpg"
+                            href={Des6}
                             data-lightbox="destination-5"
                           >
                             <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
@@ -666,17 +593,12 @@ function HomeContent() {
                       <div className="destination-img">
                         <img
                           className="img-fluid rounded w-100"
-                          src="assets/img/destination-6.jpg"
+                          src={Des7}
                           alt
                         />
                         <div className="destination-overlay p-4">
-                          <a
-                            href="#"
-                            className="btn btn-primary text-white rounded-pill border py-2 px-3"
-                          >
-                            20 Photos
-                          </a>
-                          <h4 className="text-white mb-2 mt-3">Los angelas</h4>
+                          
+                          <h4 className="text-white mb-2 mt-3">AYANA Resort</h4>
                           <a href="#" className="btn-hover text-white">
                             View All Place{" "}
                             <i className="fa fa-arrow-right ms-2" />
@@ -684,7 +606,7 @@ function HomeContent() {
                         </div>
                         <div className="search-icon">
                           <a
-                            href="assets/img/destination-6.jpg"
+                            href={Des7}
                             data-lightbox="destination-6"
                           >
                             <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
@@ -1062,17 +984,6 @@ function HomeContent() {
                     </span>
                   </a>
                 </li>
-                <li className="nav-item">
-                  <a
-                    className="d-flex py-2 mx-3 border border-primary bg-light rounded-pill"
-                    data-bs-toggle="pill"
-                    href="#InternationalTab-2"
-                  >
-                    <span className="text-dark" style={{ width: 250 }}>
-                      International tour Category
-                    </span>
-                  </a>
-                </li>
               </ul>
               <div className="tab-content">
                 <div
@@ -1083,7 +994,7 @@ function HomeContent() {
                     <div className="col-md-6 col-lg-4">
                       <div className="national-item">
                         <img
-                          src="assets/img/explore-tour-1.jpg"
+                          src={Des7}
                           className="img-fluid w-100 rounded"
                           alt="Image"
                         />
@@ -1108,7 +1019,7 @@ function HomeContent() {
                     <div className="col-md-6 col-lg-4">
                       <div className="national-item">
                         <img
-                          src="assets/img/explore-tour-2.jpg"
+                          src={ews}
                           className="img-fluid w-100 rounded"
                           alt="Image"
                         />
@@ -1133,7 +1044,7 @@ function HomeContent() {
                     <div className="col-md-6 col-lg-4">
                       <div className="national-item">
                         <img
-                          src="assets/img/explore-tour-3.jpg"
+                          src={Des5}
                           className="img-fluid w-100 rounded"
                           alt="Image"
                         />
@@ -1148,7 +1059,6 @@ function HomeContent() {
                             </a>
                           </div>
                         </div>
-                        <div className="tour-offer bg-info">15% Off</div>
                         <div className="national-plus-icon">
                           <a href="#" className="my-auto">
                             <i className="fas fa-link fa-2x text-white" />
@@ -1159,7 +1069,7 @@ function HomeContent() {
                     <div className="col-md-6 col-lg-4">
                       <div className="national-item">
                         <img
-                          src="assets/img/explore-tour-4.jpg"
+                          src={tour}
                           className="img-fluid w-100 rounded"
                           alt="Image"
                         />
@@ -1184,7 +1094,7 @@ function HomeContent() {
                     <div className="col-md-6 col-lg-4">
                       <div className="national-item">
                         <img
-                          src="assets/img/explore-tour-5.jpg"
+                          src={tour1}
                           className="img-fluid w-100 rounded"
                           alt="Image"
                         />
@@ -1199,7 +1109,6 @@ function HomeContent() {
                             </a>
                           </div>
                         </div>
-                        <div className="tour-offer bg-warning">50% Off</div>
                         <div className="national-plus-icon">
                           <a href="#" className="my-auto">
                             <i className="fas fa-link fa-2x text-white" />
@@ -1210,7 +1119,7 @@ function HomeContent() {
                     <div className="col-md-6 col-lg-4">
                       <div className="national-item">
                         <img
-                          src="assets/img/explore-tour-6.jpg"
+                          src={tour2}
                           className="img-fluid w-100 rounded"
                           alt="Image"
                         />
@@ -1455,7 +1364,7 @@ function HomeContent() {
                   <div className="col-sm-6 col-md-6 col-lg-4 col-xl-2">
                     <div className="gallery-item h-100">
                       <img
-                        src="assets/img/gallery-1.jpg"
+                        src={galery}
                         className="img-fluid w-100 h-100 rounded"
                         alt="Image"
                       />
@@ -1472,7 +1381,7 @@ function HomeContent() {
                       </div>
                       <div className="gallery-plus-icon">
                         <a
-                          href="assets/img/gallery-1.jpg"
+                          href={galery}
                           data-lightbox="gallery-1"
                           className="my-auto"
                         >
@@ -1484,7 +1393,7 @@ function HomeContent() {
                   <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div className="gallery-item h-100">
                       <img
-                        src="assets/img/gallery-2.jpg"
+                        src={galery1}
                         className="img-fluid w-100 h-100 rounded"
                         alt="Image"
                       />
@@ -1501,7 +1410,7 @@ function HomeContent() {
                       </div>
                       <div className="gallery-plus-icon">
                         <a
-                          href="assets/img/gallery-2.jpg"
+                          href={galery1}
                           data-lightbox="gallery-2"
                           className="my-auto"
                         >
@@ -1513,7 +1422,7 @@ function HomeContent() {
                   <div className="col-sm-6 col-md-6 col-lg-4 col-xl-2">
                     <div className="gallery-item h-100">
                       <img
-                        src="assets/img/gallery-3.jpg"
+                        src={galery2}
                         className="img-fluid w-100 h-100 rounded"
                         alt="Image"
                       />
@@ -1530,7 +1439,7 @@ function HomeContent() {
                       </div>
                       <div className="gallery-plus-icon">
                         <a
-                          href="assets/img/gallery-3.jpg"
+                          href={galery2}
                           data-lightbox="gallery-3"
                           className="my-auto"
                         >
@@ -1542,7 +1451,7 @@ function HomeContent() {
                   <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div className="gallery-item h-100">
                       <img
-                        src="assets/img/gallery-4.jpg"
+                        src={galery3}
                         className="img-fluid w-100 h-100 rounded"
                         alt="Image"
                       />
@@ -1559,7 +1468,7 @@ function HomeContent() {
                       </div>
                       <div className="gallery-plus-icon">
                         <a
-                          href="assets/img/gallery-4.jpg"
+                          href={galery3}
                           data-lightbox="gallery-4"
                           className="my-auto"
                         >
@@ -1571,7 +1480,7 @@ function HomeContent() {
                   <div className="col-sm-6 col-md-6 col-lg-4 col-xl-2">
                     <div className="gallery-item h-100">
                       <img
-                        src="assets/img/gallery-5.jpg"
+                        src={galery4}
                         className="img-fluid w-100 h-100 rounded"
                         alt="Image"
                       />
@@ -1588,7 +1497,7 @@ function HomeContent() {
                       </div>
                       <div className="gallery-plus-icon">
                         <a
-                          href="assets/img/gallery-5.jpg"
+                          href={galery4}
                           data-lightbox="gallery-5"
                           className="my-auto"
                         >
@@ -1600,7 +1509,7 @@ function HomeContent() {
                   <div className="col-sm-6 col-md-6 col-lg-4 col-xl-2">
                     <div className="gallery-item h-100">
                       <img
-                        src="assets/img/gallery-6.jpg"
+                        src={galery5}
                         className="img-fluid w-100 h-100 rounded"
                         alt="Image"
                       />
@@ -1617,7 +1526,7 @@ function HomeContent() {
                       </div>
                       <div className="gallery-plus-icon">
                         <a
-                          href="assets/img/gallery-6.jpg"
+                          href={galery5}
                           data-lightbox="gallery-6"
                           className="my-auto"
                         >
@@ -1629,7 +1538,7 @@ function HomeContent() {
                   <div className="col-sm-6 col-md-6 col-lg-3 col-xl-3">
                     <div className="gallery-item h-100">
                       <img
-                        src="assets/img/gallery-7.jpg"
+                        src={galery6}
                         className="img-fluid w-100 h-100 rounded"
                         alt="Image"
                       />
@@ -1646,7 +1555,7 @@ function HomeContent() {
                       </div>
                       <div className="gallery-plus-icon">
                         <a
-                          href="assets/img/gallery-7.jpg"
+                          href={galery6}
                           data-lightbox="gallery-7"
                           className="my-auto"
                         >
@@ -1658,7 +1567,7 @@ function HomeContent() {
                   <div className="col-sm-6 col-md-6 col-lg-3 col-xl-2">
                     <div className="gallery-item h-100">
                       <img
-                        src="assets/img/gallery-8.jpg"
+                        src={galery7}
                         className="img-fluid w-100 h-100 rounded"
                         alt="Image"
                       />
@@ -1675,7 +1584,7 @@ function HomeContent() {
                       </div>
                       <div className="gallery-plus-icon">
                         <a
-                          href="assets/img/gallery-8.jpg"
+                          href={galery7}
                           data-lightbox="gallery-8"
                           className="my-auto"
                         >
@@ -1687,7 +1596,7 @@ function HomeContent() {
                   <div className="col-sm-6 col-md-6 col-lg-3 col-xl-3">
                     <div className="gallery-item h-100">
                       <img
-                        src="assets/img/gallery-9.jpg"
+                        src={galery8}
                         className="img-fluid w-100 h-100 rounded"
                         alt="Image"
                       />
@@ -1704,7 +1613,7 @@ function HomeContent() {
                       </div>
                       <div className="gallery-plus-icon">
                         <a
-                          href="assets/img/gallery-9.jpg"
+                          href={galery8}
                           data-lightbox="gallery-9"
                           className="my-auto"
                         >
@@ -1716,7 +1625,7 @@ function HomeContent() {
                   <div className="col-sm-6 col-md-6 col-lg-3 col-xl-2">
                     <div className="gallery-item h-100">
                       <img
-                        src="assets/img/gallery-10.jpg"
+                        src={galery9}
                         className="img-fluid w-100 h-100 rounded"
                         alt="Image"
                       />
@@ -1733,7 +1642,7 @@ function HomeContent() {
                       </div>
                       <div className="gallery-plus-icon">
                         <a
-                          href="assets/img/gallery-10.jpg"
+                          href={galery9}
                           data-lightbox="gallery-10"
                           className="my-auto"
                         >
@@ -1749,7 +1658,7 @@ function HomeContent() {
                   <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div className="gallery-item h-100">
                       <img
-                        src="assets/img/gallery-2.jpg"
+                        src={galery9}
                         className="img-fluid w-100 h-100 rounded"
                         alt="Image"
                       />
@@ -1766,7 +1675,7 @@ function HomeContent() {
                       </div>
                       <div className="gallery-plus-icon">
                         <a
-                          href="assets/img/gallery-2.jpg"
+                          href={galery9}
                           data-lightbox="gallery-2"
                           className="my-auto"
                         >
@@ -2014,7 +1923,7 @@ function HomeContent() {
                     <div className="blog-img-inner">
                       <img
                         className="img-fluid w-100 rounded-top"
-                        src="assets/img/blog-1.jpg"
+                        src={pop}
                         alt="Image"
                       />
                       <div className="blog-icon">
@@ -2045,13 +1954,12 @@ function HomeContent() {
                     </div>
                   </div>
                   <div className="blog-content border border-top-0 rounded-bottom p-4">
-                    <p className="mb-3">Posted By: Royal Hamblin </p>
+                    <p className="mb-3">Posted By: Vilbert Jhovan</p>
                     <a href="#" className="h4">
-                      Adventures Trip
+                      Ulun Danu Beratan Temple
                     </a>
                     <p className="my-3">
-                      Tempor erat elitr rebum at clita. Diam dolor diam ipsum
-                      sit diam amet diam eos
+                
                     </p>
                     <a
                       href="#"
@@ -2068,7 +1976,7 @@ function HomeContent() {
                     <div className="blog-img-inner">
                       <img
                         className="img-fluid w-100 rounded-top"
-                        src="assets/img/blog-2.jpg"
+                        src={pop1}
                         alt="Image"
                       />
                       <div className="blog-icon">
@@ -2099,13 +2007,12 @@ function HomeContent() {
                     </div>
                   </div>
                   <div className="blog-content border border-top-0 rounded-bottom p-4">
-                    <p className="mb-3">Posted By: Royal Hamblin </p>
+                    <p className="mb-3">Posted By: Calvin Yoananda </p>
                     <a href="#" className="h4">
-                      Adventures Trip
+                     Nusa Penida Island
                     </a>
                     <p className="my-3">
-                      Tempor erat elitr rebum at clita. Diam dolor diam ipsum
-                      sit diam amet diam eos
+                
                     </p>
                     <a
                       href="#"
@@ -2122,7 +2029,7 @@ function HomeContent() {
                     <div className="blog-img-inner">
                       <img
                         className="img-fluid w-100 rounded-top"
-                        src="assets/img/blog-3.jpg"
+                        src={tour2}
                         alt="Image"
                       />
                       <div className="blog-icon">
@@ -2153,13 +2060,12 @@ function HomeContent() {
                     </div>
                   </div>
                   <div className="blog-content border border-top-0 rounded-bottom p-4">
-                    <p className="mb-3">Posted By: Royal Hamblin </p>
+                    <p className="mb-3">Posted By: Vilbert Jhovan </p>
                     <a href="#" className="h4">
-                      Adventures Trip
+                      Tanah Lot
                     </a>
                     <p className="my-3">
-                      Tempor erat elitr rebum at clita. Diam dolor diam ipsum
-                      sit diam amet diam eos
+                
                     </p>
                     <a
                       href="#"

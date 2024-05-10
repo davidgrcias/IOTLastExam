@@ -18,14 +18,13 @@ function Footer() {
                 <h4 className="mb-4 text-white">Get In Touch</h4>
 
                 <a className="text-white" href>
-                  <i className="fa-solid fa-house" /> &nbsp;123 Street, New
-                  York, USA
+                  <i className="fa-solid fa-house" /> &nbsp;Universitas Multimedia Nusantara, Indonesia
                 </a>
                 <a className="text-white" href>
-                  <i className="fas fa-envelope me-2" /> info@example.com
+                  <i className="fas fa-envelope me-2" /> iKelompok5Thebest@gmail.com
                 </a>
                 <a className="text-white" href>
-                  <i className="fas fa-phone me-2" /> +012 345 67890
+                <i className="fas fa-phone me-2" /> +62 812 3456 7890
                 </a>
               </div>
             </div>

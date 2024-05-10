@@ -32,7 +32,7 @@ function Game() {
           const averageDecibels = (10 * totalDecibels / dataArray.length) / 2;
           setDecibels(averageDecibels);
           
-          if (averageDecibels >= 250) {
+          if (averageDecibels >= 500) {
             setScreamText("YOU WIN!");
             console.log("Decibels >= 50. Changing image to uang.gif and adding 'animate' class.");
             setBarongDisplay("none");
