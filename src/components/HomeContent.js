@@ -1,35 +1,32 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
-import ew from "./Image/1ew.jpg"
-import ews from "./Image/2ew.jpg"
-import ewz from "./Image/3ew.jpg"
-import Des from "./Image/2 Beach Club.jpg"
-import Des1 from "./Image/3ew.jpg"
-import Des2 from "./Image/5 Architecture.jpg"
-import Des3 from "./Image/4 Architechure.jpg"
-import Des4 from "./Image/7 sengkedan.jpg"
-import Des5 from "./Image/8 Greenmountain.jpg"
-import Des6 from "./Image/The World Kintamani.jpg"
-import Des7 from "./Image/The World AYANA Resort.jpg"
-import tour from "./Image/historycal.jpeg"
-import tour1 from "./Image/Family.jpg"
-import tour2 from "./Image/Popular Travel Blogs (3) tanah lot.jpg"
-import pop from "./Image/Popular Travel Blogs (1).jpg"
-import pop1 from "./Image/Popular Travel Blogs (2) Nusa penida island.jpg"
-import galery from "./Image/g1.jpg"
-import galery1 from "./Image/g2.jpg"
-import galery2 from "./Image/g3.jpg"
-import galery3 from "./Image/g4.jpg"
-import galery4 from "./Image/g5.jpg"
-import galery5 from "./Image/g6.jpg"
-import galery6 from "./Image/g7.jpg"
-import galery7 from "./Image/g8.jpg"
-import galery8 from "./Image/6 Beach.jpg"
-import galery9 from "./Image/9 Sunset.jpg"
-
-
-
-
+import ew from "./Image/1ew.jpg";
+import ews from "./Image/2ew.jpg";
+import ewz from "./Image/3ew.jpg";
+import Des from "./Image/2 Beach Club.jpg";
+import Des1 from "./Image/3ew.jpg";
+import Des2 from "./Image/5 Architecture.jpg";
+import Des3 from "./Image/4 Architechure.jpg";
+import Des4 from "./Image/7 sengkedan.jpg";
+import Des5 from "./Image/8 Greenmountain.jpg";
+import Des6 from "./Image/The World Kintamani.jpg";
+import Des7 from "./Image/The World AYANA Resort.jpg";
+import tour from "./Image/historycal.jpeg";
+import tour1 from "./Image/Family.jpg";
+import tour2 from "./Image/Popular Travel Blogs (3) tanah lot.jpg";
+import pop from "./Image/Popular Travel Blogs (1).jpg";
+import pop1 from "./Image/Popular Travel Blogs (2) Nusa penida island.jpg";
+import galery from "./Image/g1.jpg";
+import galery1 from "./Image/g2.jpg";
+import galery2 from "./Image/g3.jpg";
+import galery3 from "./Image/g4.jpg";
+import galery4 from "./Image/g5.jpg";
+import galery5 from "./Image/g6.jpg";
+import galery6 from "./Image/g7.jpg";
+import galery7 from "./Image/g8.jpg";
+import galery8 from "./Image/6 Beach.jpg";
+import galery9 from "./Image/9 Sunset.jpg";
+import { Link } from "react-router-dom";
 
 import "./Home.css";
 
@@ -104,11 +101,7 @@ function HomeContent() {
             </ol>
             <div className="carousel-inner" role="listbox">
               <div className="carousel-item active">
-                <img
-                  src={ew}
-                  className="img-fluid"
-                  alt="Image"
-                />
+                <img src={ew} className="img-fluid" alt="Image" />
                 <div className="carousel-caption">
                   <div className="p-3" style={{ maxWidth: 900 }}>
                     <h4
@@ -116,16 +109,15 @@ function HomeContent() {
                       style={{ letterSpacing: 3 }}
                     >
                       The Wonders of Bali Discover the Incredible
-
                     </h4>
                     <h1 className="display-2 text-capitalize text-white mb-4">
-                       Let Bali inspire you
-
-
+                      Let Bali inspire you
                     </h1>
                     <p className="mb-5 fs-5">
-                    Immerse yourself in the serene landscapes, vibrant culture, and breathtaking beaches. 
-                    Bali isn't just a destination; it's the beginning of a journey that stays with you forever.
+                      Immerse yourself in the serene landscapes, vibrant
+                      culture, and breathtaking beaches. Bali isn't just a
+                      destination; it's the beginning of a journey that stays
+                      with you forever.
                     </p>
                     <div className="d-flex align-items-center justify-content-center">
                       <a
@@ -139,57 +131,53 @@ function HomeContent() {
                 </div>
               </div>
               <div className="carousel-item">
-                <img
-                  src={ews}
-                  className="img-fluid"
-                  alt="Image"
-                />
-                <div className="carousel-caption">
-                  <div className="p-3" style={{ maxWidth: 900 }}>
-                    <h4
-                      className="text-white text-uppercase fw-bold mb-4"
-                      style={{ letterSpacing: 3 }}
-                    >The Wonders of Bali Discover the Incredible
-                  
-                    </h4>
-                    <h1 className="display-2 text-capitalize text-white mb-4">
-                    Let Bali inspire you
-                    </h1>
-                    <p className="mb-5 fs-5">
-                    Immerse yourself in the serene landscapes, vibrant culture, and breathtaking beaches. 
-                    Bali isn't just a destination; it's the beginning of a journey that stays with you forever.
-                    </p>
-                    <div className="d-flex align-items-center justify-content-center">
-                      <a
-                        className="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
-                        href="#"
-                      >
-                        Discover Now
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <img
-                  src={ewz}
-                  className="img-fluid"
-                  alt="Image"
-                />
+                <img src={ews} className="img-fluid" alt="Image" />
                 <div className="carousel-caption">
                   <div className="p-3" style={{ maxWidth: 900 }}>
                     <h4
                       className="text-white text-uppercase fw-bold mb-4"
                       style={{ letterSpacing: 3 }}
                     >
-                         The Wonders of Bali Discover the Incredible
+                      The Wonders of Bali Discover the Incredible
                     </h4>
                     <h1 className="display-2 text-capitalize text-white mb-4">
-                    Let Bali inspire you
+                      Let Bali inspire you
                     </h1>
                     <p className="mb-5 fs-5">
-                    Immerse yourself in the serene landscapes, vibrant culture, and breathtaking beaches. 
-                    Bali isn't just a destination; it's the beginning of a journey that stays with you forever.
+                      Immerse yourself in the serene landscapes, vibrant
+                      culture, and breathtaking beaches. Bali isn't just a
+                      destination; it's the beginning of a journey that stays
+                      with you forever.
+                    </p>
+                    <div className="d-flex align-items-center justify-content-center">
+                      <a
+                        className="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
+                        href="#"
+                      >
+                        Discover Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <img src={ewz} className="img-fluid" alt="Image" />
+                <div className="carousel-caption">
+                  <div className="p-3" style={{ maxWidth: 900 }}>
+                    <h4
+                      className="text-white text-uppercase fw-bold mb-4"
+                      style={{ letterSpacing: 3 }}
+                    >
+                      The Wonders of Bali Discover the Incredible
+                    </h4>
+                    <h1 className="display-2 text-capitalize text-white mb-4">
+                      Let Bali inspire you
+                    </h1>
+                    <p className="mb-5 fs-5">
+                      Immerse yourself in the serene landscapes, vibrant
+                      culture, and breathtaking beaches. Bali isn't just a
+                      destination; it's the beginning of a journey that stays
+                      with you forever.
                     </p>
                     <div className="d-flex align-items-center justify-content-center">
                       <a
@@ -248,8 +236,13 @@ function HomeContent() {
                       <div className="service-content text-end">
                         <h5 className="mb-4">WorldWide Tours</h5>
                         <p className="mb-0">
-                        Famous more for its enchanting allure than even Indonesia itself, Bali stands as a beacon to travelers from every corner of the globe. Its stunning beauty draws countless tourists, eager to explore its lush landscapes, rich culture, and pristine beaches. Discover why Bali isn't just a place to visit—it's a world to experience.
-
+                          Famous more for its enchanting allure than even
+                          Indonesia itself, Bali stands as a beacon to travelers
+                          from every corner of the globe. Its stunning beauty
+                          draws countless tourists, eager to explore its lush
+                          landscapes, rich culture, and pristine beaches.
+                          Discover why Bali isn't just a place to visit—it's a
+                          world to experience.
                         </p>
                       </div>
                       <div className="service-icon p-4">
@@ -262,8 +255,15 @@ function HomeContent() {
                       <div className="service-content text-end">
                         <h5 className="mb-4">Hotel Reservation</h5>
                         <p className="mb-0">
-                        Nestled in paradise, our hotels in Bali offer more than just a place to sleep. They are gateways to luxury, comfort, and the authentic Balinese hospitality that lingers in the heart of every traveler. Whether it's a beachfront suite or a secluded garden villa, find your perfect retreat and immerse yourself in the serene beauty of Bali. Come, let your next vacation be a tale of indulgence and relaxation at one of Bali's prestigious hotels.
-
+                          Nestled in paradise, our hotels in Bali offer more
+                          than just a place to sleep. They are gateways to
+                          luxury, comfort, and the authentic Balinese
+                          hospitality that lingers in the heart of every
+                          traveler. Whether it's a beachfront suite or a
+                          secluded garden villa, find your perfect retreat and
+                          immerse yourself in the serene beauty of Bali. Come,
+                          let your next vacation be a tale of indulgence and
+                          relaxation at one of Bali's prestigious hotels.
                         </p>
                       </div>
                       <div className="service-icon p-4">
@@ -276,8 +276,15 @@ function HomeContent() {
                       <div className="service-content text-end">
                         <h5 className="mb-4">Travel Guides</h5>
                         <p className="mb-0">
-                        Navigate the enchanting island of Bali with our expert travel guides. From hidden gems to iconic landmarks, our guides are crafted to help you discover the very best of Bali. Whether you're seeking adventure, relaxation, or cultural immersion, our travel guides provide all the insights you need to create unforgettable memories. Embark on your journey with the ultimate companion—experience Bali like never before.
-
+                          Navigate the enchanting island of Bali with our expert
+                          travel guides. From hidden gems to iconic landmarks,
+                          our guides are crafted to help you discover the very
+                          best of Bali. Whether you're seeking adventure,
+                          relaxation, or cultural immersion, our travel guides
+                          provide all the insights you need to create
+                          unforgettable memories. Embark on your journey with
+                          the ultimate companion—experience Bali like never
+                          before.
                         </p>
                       </div>
                       <div className="service-icon p-4">
@@ -290,7 +297,13 @@ function HomeContent() {
                       <div className="service-content text-end">
                         <h5 className="mb-4">Event Management</h5>
                         <p className="mb-0">
-                        Travel with ease and comfort, knowing Bali is dedicated to the safety of all its visitors. With comprehensive security measures and a welcoming local community, you can relax and enjoy the island's stunning scenery and rich culture. Experience the tranquil peace of Bali, where safety complements the beauty, making every moment worry-free.
+                          Travel with ease and comfort, knowing Bali is
+                          dedicated to the safety of all its visitors. With
+                          comprehensive security measures and a welcoming local
+                          community, you can relax and enjoy the island's
+                          stunning scenery and rich culture. Experience the
+                          tranquil peace of Bali, where safety complements the
+                          beauty, making every moment worry-free.
                         </p>
                       </div>
                       <div className="service-icon p-4">
@@ -310,8 +323,14 @@ function HomeContent() {
                       <div className="service-content">
                         <h5 className="mb-4">WorldWide Tours</h5>
                         <p className="mb-0">
-                        Explore the enchanting allure of Bali, renowned not only for its breathtaking beauty but as a destination that transcends even the charm of Indonesia itself. Bali beckons travelers from around the world, inviting them to delve into its verdant landscapes, vibrant culture, and immaculate beaches. Discover why Bali isn’t merely a place to visit—it’s a realm to be experienced.
-
+                          Explore the enchanting allure of Bali, renowned not
+                          only for its breathtaking beauty but as a destination
+                          that transcends even the charm of Indonesia itself.
+                          Bali beckons travelers from around the world, inviting
+                          them to delve into its verdant landscapes, vibrant
+                          culture, and immaculate beaches. Discover why Bali
+                          isn’t merely a place to visit—it’s a realm to be
+                          experienced.
                         </p>
                       </div>
                     </div>
@@ -324,9 +343,15 @@ function HomeContent() {
                       <div className="service-content">
                         <h5 className="mb-4">Hotel Reservation</h5>
                         <p className="mb-0">
-                         Tucked away in this paradise, our hotels in Bali provide more than just accommodations; they offer gateways to opulence,
-                          comfort, and genuine Balinese hospitality that remains etched in the memories of every visitor.
-                          Whether you prefer a beachfront suite or a secluded garden villa, find your ideal sanctuary and immerse yourself in Bali's tranquil beauty. Let your next vacation be a story of luxury and relaxation at one of Bali’s esteemed hotels.
+                          Tucked away in this paradise, our hotels in Bali
+                          provide more than just accommodations; they offer
+                          gateways to opulence, comfort, and genuine Balinese
+                          hospitality that remains etched in the memories of
+                          every visitor. Whether you prefer a beachfront suite
+                          or a secluded garden villa, find your ideal sanctuary
+                          and immerse yourself in Bali's tranquil beauty. Let
+                          your next vacation be a story of luxury and relaxation
+                          at one of Bali’s esteemed hotels.
                         </p>
                       </div>
                     </div>
@@ -339,8 +364,15 @@ function HomeContent() {
                       <div className="service-content">
                         <h5 className="mb-4">Travel Guides</h5>
                         <p className="mb-0">
-                      Embark on a journey across the magical island of Bali with our expert travel guides.
-                       From undiscovered treasures to celebrated attractions, our guides are meticulously designed to help you uncover the best of Bali. Whether your quest is for adventure, tranquility, or cultural enrichment, our travel guides equip you with all the knowledge needed to forge indelible memories. Begin your adventure with the ultimate companion—experience Bali as never before.
+                          Embark on a journey across the magical island of Bali
+                          with our expert travel guides. From undiscovered
+                          treasures to celebrated attractions, our guides are
+                          meticulously designed to help you uncover the best of
+                          Bali. Whether your quest is for adventure,
+                          tranquility, or cultural enrichment, our travel guides
+                          equip you with all the knowledge needed to forge
+                          indelible memories. Begin your adventure with the
+                          ultimate companion—experience Bali as never before.
                         </p>
                       </div>
                     </div>
@@ -353,7 +385,14 @@ function HomeContent() {
                       <div className="service-content">
                         <h5 className="mb-4">Event Management</h5>
                         <p className="mb-0">
-                        Travel with assurance and ease, secure in the knowledge that Bali prioritizes the safety of all its visitors. With robust security measures and a hospitable local community, you can unwind and savor the island’s spectacular vistas and rich heritage. Experience the serene calm of Bali, where safety enhances the allure, ensuring every moment is blissfully carefree.
+                          Travel with assurance and ease, secure in the
+                          knowledge that Bali prioritizes the safety of all its
+                          visitors. With robust security measures and a
+                          hospitable local community, you can unwind and savor
+                          the island’s spectacular vistas and rich heritage.
+                          Experience the serene calm of Bali, where safety
+                          enhances the allure, ensuring every moment is
+                          blissfully carefree.
                         </p>
                       </div>
                     </div>
@@ -393,9 +432,9 @@ function HomeContent() {
                       All
                     </span>
                   </a>
-                  </li>
+                </li>
               </ul>
-           
+
               <div className="tab-content">
                 <div id="tab-1" className="tab-pane fade show p-0 active">
                   <div className="row g-4">
@@ -409,7 +448,6 @@ function HomeContent() {
                               alt
                             />
                             <div className="destination-overlay p-4">
-                           
                               <h4 className="text-white mb-2 mt-3">
                                 Beach Club
                               </h4>
@@ -419,10 +457,7 @@ function HomeContent() {
                               </a>
                             </div>
                             <div className="search-icon">
-                              <a
-                                href={Des}
-                                data-lightbox="destination-1"
-                              >
+                              <a href={Des} data-lightbox="destination-1">
                                 <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
                               </a>
                             </div>
@@ -436,20 +471,14 @@ function HomeContent() {
                               alt
                             />
                             <div className="destination-overlay p-4">
-                            
-                              <h4 className="text-white mb-2 mt-3">
-                               Bali Sea
-                              </h4>
+                              <h4 className="text-white mb-2 mt-3">Bali Sea</h4>
                               <a href="#" className="btn-hover text-white">
                                 View All Place{" "}
                                 <i className="fa fa-arrow-right ms-2" />
                               </a>
                             </div>
                             <div className="search-icon">
-                              <a
-                                href={Des1}
-                                data-lightbox="destination-2"
-                              >
+                              <a href={Des1} data-lightbox="destination-2">
                                 <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
                               </a>
                             </div>
@@ -463,9 +492,8 @@ function HomeContent() {
                               alt
                             />
                             <div className="destination-overlay p-4">
-                          
                               <h4 className="text-white mb-2 mt-3">
-                               Handara Gate
+                                Handara Gate
                               </h4>
                               <a href="#" className="btn-hover text-white">
                                 View All Place{" "}
@@ -473,10 +501,7 @@ function HomeContent() {
                               </a>
                             </div>
                             <div className="search-icon">
-                              <a
-                                href={Des2}
-                                data-lightbox="destination-7"
-                              >
+                              <a href={Des2} data-lightbox="destination-7">
                                 <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
                               </a>
                             </div>
@@ -490,9 +515,8 @@ function HomeContent() {
                               alt
                             />
                             <div className="destination-overlay p-4">
-                           
                               <h4 className="text-white mb-2 mt-3">
-                              Sengkedan
+                                Sengkedan
                               </h4>
                               <a href="#" className="btn-hover text-white">
                                 View All Place{" "}
@@ -500,10 +524,7 @@ function HomeContent() {
                               </a>
                             </div>
                             <div className="search-icon">
-                              <a
-                                href={Des4}
-                                data-lightbox="destination-8"
-                              >
+                              <a href={Des4} data-lightbox="destination-8">
                                 <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
                               </a>
                             </div>
@@ -520,20 +541,14 @@ function HomeContent() {
                           alt
                         />
                         <div className="destination-overlay p-4">
-                      
-                          <h4 className="text-white mb-2 mt-3">
-                           Pura Puseh
-                          </h4>
+                          <h4 className="text-white mb-2 mt-3">Pura Puseh</h4>
                           <a href="#" className="btn-hover text-white">
                             View All Place{" "}
                             <i className="fa fa-arrow-right ms-2" />
                           </a>
                         </div>
                         <div className="search-icon">
-                          <a
-                            href={Des3}
-                            data-lightbox="destination-4"
-                          >
+                          <a href={Des3} data-lightbox="destination-4">
                             <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
                           </a>
                         </div>
@@ -547,18 +562,16 @@ function HomeContent() {
                           alt
                         />
                         <div className="destination-overlay p-4">
-                       
-                          <h4 className="text-white mb-2 mt-3">Kelingking Beach</h4>
+                          <h4 className="text-white mb-2 mt-3">
+                            Kelingking Beach
+                          </h4>
                           <a href="#" className="btn-hover text-white">
                             View All Place{" "}
                             <i className="fa fa-arrow-right ms-2" />
                           </a>
                         </div>
                         <div className="search-icon">
-                          <a
-                            href={Des5}
-                            data-lightbox="destination-4"
-                          >
+                          <a href={Des5} data-lightbox="destination-4">
                             <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
                           </a>
                         </div>
@@ -572,7 +585,6 @@ function HomeContent() {
                           alt
                         />
                         <div className="destination-overlay p-4">
-                        
                           <h4 className="text-white mb-2 mt-3">Kintamani</h4>
                           <a href="#" className="btn-hover text-white">
                             View All Place{" "}
@@ -580,10 +592,7 @@ function HomeContent() {
                           </a>
                         </div>
                         <div className="search-icon">
-                          <a
-                            href={Des6}
-                            data-lightbox="destination-5"
-                          >
+                          <a href={Des6} data-lightbox="destination-5">
                             <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
                           </a>
                         </div>
@@ -597,7 +606,6 @@ function HomeContent() {
                           alt
                         />
                         <div className="destination-overlay p-4">
-                          
                           <h4 className="text-white mb-2 mt-3">AYANA Resort</h4>
                           <a href="#" className="btn-hover text-white">
                             View All Place{" "}
@@ -605,10 +613,7 @@ function HomeContent() {
                           </a>
                         </div>
                         <div className="search-icon">
-                          <a
-                            href={Des7}
-                            data-lightbox="destination-6"
-                          >
+                          <a href={Des7} data-lightbox="destination-6">
                             <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
                           </a>
                         </div>
@@ -961,14 +966,18 @@ function HomeContent() {
           </div>
         </div>
         {/* Destination End */}
-        {/* Explore Tour Start */}
+        {/* Explore Tour Start IMPORTANT!!!!*/}
         <div className="container-fluid ExploreTour py-5">
           <div className="container py-5">
             <div className="mx-auto text-center mb-5" style={{ maxWidth: 900 }}>
               <h5 className="section-title px-3">Explore Tour</h5>
               <h1 className="mb-4">The World</h1>
               <p className="mb-0">
-              With a focus on authentic and comprehensive experiences, Nirvana offers curated travel recommendations that combine popular destinations and hidden gems. Nirvana provides all the information you need to plan your dream vacation in Bali. Let us inspire and guide you through the wonders of Bali.
+                With a focus on authentic and comprehensive experiences, Nirvana
+                offers curated travel recommendations that combine popular
+                destinations and hidden gems. Nirvana provides all the
+                information you need to plan your dream vacation in Bali. Let us
+                inspire and guide you through the wonders of Bali.
               </p>
             </div>
             <div className="tab-class text-center">
@@ -1003,10 +1012,13 @@ function HomeContent() {
                             <h5 className="text-white text-uppercase mb-2">
                               Weekend Tour
                             </h5>
-                            <a href="#" className="btn-hover text-white">
+                            <Link
+                              to="/tour/weekend"
+                              className="btn-hover text-white"
+                            >
                               View All Place{" "}
                               <i className="fa fa-arrow-right ms-2" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="national-plus-icon">
@@ -1028,10 +1040,13 @@ function HomeContent() {
                             <h5 className="text-white text-uppercase mb-2">
                               Holiday Tour
                             </h5>
-                            <a href="#" className="btn-hover text-white">
+                            <Link
+                              to="/tour/holiday"
+                              className="btn-hover text-white"
+                            >
                               View All Place{" "}
                               <i className="fa fa-arrow-right ms-2" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="national-plus-icon">
@@ -1053,10 +1068,13 @@ function HomeContent() {
                             <h5 className="text-white text-uppercase mb-2">
                               Road Trip
                             </h5>
-                            <a href="#" className="btn-hover text-white">
+                            <Link
+                              to="/tour/road-trip"
+                              className="btn-hover text-white"
+                            >
                               View All Place{" "}
                               <i className="fa fa-arrow-right ms-2" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="national-plus-icon">
@@ -1078,10 +1096,13 @@ function HomeContent() {
                             <h5 className="text-white text-uppercase mb-2">
                               Historical Trip
                             </h5>
-                            <a href="#" className="btn-hover text-white">
+                            <Link
+                              to="/tour/historical-trip"
+                              className="btn-hover text-white"
+                            >
                               View All Place{" "}
                               <i className="fa fa-arrow-right ms-2" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="national-plus-icon">
@@ -1103,10 +1124,13 @@ function HomeContent() {
                             <h5 className="text-white text-uppercase mb-2">
                               Family Tour
                             </h5>
-                            <a href="#" className="btn-hover text-white">
+                            <Link
+                              to="/tour/family"
+                              className="btn-hover text-white"
+                            >
                               View All Place{" "}
                               <i className="fa fa-arrow-right ms-2" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="national-plus-icon">
@@ -1128,10 +1152,13 @@ function HomeContent() {
                             <h5 className="text-white text-uppercase mb-2">
                               Beach Tour
                             </h5>
-                            <a href="#" className="btn-hover text-white">
+                            <Link
+                              to="/tour/beach"
+                              className="btn-hover text-white"
+                            >
                               View All Place{" "}
                               <i className="fa fa-arrow-right ms-2" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="national-plus-icon">
@@ -1295,9 +1322,16 @@ function HomeContent() {
         <div className="container-fluid gallery py-5 my-5">
           <div className="mx-auto text-center mb-5" style={{ maxWidth: 900 }}>
             <h5 className="section-title px-3">Our Gallery</h5>
-            <h1 className="mb-4">A Masterpiece of Nature: Crafted by the Divine</h1>
+            <h1 className="mb-4">
+              A Masterpiece of Nature: Crafted by the Divine
+            </h1>
             <p className="mb-0">
-            Behold a creation of exquisite beauty, where every aspect of its proportion is a testament to the divine craftsmanship. This natural wonder serves as a perfect highlight, preserving cherished memories in digital form. Embrace the sublime, immortalize your experiences, and keep the essence of beauty alive through your cherished digital keepsakes.
+              Behold a creation of exquisite beauty, where every aspect of its
+              proportion is a testament to the divine craftsmanship. This
+              natural wonder serves as a perfect highlight, preserving cherished
+              memories in digital form. Embrace the sublime, immortalize your
+              experiences, and keep the essence of beauty alive through your
+              cherished digital keepsakes.
             </p>
           </div>
           <div className="tab-class text-center">
@@ -1911,9 +1945,18 @@ function HomeContent() {
           <div className="container py-5">
             <div className="mx-auto text-center mb-5" style={{ maxWidth: 900 }}>
               <h5 className="section-title px-3">Our Blog</h5>
-              <h1 className="mb-4">A Top-Tier Destination in Bali: Your Must-Visit Guide</h1>
+              <h1 className="mb-4">
+                A Top-Tier Destination in Bali: Your Must-Visit Guide
+              </h1>
               <p className="mb-0">
-              When you journey to Bali, don't miss our highly recommended destinations, celebrated as the most popular spots in recent years. We offer curated recommendations that promise unforgettable experiences, capturing the essence of Bali's vibrant culture and breathtaking landscapes. Discover the places where memories are made, and every visit feels like a discovery. Make your Bali trip truly remarkable by exploring these beloved locales.
+                When you journey to Bali, don't miss our highly recommended
+                destinations, celebrated as the most popular spots in recent
+                years. We offer curated recommendations that promise
+                unforgettable experiences, capturing the essence of Bali's
+                vibrant culture and breathtaking landscapes. Discover the places
+                where memories are made, and every visit feels like a discovery.
+                Make your Bali trip truly remarkable by exploring these
+                beloved locales.
               </p>
             </div>
             <div className="row g-4 justify-content-center">
@@ -1958,9 +2001,7 @@ function HomeContent() {
                     <a href="#" className="h4">
                       Ulun Danu Beratan Temple
                     </a>
-                    <p className="my-3">
-                
-                    </p>
+                    <p className="my-3"></p>
                     <a
                       href="#"
                       className="btn btn-primary rounded-pill py-2 px-4"
@@ -2009,11 +2050,9 @@ function HomeContent() {
                   <div className="blog-content border border-top-0 rounded-bottom p-4">
                     <p className="mb-3">Posted By: Calvin Yoananda </p>
                     <a href="#" className="h4">
-                     Nusa Penida Island
+                      Nusa Penida Island
                     </a>
-                    <p className="my-3">
-                
-                    </p>
+                    <p className="my-3"></p>
                     <a
                       href="#"
                       className="btn btn-primary rounded-pill py-2 px-4"
@@ -2064,9 +2103,7 @@ function HomeContent() {
                     <a href="#" className="h4">
                       Tanah Lot
                     </a>
-                    <p className="my-3">
-                
-                    </p>
+                    <p className="my-3"></p>
                     <a
                       href="#"
                       className="btn btn-primary rounded-pill py-2 px-4"
@@ -2216,9 +2253,15 @@ function HomeContent() {
           </div>
         </div>
         {/* Contact Start */}
-        <div className="container-fluid contact bg-light py-5">
+        <div
+          className="container-fluid contact bg-light py-5"
+          style={{ marginTop: 0 }}
+        >
           <div className="container py-5">
-            <div className="mx-auto text-center mb-5" style={{ maxWidth: 900 }}>
+            <div
+              className="mx-auto text-center mb-5"
+              style={{ marginTop: 0, maxWidth: 900 }}
+            >
               <h5 className="section-title px-3">Contact Us</h5>
               <h1 className="mb-0">Contact For Any Query</h1>
             </div>
@@ -2231,8 +2274,7 @@ function HomeContent() {
                       <address />
                     </h4>
                     <p className="mb-0">
-                     Universitas Multimedia Nusantara <br/> Indonesia
-
+                      Universitas Multimedia Nusantara <br /> Indonesia
                     </p>
                   </div>
                   <div className="text-center mb-4">
@@ -2252,7 +2294,8 @@ function HomeContent() {
               <div className="col-lg-8">
                 <h3 className="mb-2">Send us a message</h3>
                 <p className="mb-4">
-                Please send your feedback about our website so we can develop it from a customer perspective.{" "}
+                  Please send your feedback about our website so we can develop
+                  it from a customer perspective.{" "}
                 </p>
                 <form onSubmit={sendMail}>
                   <div className="row g-3">

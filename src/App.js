@@ -6,6 +6,7 @@ import Game from "./components/Game";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
+import CategoryDetails from "./components/CategoryDetails"; // Import the new component
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/Things-to-do" element={<ThingsToDo />} />
           <Route path="/About" element={<About />} />
           <Route path="/Game" element={<Game />} />
+          <Route path="/tour/:category" element={<CategoryDetails />} />{" "}
           {/* More routes can be added here */}
         </Routes>
         <Footer />
