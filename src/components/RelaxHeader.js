@@ -1,4 +1,5 @@
 import React from "react";
+import bgheader from "./Image/backhead.jpg"
 function RelaxHeader() {
   return (
     <>
@@ -6,7 +7,7 @@ function RelaxHeader() {
       <div className="hero overlay">
         <div className="img-bg rellax">
           <img
-            src="assets/img/image/images/hero_1.jpg"
+            src={bgheader}
             alt="Image"
             className="img-fluid"
           />
@@ -15,12 +16,12 @@ function RelaxHeader() {
           <div className="row align-items-center justify-content-start">
             <div className="col-lg-5">
               <h1 className="heading" data-aos="fade-up">
-                It's a Big World Out There, Go Explore
+              Discover the Beauty and Cultural Riches of Bali!
               </h1>
               <p className="mb-5" data-aos="fade-up">
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia. It is a paradisematic country, in
-                which roasted parts of sentences fly into your mouth.
+              Explore the enchanting island of Bali with our comprehensive guide to the best things to see and do.
+               Immerse yourself in Bali's stunning natural landscapes, from lush rice terraces to pristine beaches. 
+              
               </p>
               <div data-aos="fade-up">
                 <a

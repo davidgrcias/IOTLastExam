@@ -1,4 +1,10 @@
 import React from "react";
+import sawah from "./Image/sawahh.jpg"
+import sawah1 from "./Image/sawah1.jpg"
+import food from "./Image/food.png"
+import foto from "./Image/foto.png"
+import mount from "./Image/mounts.png"
+import pura from "./Image/pura.png"
 
 function ThingsContent1() {
   return (
@@ -17,7 +23,7 @@ function ThingsContent1() {
                     data-rellax-percentage="0.1"
                   >
                     <img
-                      src="assets/img/image/images/img_v_1.jpg"
+                      src={sawah1}
                       alt="Image"
                       className="img-fluid rellax "
                     />
@@ -29,7 +35,7 @@ function ThingsContent1() {
                     data-rellax-percentage="0.5"
                   >
                     <img
-                      src="assets/img/image/images/img_v_2.jpg"
+                      src={sawah}
                       alt="Image"
                       className="img-fluid"
                     />
@@ -43,19 +49,16 @@ function ThingsContent1() {
                     data-aos="fade-up"
                     data-aos-delay={100}
                   >
-                    Explore All Corners of The World With Us
+                    Bali's Rice Terraces: Exploring Ubud's  and Jatiluwih's Terraced 
                   </h2>
                   <p data-aos="fade-up" data-aos-delay={200}>
-                    Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind
-                    texts. Separated they live in Bookmarksgrove right at the
-                    coast of the Semantics, a large language ocean.
+                  Immerse yourself in the stunning beauty of Bali's rice terraces in Ubud and Jatiluwih. 
+                  In Ubud, the lush greenery of the terraced rice fields provides a serene backdrop to your adventures. 
+                  Explore the intricate network of paths that wind through the fields, offering breathtaking views at every turn.
                   </p>
                   <p data-aos="fade-up" data-aos-delay={300}>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia. It is a paradisematic
-                    country, in which roasted parts of sentences fly into your
-                    mouth.
+                  Jatiluwih, acknowledged as a UNESCO World Heritage Site, displays some of Bali's most stunning terraced landscapes. 
+                  Exploring these terraces offers not just stunning views, but also a glimpse into the sustainable farming practices that have sustained Bali's communities for generations.
                   </p>
                   <p className="my-4" data-aos="fade-up" data-aos-delay={300}>
                     <a href="#" className="btn btn-primary">
@@ -73,12 +76,10 @@ function ThingsContent1() {
               <div className="col-lg-3 mb-4 mb-lg-0">
                 <div className="heading-content" data-aos="fade-up">
                   <h2>
-                    Our <span className="d-block">Services</span>
+                    Jatiluwih's <span className="d-block">Facilities</span>
                   </h2>
                   <p>
-                    Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind
-                    texts.
+                  Jatiluwih's facilities provide an authentic Balinese experience amidst stunning rice terraces, offering traditional accommodations, guided tours, spas, and local cuisine for a memorable stay.
                   </p>
                   <p className="my-4" data-aos="fade-up" data-aos-delay={300}>
                     <a href="#" className="btn btn-primary">
@@ -97,17 +98,15 @@ function ThingsContent1() {
                     <div className="service-1">
                       <span className="icon">
                         <img
-                          src="assets/img/image/images/svg/01.svg"
+                          src={food}
                           alt="Image"
                           className="img-fluid"
                         />
                       </span>
                       <div>
-                        <h3>Tourism</h3>
+                        <h3>Food Services</h3>
                         <p>
-                          Far far away, behind the word mountains, far from the
-                          countries Vokalia and Consonantia, there live the
-                          blind texts.
+                        Experience a wide array of culinary delights to satisfy your taste buds.
                         </p>
                       </div>
                     </div>
@@ -120,17 +119,16 @@ function ThingsContent1() {
                     <div className="service-1">
                       <span className="icon">
                         <img
-                          src="assets/img/image/images/svg/02.svg"
+                          src={foto}
                           alt="Image"
                           className="img-fluid"
                         />
                       </span>
                       <div>
-                        <h3>Package Tours</h3>
+                        <h3>Photo spots</h3>
                         <p>
-                          Far far away, behind the word mountains, far from the
-                          countries Vokalia and Consonantia, there live the
-                          blind texts.
+                        Explore beauty spots for capturing memorable moments.
+
                         </p>
                       </div>
                     </div>
@@ -143,17 +141,16 @@ function ThingsContent1() {
                     <div className="service-1">
                       <span className="icon">
                         <img
-                          src="assets/img/image/images/svg/03.svg"
+                          src={mount}
                           alt="Image"
                           className="img-fluid"
                         />
                       </span>
                       <div>
-                        <h3>Travel Insurance</h3>
+                        <h3>Outdoor Adventure Activities </h3>
                         <p>
-                          Far far away, behind the word mountains, far from the
-                          countries Vokalia and Consonantia, there live the
-                          blind texts.
+                        Embark on exciting outdoor adventures surrounded by the beauty of nature.
+
                         </p>
                       </div>
                     </div>
@@ -166,17 +163,16 @@ function ThingsContent1() {
                     <div className="service-1">
                       <span className="icon">
                         <img
-                          src="assets/img/image/images/svg/04.svg"
+                          src={pura}
                           alt="Image"
                           className="img-fluid"
                         />
                       </span>
                       <div>
-                        <h3>Airport Lounge Access</h3>
+                        <h3>Culture Tourism</h3>
                         <p>
-                          Far far away, behind the word mountains, far from the
-                          countries Vokalia and Consonantia, there live the
-                          blind texts.
+                        Explore diverse cultural heritage
+
                         </p>
                       </div>
                     </div>
