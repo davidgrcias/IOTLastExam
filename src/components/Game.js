@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
-import './Game.css';
+import "./Game.css";
 import barong from "./img/barong.png";
 import money from "./img/mon.png";
 
@@ -12,9 +12,11 @@ function Game() {
 
   const startGame = () => {
     console.log("Start game button clicked");
-    const audioContext = new (window.AudioContext || window.webkitAudioContext)();
-    navigator.mediaDevices.getUserMedia({ audio: true })
-      .then(stream => {
+    const audioContext = new (window.AudioContext ||
+      window.webkitAudioContext)();
+    navigator.mediaDevices
+      .getUserMedia({ audio: true })
+      .then((stream) => {
         console.log("Microphone access granted");
         const microphone = audioContext.createMediaStreamSource(stream);
         const analyser = audioContext.createAnalyser();
@@ -29,19 +31,21 @@ function Game() {
             totalDecibels += dataArray[i];
           }
 
-          const averageDecibels = (10 * totalDecibels / dataArray.length) / 2;
+          const averageDecibels = (10 * totalDecibels) / dataArray.length / 2;
           setDecibels(averageDecibels);
-          
+
           if (averageDecibels >= 500) {
             setScreamText("YOU WIN!");
-            console.log("Decibels >= 50. Changing image to uang.gif and adding 'animate' class.");
+            console.log(
+              "Decibels >= 50. Changing image to uang.gif and adding 'animate' class."
+            );
             setBarongDisplay("none");
             setMoneyDisplay("block");
             clearInterval(decibelInterval);
           }
         }, 100);
       })
-      .catch(error => console.error('Error accessing microphone:', error));
+      .catch((error) => console.error("Error accessing microphone:", error));
   };
 
   return (
@@ -54,15 +58,30 @@ function Game() {
       <div className="cntainer">
         <div className="container-fluid col-md-6">
           <h1 className="scream">{screamText}</h1>
-          <img className="col-7 barong" src={barong}alt="" style={{ display: barongDisplay }} />
-          <img className="col-7 money"src= {money} alt="" style={{ display: moneyDisplay }} />
-          <div className="decibelmeter" style={{ height: decibels + "px" }}></div>
-        </div>
-        </div>
-        <div className="col-md-12">
-          <button type="button" className="start" onClick={startGame}><strong>Start</strong></button>
+          <img
+            className="col-7 barong"
+            src={barong}
+            alt=""
+            style={{ display: barongDisplay }}
+          />
+          <img
+            className="col-7 money"
+            src={money}
+            alt=""
+            style={{ display: moneyDisplay }}
+          />
+          <div
+            className="decibelmeter"
+            style={{ height: decibels + "px" }}
+          ></div>
         </div>
       </div>
+      <div className="col-md-12">
+        <button type="button" className="start" onClick={startGame}>
+          <strong>Start</strong>
+        </button>
+      </div>
+    </div>
   );
 }
 
