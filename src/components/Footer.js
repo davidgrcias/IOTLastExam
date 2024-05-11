@@ -7,6 +7,9 @@ function Footer() {
     <>
       <Helmet>
         <link rel="stylesheet" href="Footer.css" />
+        <link rel="stylesheet" href="templatetravela/lightbox.min.css" />
+        <link rel="stylesheet" href="templatetravela/owl.carousel.min.css" />
+        <link rel="stylesheet" href="templatetravela/bootstrap.min.css" />
       </Helmet>
       {/* Footer Start */}
 
@@ -18,14 +21,43 @@ function Footer() {
                 <h4 className="mb-4 text-white">Get In Touch</h4>
 
                 <a className="text-white" href>
-                  <i className="fa-solid fa-house" /> &nbsp;Universitas Multimedia Nusantara, Indonesia
+                  <i className="fa-solid fa-house" /> &nbsp;Universitas
+                  Multimedia Nusantara, Indonesia
                 </a>
                 <a className="text-white" href>
-                  <i className="fas fa-envelope me-2" /> iKelompok5Thebest@gmail.com
+                  <i className="fas fa-envelope me-2" />{" "}
+                  kelompok5thebest@gmail.com
                 </a>
                 <a className="text-white" href>
-                <i className="fas fa-phone me-2" /> +62 812 3456 7890
+                  <i className="fas fa-phone me-2" /> +62 877-7680-3957
                 </a>
+                <div class="d-flex align-items-center">
+                  <i class="fas fa-share fa-2x text-white me-2"></i>
+                  <a
+                    class="btn-square btn btn-primary rounded-circle mx-1 scm"
+                    href=""
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a
+                    class="btn-square btn btn-primary rounded-circle mx-1 scm"
+                    href=""
+                  >
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a
+                    class="btn-square btn btn-primary rounded-circle mx-1 scm"
+                    href=""
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a
+                    class="btn-square btn btn-primary rounded-circle mx-1 scm"
+                    href=""
+                  >
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
               </div>
             </div>
             <div className="col-md-6 col-lg-6 col-xl-6">

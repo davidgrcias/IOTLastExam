@@ -14,8 +14,6 @@ import Des7 from "./Image/The World AYANA Resort.jpg";
 import tour from "./Image/historycal.jpeg";
 import tour1 from "./Image/Family.jpg";
 import tour2 from "./Image/Popular Travel Blogs (3) tanah lot.jpg";
-import pop from "./Image/Popular Travel Blogs (1).jpg";
-import pop1 from "./Image/Popular Travel Blogs (2) Nusa penida island.jpg";
 import galery from "./Image/g1.jpg";
 import galery1 from "./Image/g2.jpg";
 import galery2 from "./Image/g3.jpg";
@@ -26,6 +24,7 @@ import galery6 from "./Image/g7.jpg";
 import galery7 from "./Image/g8.jpg";
 import galery8 from "./Image/6 Beach.jpg";
 import galery9 from "./Image/9 Sunset.jpg";
+import garudawisnu from "./Image/gwk.jpg";
 import { Link } from "react-router-dom";
 
 import "./Home.css";
@@ -83,144 +82,6 @@ function HomeContent() {
         <link rel="stylesheet" href="templatetravela/bootstrap.min.css" />
       </Helmet>
       <div>
-        {/* Carousel Start */}
-        <div className="carousel-header">
-          <div
-            id="carouselId"
-            className="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <ol className="carousel-indicators">
-              <li
-                data-bs-target="#carouselId"
-                data-bs-slide-to={0}
-                className="active"
-              />
-              <li data-bs-target="#carouselId" data-bs-slide-to={1} />
-              <li data-bs-target="#carouselId" data-bs-slide-to={2} />
-            </ol>
-            <div className="carousel-inner" role="listbox">
-              <div className="carousel-item active">
-                <img src={ew} className="img-fluid" alt="Image" />
-                <div className="carousel-caption">
-                  <div className="p-3" style={{ maxWidth: 900 }}>
-                    <h4
-                      className="text-white text-uppercase fw-bold mb-4"
-                      style={{ letterSpacing: 3 }}
-                    >
-                      The Wonders of Bali Discover the Incredible
-                    </h4>
-                    <h1 className="display-2 text-capitalize text-white mb-4">
-                      Let Bali inspire you
-                    </h1>
-                    <p className="mb-5 fs-5">
-                      Immerse yourself in the serene landscapes, vibrant
-                      culture, and breathtaking beaches. Bali isn't just a
-                      destination; it's the beginning of a journey that stays
-                      with you forever.
-                    </p>
-                    <div className="d-flex align-items-center justify-content-center">
-                      <a
-                        className="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
-                        href="#"
-                      >
-                        Discover Now
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <img src={ews} className="img-fluid" alt="Image" />
-                <div className="carousel-caption">
-                  <div className="p-3" style={{ maxWidth: 900 }}>
-                    <h4
-                      className="text-white text-uppercase fw-bold mb-4"
-                      style={{ letterSpacing: 3 }}
-                    >
-                      The Wonders of Bali Discover the Incredible
-                    </h4>
-                    <h1 className="display-2 text-capitalize text-white mb-4">
-                      Let Bali inspire you
-                    </h1>
-                    <p className="mb-5 fs-5">
-                      Immerse yourself in the serene landscapes, vibrant
-                      culture, and breathtaking beaches. Bali isn't just a
-                      destination; it's the beginning of a journey that stays
-                      with you forever.
-                    </p>
-                    <div className="d-flex align-items-center justify-content-center">
-                      <a
-                        className="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
-                        href="#"
-                      >
-                        Discover Now
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <img src={ewz} className="img-fluid" alt="Image" />
-                <div className="carousel-caption">
-                  <div className="p-3" style={{ maxWidth: 900 }}>
-                    <h4
-                      className="text-white text-uppercase fw-bold mb-4"
-                      style={{ letterSpacing: 3 }}
-                    >
-                      The Wonders of Bali Discover the Incredible
-                    </h4>
-                    <h1 className="display-2 text-capitalize text-white mb-4">
-                      Let Bali inspire you
-                    </h1>
-                    <p className="mb-5 fs-5">
-                      Immerse yourself in the serene landscapes, vibrant
-                      culture, and breathtaking beaches. Bali isn't just a
-                      destination; it's the beginning of a journey that stays
-                      with you forever.
-                    </p>
-                    <div className="d-flex align-items-center justify-content-center">
-                      <a
-                        className="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
-                        href="#"
-                      >
-                        Discover Now
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <button
-              className="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselId"
-              data-bs-slide="prev"
-            >
-              <span
-                className="carousel-control-prev-icon btn bg-primary"
-                aria-hidden="false"
-              />
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button
-              className="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselId"
-              data-bs-slide="next"
-            >
-              <span
-                className="carousel-control-next-icon btn bg-primary"
-                aria-hidden="false"
-              />
-              <span className="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-        {/* Carousel End */}
-
-        {/* Navbar & Hero End */}
-
         {/* Services Start */}
         <div className="container-fluid bg-light service py-5">
           <div className="container py-5">
@@ -413,6 +274,144 @@ function HomeContent() {
           </div>
         </div>
         {/* Services End */}
+        {/* Carousel Start */}
+        <div className="carousel-header">
+          <div
+            id="carouselId"
+            className="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <ol className="carousel-indicators">
+              <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to={0}
+                className="active"
+              />
+              <li data-bs-target="#carouselId" data-bs-slide-to={1} />
+              <li data-bs-target="#carouselId" data-bs-slide-to={2} />
+            </ol>
+            <div className="carousel-inner" role="listbox">
+              <div className="carousel-item active">
+                <img src={ew} className="img-fluid" alt="Image" />
+                <div className="carousel-caption">
+                  <div className="p-3" style={{ maxWidth: 900 }}>
+                    <h4
+                      className="text-white text-uppercase fw-bold mb-4"
+                      style={{ letterSpacing: 3 }}
+                    >
+                      The Wonders of Bali Discover the Incredible
+                    </h4>
+                    <h1 className="display-2 text-capitalize text-white mb-4">
+                      Let Bali inspire you
+                    </h1>
+                    <p className="mb-5 fs-5">
+                      Immerse yourself in the serene landscapes, vibrant
+                      culture, and breathtaking beaches. Bali isn't just a
+                      destination; it's the beginning of a journey that stays
+                      with you forever.
+                    </p>
+                    <div className="d-flex align-items-center justify-content-center">
+                      <a
+                        className="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
+                        href="#"
+                      >
+                        Discover Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <img src={ews} className="img-fluid" alt="Image" />
+                <div className="carousel-caption">
+                  <div className="p-3" style={{ maxWidth: 900 }}>
+                    <h4
+                      className="text-white text-uppercase fw-bold mb-4"
+                      style={{ letterSpacing: 3 }}
+                    >
+                      The Wonders of Bali Discover the Incredible
+                    </h4>
+                    <h1 className="display-2 text-capitalize text-white mb-4">
+                      Let Bali inspire you
+                    </h1>
+                    <p className="mb-5 fs-5">
+                      Immerse yourself in the serene landscapes, vibrant
+                      culture, and breathtaking beaches. Bali isn't just a
+                      destination; it's the beginning of a journey that stays
+                      with you forever.
+                    </p>
+                    <div className="d-flex align-items-center justify-content-center">
+                      <a
+                        className="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
+                        href="#"
+                      >
+                        Discover Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <img src={ewz} className="img-fluid" alt="Image" />
+                <div className="carousel-caption">
+                  <div className="p-3" style={{ maxWidth: 900 }}>
+                    <h4
+                      className="text-white text-uppercase fw-bold mb-4"
+                      style={{ letterSpacing: 3 }}
+                    >
+                      The Wonders of Bali Discover the Incredible
+                    </h4>
+                    <h1 className="display-2 text-capitalize text-white mb-4">
+                      Let Bali inspire you
+                    </h1>
+                    <p className="mb-5 fs-5">
+                      Immerse yourself in the serene landscapes, vibrant
+                      culture, and breathtaking beaches. Bali isn't just a
+                      destination; it's the beginning of a journey that stays
+                      with you forever.
+                    </p>
+                    <div className="d-flex align-items-center justify-content-center">
+                      <a
+                        className="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
+                        href="#"
+                      >
+                        Discover Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              className="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselId"
+              data-bs-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon btn bg-primary"
+                aria-hidden="false"
+              />
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselId"
+              data-bs-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon btn bg-primary"
+                aria-hidden="false"
+              />
+              <span className="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        {/* Carousel End */}
+
+        {/* Navbar & Hero End */}
+
         {/* Destination Start */}
         <div className="container-fluid destination py-5">
           <div className="container py-5">
@@ -451,10 +450,6 @@ function HomeContent() {
                               <h4 className="text-white mb-2 mt-3">
                                 Beach Club
                               </h4>
-                              <a href="#" className="btn-hover text-white">
-                                View All Place{" "}
-                                <i className="fa fa-arrow-right ms-2" />
-                              </a>
                             </div>
                             <div className="search-icon">
                               <a href={Des} data-lightbox="destination-1">
@@ -472,10 +467,6 @@ function HomeContent() {
                             />
                             <div className="destination-overlay p-4">
                               <h4 className="text-white mb-2 mt-3">Bali Sea</h4>
-                              <a href="#" className="btn-hover text-white">
-                                View All Place{" "}
-                                <i className="fa fa-arrow-right ms-2" />
-                              </a>
                             </div>
                             <div className="search-icon">
                               <a href={Des1} data-lightbox="destination-2">
@@ -495,10 +486,6 @@ function HomeContent() {
                               <h4 className="text-white mb-2 mt-3">
                                 Handara Gate
                               </h4>
-                              <a href="#" className="btn-hover text-white">
-                                View All Place{" "}
-                                <i className="fa fa-arrow-right ms-2" />
-                              </a>
                             </div>
                             <div className="search-icon">
                               <a href={Des2} data-lightbox="destination-7">
@@ -518,10 +505,6 @@ function HomeContent() {
                               <h4 className="text-white mb-2 mt-3">
                                 Sengkedan
                               </h4>
-                              <a href="#" className="btn-hover text-white">
-                                View All Place{" "}
-                                <i className="fa fa-arrow-right ms-2" />
-                              </a>
                             </div>
                             <div className="search-icon">
                               <a href={Des4} data-lightbox="destination-8">
@@ -542,10 +525,6 @@ function HomeContent() {
                         />
                         <div className="destination-overlay p-4">
                           <h4 className="text-white mb-2 mt-3">Pura Puseh</h4>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
                         </div>
                         <div className="search-icon">
                           <a href={Des3} data-lightbox="destination-4">
@@ -565,10 +544,6 @@ function HomeContent() {
                           <h4 className="text-white mb-2 mt-3">
                             Kelingking Beach
                           </h4>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
                         </div>
                         <div className="search-icon">
                           <a href={Des5} data-lightbox="destination-4">
@@ -586,10 +561,6 @@ function HomeContent() {
                         />
                         <div className="destination-overlay p-4">
                           <h4 className="text-white mb-2 mt-3">Kintamani</h4>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
                         </div>
                         <div className="search-icon">
                           <a href={Des6} data-lightbox="destination-5">
@@ -607,353 +578,9 @@ function HomeContent() {
                         />
                         <div className="destination-overlay p-4">
                           <h4 className="text-white mb-2 mt-3">AYANA Resort</h4>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
                         </div>
                         <div className="search-icon">
                           <a href={Des7} data-lightbox="destination-6">
-                            <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="tab-2" className="tab-pane fade show p-0">
-                  <div className="row g-4">
-                    <div className="col-lg-6">
-                      <div className="destination-img">
-                        <img
-                          className="img-fluid rounded w-100"
-                          src="assets/img/destination-5.jpg"
-                          alt
-                        />
-                        <div className="destination-overlay p-4">
-                          <a
-                            href="#"
-                            className="btn btn-primary text-white rounded-pill border py-2 px-3"
-                          >
-                            20 Photos
-                          </a>
-                          <h4 className="text-white mb-2 mt-3">
-                            San francisco
-                          </h4>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
-                        </div>
-                        <div className="search-icon">
-                          <a
-                            href="assets/img/destination-5.jpg"
-                            data-lightbox="destination-5"
-                          >
-                            <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="destination-img">
-                        <img
-                          className="img-fluid rounded w-100"
-                          src="assets/img/destination-6.jpg"
-                          alt
-                        />
-                        <div className="destination-overlay p-4">
-                          <a
-                            href="#"
-                            className="btn btn-primary text-white rounded-pill border py-2 px-3"
-                          >
-                            20 Photos
-                          </a>
-                          <h4 className="text-white mb-2 mt-3">
-                            San francisco
-                          </h4>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
-                        </div>
-                        <div className="search-icon">
-                          <a
-                            href="assets/img/destination-6.jpg"
-                            data-lightbox="destination-6"
-                          >
-                            <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="tab-3" className="tab-pane fade show p-0">
-                  <div className="row g-4">
-                    <div className="col-lg-6">
-                      <div className="destination-img">
-                        <img
-                          className="img-fluid rounded w-100"
-                          src="assets/img/destination-5.jpg"
-                          alt
-                        />
-                        <div className="destination-overlay p-4">
-                          <a
-                            href="#"
-                            className="btn btn-primary text-white rounded-pill border py-2 px-3"
-                          >
-                            20 Photos
-                          </a>
-                          <h4 className="text-white mb-2 mt-3">
-                            San francisco
-                          </h4>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
-                        </div>
-                        <div className="search-icon">
-                          <a
-                            href="assets/img/destination-5.jpg"
-                            data-lightbox="destination-5"
-                          >
-                            <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="destination-img">
-                        <img
-                          className="img-fluid rounded w-100"
-                          src="assets/img/destination-6.jpg"
-                          alt
-                        />
-                        <div className="destination-overlay p-4">
-                          <a
-                            href="#"
-                            className="btn btn-primary text-white rounded-pill border py-2 px-3"
-                          >
-                            20 Photos
-                          </a>
-                          <h4 className="text-white mb-2 mt-3">
-                            San francisco
-                          </h4>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
-                        </div>
-                        <div className="search-icon">
-                          <a
-                            href="assets/img/destination-6.jpg"
-                            data-lightbox="destination-6"
-                          >
-                            <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="tab-4" className="tab-pane fade show p-0">
-                  <div className="row g-4">
-                    <div className="col-lg-6">
-                      <div className="destination-img">
-                        <img
-                          className="img-fluid rounded w-100"
-                          src="assets/img/destination-5.jpg"
-                          alt
-                        />
-                        <div className="destination-overlay p-4">
-                          <a
-                            href="#"
-                            className="btn btn-primary text-white rounded-pill border py-2 px-3"
-                          >
-                            20 Photos
-                          </a>
-                          <h4 className="text-white mb-2 mt-3">
-                            San francisco
-                          </h4>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
-                        </div>
-                        <div className="search-icon">
-                          <a
-                            href="assets/img/destination-5.jpg"
-                            data-lightbox="destination-5"
-                          >
-                            <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="destination-img">
-                        <img
-                          className="img-fluid rounded w-100"
-                          src="assets/img/destination-6.jpg"
-                          alt
-                        />
-                        <div className="destination-overlay p-4">
-                          <a
-                            href="#"
-                            className="btn btn-primary text-white rounded-pill border py-2 px-3"
-                          >
-                            20 Photos
-                          </a>
-                          <h4 className="text-white mb-2 mt-3">
-                            San francisco
-                          </h4>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
-                        </div>
-                        <div className="search-icon">
-                          <a
-                            href="assets/img/destination-6.jpg"
-                            data-lightbox="destination-6"
-                          >
-                            <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="tab-5" className="tab-pane fade show p-0">
-                  <div className="row g-4">
-                    <div className="col-lg-6">
-                      <div className="destination-img">
-                        <img
-                          className="img-fluid rounded w-100"
-                          src="assets/img/destination-5.jpg"
-                          alt
-                        />
-                        <div className="destination-overlay p-4">
-                          <a
-                            href="#"
-                            className="btn btn-primary text-white rounded-pill border py-2 px-3"
-                          >
-                            20 Photos
-                          </a>
-                          <h4 className="text-white mb-2 mt-3">
-                            San francisco
-                          </h4>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
-                        </div>
-                        <div className="search-icon">
-                          <a
-                            href="assets/img/destination-5.jpg"
-                            data-lightbox="destination-5"
-                          >
-                            <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="destination-img">
-                        <img
-                          className="img-fluid rounded w-100"
-                          src="assets/img/destination-6.jpg"
-                          alt
-                        />
-                        <div className="destination-overlay p-4">
-                          <a
-                            href="#"
-                            className="btn btn-primary text-white rounded-pill border py-2 px-3"
-                          >
-                            20 Photos
-                          </a>
-                          <h4 className="text-white mb-2 mt-3">
-                            San francisco
-                          </h4>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
-                        </div>
-                        <div className="search-icon">
-                          <a
-                            href="assets/img/destination-6.jpg"
-                            data-lightbox="destination-6"
-                          >
-                            <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="tab-6" className="tab-pane fade show p-0">
-                  <div className="row g-4">
-                    <div className="col-lg-6">
-                      <div className="destination-img">
-                        <img
-                          className="img-fluid rounded w-100"
-                          src="assets/img/destination-5.jpg"
-                          alt
-                        />
-                        <div className="destination-overlay p-4">
-                          <a
-                            href="#"
-                            className="btn btn-primary text-white rounded-pill border py-2 px-3"
-                          >
-                            20 Photos
-                          </a>
-                          <h4 className="text-white mb-2 mt-3">
-                            San francisco
-                          </h4>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
-                        </div>
-                        <div className="search-icon">
-                          <a
-                            href="assets/img/destination-5.jpg"
-                            data-lightbox="destination-5"
-                          >
-                            <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="destination-img">
-                        <img
-                          className="img-fluid rounded w-100"
-                          src="assets/img/destination-6.jpg"
-                          alt
-                        />
-                        <div className="destination-overlay p-4">
-                          <a
-                            href="#"
-                            className="btn btn-primary text-white rounded-pill border py-2 px-3"
-                          >
-                            20 Photos
-                          </a>
-                          <h4 className="text-white mb-2 mt-3">
-                            San francisco
-                          </h4>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
-                        </div>
-                        <div className="search-icon">
-                          <a
-                            href="assets/img/destination-6.jpg"
-                            data-lightbox="destination-6"
-                          >
                             <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
                           </a>
                         </div>
@@ -1016,15 +643,15 @@ function HomeContent() {
                               to="/tour/weekend"
                               className="btn-hover text-white"
                             >
-                              View All Place{" "}
+                              View Recommended Place{" "}
                               <i className="fa fa-arrow-right ms-2" />
                             </Link>
                           </div>
                         </div>
                         <div className="national-plus-icon">
-                          <a href="#" className="my-auto">
+                          <Link to="/tour/weekend" className="my-auto">
                             <i className="fas fa-link fa-2x text-white" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -1044,15 +671,15 @@ function HomeContent() {
                               to="/tour/holiday"
                               className="btn-hover text-white"
                             >
-                              View All Place{" "}
+                              View Recommended Place{" "}
                               <i className="fa fa-arrow-right ms-2" />
                             </Link>
                           </div>
                         </div>
                         <div className="national-plus-icon">
-                          <a href="#" className="my-auto">
+                          <Link to="/tour/holiday" className="my-auto">
                             <i className="fas fa-link fa-2x text-white" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -1072,15 +699,15 @@ function HomeContent() {
                               to="/tour/road-trip"
                               className="btn-hover text-white"
                             >
-                              View All Place{" "}
+                              View Recommended Place{" "}
                               <i className="fa fa-arrow-right ms-2" />
                             </Link>
                           </div>
                         </div>
                         <div className="national-plus-icon">
-                          <a href="#" className="my-auto">
+                          <Link to="/tour/road-trip" className="my-auto">
                             <i className="fas fa-link fa-2x text-white" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -1100,15 +727,15 @@ function HomeContent() {
                               to="/tour/historical-trip"
                               className="btn-hover text-white"
                             >
-                              View All Place{" "}
+                              View Recommended Place{" "}
                               <i className="fa fa-arrow-right ms-2" />
                             </Link>
                           </div>
                         </div>
                         <div className="national-plus-icon">
-                          <a href="#" className="my-auto">
+                          <Link to="/tour/historical-trip" className="my-auto">
                             <i className="fas fa-link fa-2x text-white" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -1128,15 +755,15 @@ function HomeContent() {
                               to="/tour/family"
                               className="btn-hover text-white"
                             >
-                              View All Place{" "}
+                              View Recommended Place{" "}
                               <i className="fa fa-arrow-right ms-2" />
                             </Link>
                           </div>
                         </div>
                         <div className="national-plus-icon">
-                          <a href="#" className="my-auto">
+                          <Link to="/tour/family" className="my-auto">
                             <i className="fas fa-link fa-2x text-white" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -1156,158 +783,16 @@ function HomeContent() {
                               to="/tour/beach"
                               className="btn-hover text-white"
                             >
-                              View All Place{" "}
+                              View Recommended Place{" "}
                               <i className="fa fa-arrow-right ms-2" />
                             </Link>
                           </div>
                         </div>
                         <div className="national-plus-icon">
-                          <a href="#" className="my-auto">
+                          <Link to="/tour/beach" className="my-auto">
                             <i className="fas fa-link fa-2x text-white" />
-                          </a>
+                          </Link>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="InternationalTab-2" className="tab-pane fade show p-0">
-                  <div className="InternationalTour-carousel owl-carousel">
-                    <div className="international-item">
-                      <img
-                        src="assets/img/explore-tour-1.jpg"
-                        className="img-fluid w-100 rounded"
-                        alt="Image"
-                      />
-                      <div className="international-content">
-                        <div className="international-info">
-                          <h5 className="text-white text-uppercase mb-2">
-                            Australia
-                          </h5>
-                          <a href="#" className="btn-hover text-white me-4">
-                            <i className="fas fa-map-marker-alt me-1" /> 8
-                            Cities
-                          </a>
-                          <a href="#" className="btn-hover text-white">
-                            <i className="fa fa-eye ms-2" />{" "}
-                            <span>143+ Tour Places</span>
-                          </a>
-                        </div>
-                      </div>
-                      <div className="tour-offer bg-success">30% Off</div>
-                      <div className="international-plus-icon">
-                        <a href="#" className="my-auto">
-                          <i className="fas fa-link fa-2x text-white" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="international-item">
-                      <img
-                        src="assets/img/explore-tour-2.jpg"
-                        className="img-fluid w-100 rounded"
-                        alt="Image"
-                      />
-                      <div className="international-content">
-                        <div className="international-info">
-                          <h5 className="text-white text-uppercase mb-2">
-                            Germany
-                          </h5>
-                          <a href="#" className="btn-hover text-white me-4">
-                            <i className="fas fa-map-marker-alt me-1" /> 12
-                            Cities
-                          </a>
-                          <a href="#" className="btn-hover text-white">
-                            <i className="fa fa-eye ms-2" />{" "}
-                            <span>21+ Tour Places</span>
-                          </a>
-                        </div>
-                      </div>
-                      <div className="international-plus-icon">
-                        <a href="#" className="my-auto">
-                          <i className="fas fa-link fa-2x text-white" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="international-item">
-                      <img
-                        src="assets/img/explore-tour-3.jpg"
-                        className="img-fluid w-100 rounded"
-                        alt="Image"
-                      />
-                      <div className="international-content">
-                        <div className="tour-offer bg-warning">45% Off</div>
-                        <div className="international-info">
-                          <h5 className="text-white text-uppercase mb-2">
-                            Spain
-                          </h5>
-                          <a href="#" className="btn-hover text-white me-4">
-                            <i className="fas fa-map-marker-alt me-1" /> 9
-                            Cities
-                          </a>
-                          <a href="#" className="btn-hover text-white">
-                            <i className="fa fa-eye ms-2" />{" "}
-                            <span>133+ Tour Places</span>
-                          </a>
-                        </div>
-                      </div>
-                      <div className="international-plus-icon">
-                        <a href="#" className="my-auto">
-                          <i className="fas fa-link fa-2x text-white" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="international-item">
-                      <img
-                        src="assets/img/explore-tour-4.jpg"
-                        className="img-fluid w-100 rounded"
-                        alt="Image"
-                      />
-                      <div className="international-content">
-                        <div className="international-info">
-                          <h5 className="text-white text-uppercase mb-2">
-                            Japan
-                          </h5>
-                          <a href="#" className="btn-hover text-white me-4">
-                            <i className="fas fa-map-marker-alt me-1" /> 8
-                            Cities
-                          </a>
-                          <a href="#" className="btn-hover text-white">
-                            <i className="fa fa-eye ms-2" />{" "}
-                            <span>137+ Tour Places</span>
-                          </a>
-                        </div>
-                      </div>
-                      <div className="international-plus-icon">
-                        <a href="#" className="my-auto">
-                          <i className="fas fa-link fa-2x text-white" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="international-item">
-                      <img
-                        src="assets/img/explore-tour-5.jpg"
-                        className="img-fluid w-100 rounded"
-                        alt="Image"
-                      />
-                      <div className="international-content">
-                        <div className="tour-offer bg-info">70% Off</div>
-                        <div className="international-info">
-                          <h5 className="text-white text-uppercase mb-2">
-                            London
-                          </h5>
-                          <a href="#" className="btn-hover text-white me-4">
-                            <i className="fas fa-map-marker-alt me-1" /> 17
-                            Cities
-                          </a>
-                          <a href="#" className="btn-hover text-white">
-                            <i className="fa fa-eye ms-2" />{" "}
-                            <span>26+ Tour Places</span>
-                          </a>
-                        </div>
-                      </div>
-                      <div className="international-plus-icon">
-                        <a href="#" className="my-auto">
-                          <i className="fas fa-link fa-2x text-white" />
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -1323,7 +808,10 @@ function HomeContent() {
           <div className="mx-auto text-center mb-5" style={{ maxWidth: 900 }}>
             <h5 className="section-title px-3">Our Gallery</h5>
             <h1 className="mb-4">
-              A Masterpiece of Nature: Crafted by the Divine
+              A Masterpiece of Nature: Crafted by the Divine In{" "}
+              <span className="font-weigh-bold text-decoration-underline">
+                Bali
+              </span>
             </h1>
             <p className="mb-0">
               Behold a creation of exquisite beauty, where every aspect of its
@@ -1338,6 +826,39 @@ function HomeContent() {
             <ul className="nav nav-pills d-inline-flex justify-content-center mb-5">
               <li className="nav-item">
                 <a
+                  className="d-flex py-2 mx-3 border border-primary bg-light rounded-pill"
+                  data-bs-toggle="pill"
+                  href="#GalleryTab-2"
+                >
+                  <span className="text-dark" style={{ width: 150 }}>
+                    Waterfall
+                  </span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="d-flex mx-3 py-2 border border-primary bg-light rounded-pill"
+                  data-bs-toggle="pill"
+                  href="#GalleryTab-3"
+                >
+                  <span className="text-dark" style={{ width: 150 }}>
+                    Hill
+                  </span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="d-flex mx-3 py-2 border border-primary bg-light rounded-pill"
+                  data-bs-toggle="pill"
+                  href="#GalleryTab-4"
+                >
+                  <span className="text-dark" style={{ width: 150 }}>
+                    Beach
+                  </span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
                   className="d-flex mx-3 py-2 border border-primary bg-light rounded-pill active"
                   data-bs-toggle="pill"
                   href="#GalleryTab-1"
@@ -1349,45 +870,34 @@ function HomeContent() {
               </li>
               <li className="nav-item">
                 <a
-                  className="d-flex py-2 mx-3 border border-primary bg-light rounded-pill"
-                  data-bs-toggle="pill"
-                  href="#GalleryTab-2"
-                >
-                  <span className="text-dark" style={{ width: 150 }}>
-                    World tour
-                  </span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="d-flex mx-3 py-2 border border-primary bg-light rounded-pill"
-                  data-bs-toggle="pill"
-                  href="#GalleryTab-3"
-                >
-                  <span className="text-dark" style={{ width: 150 }}>
-                    Ocean Tour
-                  </span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="d-flex mx-3 py-2 border border-primary bg-light rounded-pill"
-                  data-bs-toggle="pill"
-                  href="#GalleryTab-4"
-                >
-                  <span className="text-dark" style={{ width: 150 }}>
-                    Summer Tour
-                  </span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
                   className="d-flex mx-3 py-2 border border-primary bg-light rounded-pill"
                   data-bs-toggle="pill"
                   href="#GalleryTab-5"
                 >
                   <span className="text-dark" style={{ width: 150 }}>
-                    Sport Tour
+                    Temple
+                  </span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="d-flex mx-3 py-2 border border-primary bg-light rounded-pill"
+                  data-bs-toggle="pill"
+                  href="#GalleryTab-6"
+                >
+                  <span className="text-dark" style={{ width: 150 }}>
+                    Village
+                  </span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="d-flex mx-3 py-2 border border-primary bg-light rounded-pill"
+                  data-bs-toggle="pill"
+                  href="#GalleryTab-7"
+                >
+                  <span className="text-dark" style={{ width: 150 }}>
+                    Statue
                   </span>
                 </a>
               </li>
@@ -1405,12 +915,8 @@ function HomeContent() {
                       <div className="gallery-content">
                         <div className="gallery-info">
                           <h5 className="text-white text-uppercase mb-2">
-                            World Tour
+                            Banyumala Waterfall
                           </h5>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
                         </div>
                       </div>
                       <div className="gallery-plus-icon">
@@ -1434,12 +940,8 @@ function HomeContent() {
                       <div className="gallery-content">
                         <div className="gallery-info">
                           <h5 className="text-white text-uppercase mb-2">
-                            World Tour
+                            Uluwatu
                           </h5>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
                         </div>
                       </div>
                       <div className="gallery-plus-icon">
@@ -1463,12 +965,8 @@ function HomeContent() {
                       <div className="gallery-content">
                         <div className="gallery-info">
                           <h5 className="text-white text-uppercase mb-2">
-                            World Tour
+                            Pura Tanah Lot
                           </h5>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
                         </div>
                       </div>
                       <div className="gallery-plus-icon">
@@ -1492,12 +990,8 @@ function HomeContent() {
                       <div className="gallery-content">
                         <div className="gallery-info">
                           <h5 className="text-white text-uppercase mb-2">
-                            World Tour
+                            Kelingking Beach
                           </h5>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
                         </div>
                       </div>
                       <div className="gallery-plus-icon">
@@ -1521,12 +1015,8 @@ function HomeContent() {
                       <div className="gallery-content">
                         <div className="gallery-info">
                           <h5 className="text-white text-uppercase mb-2">
-                            World Tour
+                            Aling Aling Waterfall
                           </h5>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
                         </div>
                       </div>
                       <div className="gallery-plus-icon">
@@ -1550,12 +1040,8 @@ function HomeContent() {
                       <div className="gallery-content">
                         <div className="gallery-info">
                           <h5 className="text-white text-uppercase mb-2">
-                            World Tour
+                            Campuhan Ridge Walk
                           </h5>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
                         </div>
                       </div>
                       <div className="gallery-plus-icon">
@@ -1579,12 +1065,8 @@ function HomeContent() {
                       <div className="gallery-content">
                         <div className="gallery-info">
                           <h5 className="text-white text-uppercase mb-2">
-                            World Tour
+                            Git Git Waterfall
                           </h5>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
                         </div>
                       </div>
                       <div className="gallery-plus-icon">
@@ -1608,12 +1090,8 @@ function HomeContent() {
                       <div className="gallery-content">
                         <div className="gallery-info">
                           <h5 className="text-white text-uppercase mb-2">
-                            World Tour
+                            Desa Wisata Penglipuran
                           </h5>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
                         </div>
                       </div>
                       <div className="gallery-plus-icon">
@@ -1637,12 +1115,8 @@ function HomeContent() {
                       <div className="gallery-content">
                         <div className="gallery-info">
                           <h5 className="text-white text-uppercase mb-2">
-                            World Tour
+                            Kelingking Beach
                           </h5>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
                         </div>
                       </div>
                       <div className="gallery-plus-icon">
@@ -1666,12 +1140,196 @@ function HomeContent() {
                       <div className="gallery-content">
                         <div className="gallery-info">
                           <h5 className="text-white text-uppercase mb-2">
-                            World Tour
+                            Padang Padang Beach
                           </h5>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
+                        </div>
+                      </div>
+                      <div className="gallery-plus-icon">
+                        <a
+                          href={galery9}
+                          data-lightbox="gallery-10"
+                          className="my-auto"
+                        >
+                          <i className="fas fa-plus fa-2x text-white" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                    <div className="gallery-item h-100">
+                      <img
+                        src={garudawisnu}
+                        className="img-fluid w-100 h-100 rounded"
+                        alt="Image"
+                      />
+                      <div className="gallery-content">
+                        <div className="gallery-info">
+                          <h5 className="text-white text-uppercase mb-2">
+                            Garuda Wisnu Kencana
+                          </h5>
+                        </div>
+                      </div>
+                      <div className="gallery-plus-icon">
+                        <a
+                          href={garudawisnu}
+                          data-lightbox="gallery-10"
+                          className="my-auto"
+                        >
+                          <i className="fas fa-plus fa-2x text-white" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="GalleryTab-2" className="tab-pane fade show p-0">
+                <div className="row g-2">
+                  <div className="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                    <div className="gallery-item h-100">
+                      <img
+                        src={galery4}
+                        className="img-fluid w-100 h-100 rounded"
+                        alt="Image"
+                      />
+                      <div className="gallery-content">
+                        <div className="gallery-info">
+                          <h5 className="text-white text-uppercase mb-2">
+                            Aling Aling Waterfall
+                          </h5>
+                        </div>
+                      </div>
+                      <div className="gallery-plus-icon">
+                        <a
+                          href={galery4}
+                          data-lightbox="gallery-5"
+                          className="my-auto"
+                        >
+                          <i className="fas fa-plus fa-2x text-white" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <div className="gallery-item h-100">
+                      <img
+                        src={galery6}
+                        className="img-fluid w-100 h-100 rounded"
+                        alt="Image"
+                      />
+                      <div className="gallery-content">
+                        <div className="gallery-info">
+                          <h5 className="text-white text-uppercase mb-2">
+                            Git Git Waterfall
+                          </h5>
+                        </div>
+                      </div>
+                      <div className="gallery-plus-icon">
+                        <a
+                          href={galery6}
+                          data-lightbox="gallery-7"
+                          className="my-auto"
+                        >
+                          <i className="fas fa-plus fa-2x text-white" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="GalleryTab-3" className="tab-pane fade show p-0">
+                <div className="row g-2">
+                  <div className="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                    <div className="gallery-item h-100">
+                      <img
+                        src={galery5}
+                        className="img-fluid w-100 h-100 rounded"
+                        alt="Image"
+                      />
+                      <div className="gallery-content">
+                        <div className="gallery-info">
+                          <h5 className="text-white text-uppercase mb-2">
+                            Campuhan Ridge Walk
+                          </h5>
+                        </div>
+                      </div>
+                      <div className="gallery-plus-icon">
+                        <a
+                          href={galery5}
+                          data-lightbox="gallery-6"
+                          className="my-auto"
+                        >
+                          <i className="fas fa-plus fa-2x text-white" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="GalleryTab-4" className="tab-pane fade show p-0">
+                <div className="row g-2">
+                  <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div className="gallery-item h-100">
+                      <img
+                        src={galery3}
+                        className="img-fluid w-100 h-100 rounded"
+                        alt="Image"
+                      />
+                      <div className="gallery-content">
+                        <div className="gallery-info">
+                          <h5 className="text-white text-uppercase mb-2">
+                            Kelingking Beach
+                          </h5>
+                        </div>
+                      </div>
+                      <div className="gallery-plus-icon">
+                        <a
+                          href={galery3}
+                          data-lightbox="gallery-4"
+                          className="my-auto"
+                        >
+                          <i className="fas fa-plus fa-2x text-white" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <div className="gallery-item h-100">
+                      <img
+                        src={galery8}
+                        className="img-fluid w-100 h-100 rounded"
+                        alt="Image"
+                      />
+                      <div className="gallery-content">
+                        <div className="gallery-info">
+                          <h5 className="text-white text-uppercase mb-2">
+                            Kelingking Beach
+                          </h5>
+                        </div>
+                      </div>
+                      <div className="gallery-plus-icon">
+                        <a
+                          href={galery8}
+                          data-lightbox="gallery-9"
+                          className="my-auto"
+                        >
+                          <i className="fas fa-plus fa-2x text-white" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                    <div className="gallery-item h-100">
+                      <img
+                        src={galery9}
+                        className="img-fluid w-100 h-100 rounded"
+                        alt="Image"
+                      />
+                      <div className="gallery-content">
+                        <div className="gallery-info">
+                          <h5 className="text-white text-uppercase mb-2">
+                            Padang Padang Beach
+                          </h5>
                         </div>
                       </div>
                       <div className="gallery-plus-icon">
@@ -1687,216 +1345,56 @@ function HomeContent() {
                   </div>
                 </div>
               </div>
-              <div id="GalleryTab-2" className="tab-pane fade show p-0">
-                <div className="row g-2">
-                  <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                    <div className="gallery-item h-100">
-                      <img
-                        src={galery9}
-                        className="img-fluid w-100 h-100 rounded"
-                        alt="Image"
-                      />
-                      <div className="gallery-content">
-                        <div className="gallery-info">
-                          <h5 className="text-white text-uppercase mb-2">
-                            World Tour
-                          </h5>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
-                        </div>
-                      </div>
-                      <div className="gallery-plus-icon">
-                        <a
-                          href={galery9}
-                          data-lightbox="gallery-2"
-                          className="my-auto"
-                        >
-                          <i className="fas fa-plus fa-2x text-white" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-md-6 col-lg-4 col-xl-2">
-                    <div className="gallery-item h-100">
-                      <img
-                        src="assets/img/gallery-3.jpg"
-                        className="img-fluid w-100 h-100 rounded"
-                        alt="Image"
-                      />
-                      <div className="gallery-content">
-                        <div className="gallery-info">
-                          <h5 className="text-white text-uppercase mb-2">
-                            World Tour
-                          </h5>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
-                        </div>
-                      </div>
-                      <div className="gallery-plus-icon">
-                        <a
-                          href="assets/img/gallery-3.jpg"
-                          data-lightbox="gallery-3"
-                          className="my-auto"
-                        >
-                          <i className="fas fa-plus fa-2x text-white" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div id="GalleryTab-3" className="tab-pane fade show p-0">
-                <div className="row g-2">
-                  <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                    <div className="gallery-item h-100">
-                      <img
-                        src="assets/img/gallery-2.jpg"
-                        className="img-fluid w-100 h-100 rounded"
-                        alt="Image"
-                      />
-                      <div className="gallery-content">
-                        <div className="gallery-info">
-                          <h5 className="text-white text-uppercase mb-2">
-                            World Tour
-                          </h5>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
-                        </div>
-                      </div>
-                      <div className="gallery-plus-icon">
-                        <a
-                          href="assets/img/gallery-2.jpg"
-                          data-lightbox="gallery-2"
-                          className="my-auto"
-                        >
-                          <i className="fas fa-plus fa-2x text-white" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-md-6 col-lg-4 col-xl-2">
-                    <div className="gallery-item h-100">
-                      <img
-                        src="assets/img/gallery-3.jpg"
-                        className="img-fluid w-100 h-100 rounded"
-                        alt="Image"
-                      />
-                      <div className="gallery-content">
-                        <div className="gallery-info">
-                          <h5 className="text-white text-uppercase mb-2">
-                            World Tour
-                          </h5>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
-                        </div>
-                      </div>
-                      <div className="gallery-plus-icon">
-                        <a
-                          href="assets/img/gallery-3.jpg"
-                          data-lightbox="gallery-3"
-                          className="my-auto"
-                        >
-                          <i className="fas fa-plus fa-2x text-white" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div id="GalleryTab-4" className="tab-pane fade show p-0">
-                <div className="row g-2">
-                  <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                    <div className="gallery-item h-100">
-                      <img
-                        src="assets/img/gallery-2.jpg"
-                        className="img-fluid w-100 h-100 rounded"
-                        alt="Image"
-                      />
-                      <div className="gallery-content">
-                        <div className="gallery-info">
-                          <h5 className="text-white text-uppercase mb-2">
-                            World Tour
-                          </h5>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
-                        </div>
-                      </div>
-                      <div className="gallery-plus-icon">
-                        <a
-                          href="assets/img/gallery-2.jpg"
-                          data-lightbox="gallery-2"
-                          className="my-auto"
-                        >
-                          <i className="fas fa-plus fa-2x text-white" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-md-6 col-lg-4 col-xl-2">
-                    <div className="gallery-item h-100">
-                      <img
-                        src="assets/img/gallery-3.jpg"
-                        className="img-fluid w-100 h-100 rounded"
-                        alt="Image"
-                      />
-                      <div className="gallery-content">
-                        <div className="gallery-info">
-                          <h5 className="text-white text-uppercase mb-2">
-                            World Tour
-                          </h5>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
-                        </div>
-                      </div>
-                      <div className="gallery-plus-icon">
-                        <a
-                          href="assets/img/gallery-3.jpg"
-                          data-lightbox="gallery-3"
-                          className="my-auto"
-                        >
-                          <i className="fas fa-plus fa-2x text-white" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <div id="GalleryTab-5" className="tab-pane fade show p-0">
                 <div className="row g-2">
-                  <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                  <div className="col-sm-6 col-md-6 col-lg-4 col-xl-2">
                     <div className="gallery-item h-100">
                       <img
-                        src="assets/img/gallery-2.jpg"
+                        src={galery2}
                         className="img-fluid w-100 h-100 rounded"
                         alt="Image"
                       />
                       <div className="gallery-content">
                         <div className="gallery-info">
                           <h5 className="text-white text-uppercase mb-2">
-                            World Tour
+                            Pura Tanah Lot
                           </h5>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
                         </div>
                       </div>
                       <div className="gallery-plus-icon">
                         <a
-                          href="assets/img/gallery-2.jpg"
-                          data-lightbox="gallery-2"
+                          href={galery2}
+                          data-lightbox="gallery-3"
+                          className="my-auto"
+                        >
+                          <i className="fas fa-plus fa-2x text-white" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="GalleryTab-6" className="tab-pane fade show p-0">
+                <div className="row g-2">
+                  <div className="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                    <div className="gallery-item h-100">
+                      <img
+                        src={galery7}
+                        className="img-fluid w-100 h-100 rounded"
+                        alt="Image"
+                      />
+                      <div className="gallery-content">
+                        <div className="gallery-info">
+                          <h5 className="text-white text-uppercase mb-2">
+                            Desa Wisata Penglipuran
+                          </h5>
+                        </div>
+                      </div>
+                      <div className="gallery-plus-icon">
+                        <a
+                          href={galery7}
+                          data-lightbox="gallery-8"
                           className="my-auto"
                         >
                           <i className="fas fa-plus fa-2x text-white" />
@@ -1907,25 +1405,51 @@ function HomeContent() {
                   <div className="col-sm-6 col-md-6 col-lg-4 col-xl-2">
                     <div className="gallery-item h-100">
                       <img
-                        src="assets/img/gallery-3.jpg"
+                        src={galery5}
                         className="img-fluid w-100 h-100 rounded"
                         alt="Image"
                       />
                       <div className="gallery-content">
                         <div className="gallery-info">
                           <h5 className="text-white text-uppercase mb-2">
-                            World Tour
+                            Campuhan Ridge Walk
                           </h5>
-                          <a href="#" className="btn-hover text-white">
-                            View All Place{" "}
-                            <i className="fa fa-arrow-right ms-2" />
-                          </a>
                         </div>
                       </div>
                       <div className="gallery-plus-icon">
                         <a
-                          href="assets/img/gallery-3.jpg"
-                          data-lightbox="gallery-3"
+                          href={galery5}
+                          data-lightbox="gallery-6"
+                          className="my-auto"
+                        >
+                          <i className="fas fa-plus fa-2x text-white" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="GalleryTab-7" className="tab-pane fade show p-0">
+                <div className="row g-2">
+                  <div className="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                    <div className="gallery-item h-100">
+                      <img
+                        src={garudawisnu}
+                        className="img-fluid w-100 h-100 rounded"
+                        alt="Image"
+                      />
+                      <div className="gallery-content">
+                        <div className="gallery-info">
+                          <h5 className="text-white text-uppercase mb-2">
+                            Garuda Wisnu Kencana
+                          </h5>
+                        </div>
+                      </div>
+                      <div className="gallery-plus-icon">
+                        <a
+                          href={garudawisnu}
+                          data-lightbox="gallery-10"
                           className="my-auto"
                         >
                           <i className="fas fa-plus fa-2x text-white" />
@@ -1940,183 +1464,6 @@ function HomeContent() {
         </div>
         {/* Gallery End */}
 
-        {/* Blog Start */}
-        <div className="container-fluid blog py-5">
-          <div className="container py-5">
-            <div className="mx-auto text-center mb-5" style={{ maxWidth: 900 }}>
-              <h5 className="section-title px-3">Our Blog</h5>
-              <h1 className="mb-4">
-                A Top-Tier Destination in Bali: Your Must-Visit Guide
-              </h1>
-              <p className="mb-0">
-                When you journey to Bali, don't miss our highly recommended
-                destinations, celebrated as the most popular spots in recent
-                years. We offer curated recommendations that promise
-                unforgettable experiences, capturing the essence of Bali's
-                vibrant culture and breathtaking landscapes. Discover the places
-                where memories are made, and every visit feels like a discovery.
-                Make your Bali trip truly remarkable by exploring these
-                beloved locales.
-              </p>
-            </div>
-            <div className="row g-4 justify-content-center">
-              <div className="col-lg-4 col-md-6">
-                <div className="blog-item">
-                  <div className="blog-img">
-                    <div className="blog-img-inner">
-                      <img
-                        className="img-fluid w-100 rounded-top"
-                        src={pop}
-                        alt="Image"
-                      />
-                      <div className="blog-icon">
-                        <a href="#" className="my-auto">
-                          <i className="fas fa-link fa-2x text-white" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="blog-info d-flex align-items-center border border-start-0 border-end-0">
-                      <small className="flex-fill text-center border-end py-2">
-                        <i className="fa fa-calendar-alt text-primary me-2" />
-                        28 Jan 2050
-                      </small>
-                      <a
-                        href="#"
-                        className="btn-hover flex-fill text-center text-white border-end py-2"
-                      >
-                        <i className="fa fa-thumbs-up text-primary me-2" />
-                        1.7K
-                      </a>
-                      <a
-                        href="#"
-                        className="btn-hover flex-fill text-center text-white py-2"
-                      >
-                        <i className="fa fa-comments text-primary me-2" />
-                        1K
-                      </a>
-                    </div>
-                  </div>
-                  <div className="blog-content border border-top-0 rounded-bottom p-4">
-                    <p className="mb-3">Posted By: Vilbert Jhovan</p>
-                    <a href="#" className="h4">
-                      Ulun Danu Beratan Temple
-                    </a>
-                    <p className="my-3"></p>
-                    <a
-                      href="#"
-                      className="btn btn-primary rounded-pill py-2 px-4"
-                    >
-                      Read More
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6">
-                <div className="blog-item">
-                  <div className="blog-img">
-                    <div className="blog-img-inner">
-                      <img
-                        className="img-fluid w-100 rounded-top"
-                        src={pop1}
-                        alt="Image"
-                      />
-                      <div className="blog-icon">
-                        <a href="#" className="my-auto">
-                          <i className="fas fa-link fa-2x text-white" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="blog-info d-flex align-items-center border border-start-0 border-end-0">
-                      <small className="flex-fill text-center border-end py-2">
-                        <i className="fa fa-calendar-alt text-primary me-2" />
-                        28 Jan 2050
-                      </small>
-                      <a
-                        href="#"
-                        className="btn-hover flex-fill text-center text-white border-end py-2"
-                      >
-                        <i className="fa fa-thumbs-up text-primary me-2" />
-                        1.7K
-                      </a>
-                      <a
-                        href="#"
-                        className="btn-hover flex-fill text-center text-white py-2"
-                      >
-                        <i className="fa fa-comments text-primary me-2" />
-                        1K
-                      </a>
-                    </div>
-                  </div>
-                  <div className="blog-content border border-top-0 rounded-bottom p-4">
-                    <p className="mb-3">Posted By: Calvin Yoananda </p>
-                    <a href="#" className="h4">
-                      Nusa Penida Island
-                    </a>
-                    <p className="my-3"></p>
-                    <a
-                      href="#"
-                      className="btn btn-primary rounded-pill py-2 px-4"
-                    >
-                      Read More
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6">
-                <div className="blog-item">
-                  <div className="blog-img">
-                    <div className="blog-img-inner">
-                      <img
-                        className="img-fluid w-100 rounded-top"
-                        src={tour2}
-                        alt="Image"
-                      />
-                      <div className="blog-icon">
-                        <a href="#" className="my-auto">
-                          <i className="fas fa-link fa-2x text-white" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="blog-info d-flex align-items-center border border-start-0 border-end-0">
-                      <small className="flex-fill text-center border-end py-2">
-                        <i className="fa fa-calendar-alt text-primary me-2" />
-                        28 Jan 2050
-                      </small>
-                      <a
-                        href="#"
-                        className="btn-hover flex-fill text-center text-white border-end py-2"
-                      >
-                        <i className="fa fa-thumbs-up text-primary me-2" />
-                        1.7K
-                      </a>
-                      <a
-                        href="#"
-                        className="btn-hover flex-fill text-center text-white py-2"
-                      >
-                        <i className="fa fa-comments text-primary me-2" />
-                        1K
-                      </a>
-                    </div>
-                  </div>
-                  <div className="blog-content border border-top-0 rounded-bottom p-4">
-                    <p className="mb-3">Posted By: Vilbert Jhovan </p>
-                    <a href="#" className="h4">
-                      Tanah Lot
-                    </a>
-                    <p className="my-3"></p>
-                    <a
-                      href="#"
-                      className="btn btn-primary rounded-pill py-2 px-4"
-                    >
-                      Read More
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Blog End */}
         <div className="container-fluid contact bg-light py-5">
           <div className="container py-5">
             {/* BORDER START */}
@@ -2280,14 +1627,13 @@ function HomeContent() {
                   <div className="text-center mb-4">
                     <i className="fa fa-phone-alt fa-3x text-primary mb-3" />
                     <h4 className="text-primary">Mobile</h4>
-                    <p className="mb-0"> 0895707966890</p>
-                    <p className="mb-0"> 089556758755</p>
+                    <p className="mb-0">+62 877-7680-3957</p>
+                    <p className="mb-0">+62 812-9301-273</p>
                   </div>
                   <div className="text-center">
                     <i className="fa fa-envelope-open fa-3x text-primary mb-3" />
                     <h4 className="text-primary">Email</h4>
-                    <p className="mb-0">Kelompok5thebest@gmail.com</p>
-                    <p className="mb-0">Kelompok5smartpeople@gmail.com</p>
+                    <p className="mb-0">kelompok5thebest@gmail.com</p>
                   </div>
                 </div>
               </div>
