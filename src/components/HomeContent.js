@@ -329,17 +329,13 @@ function HomeContent() {
                       className="text-white text-uppercase fw-bold mb-4"
                       style={{ letterSpacing: 3 }}
                     >
-                      The Wonders of Bali Discover the Incredible
+                    Bali Revealed: Unlocking Its Wonders
                     </h4>
                     <h1 className="display-2 text-capitalize text-white mb-4">
-                      Let Bali inspire you
+                    Let Bali Ignite Your Inspiration
                     </h1>
                     <p className="mb-5 fs-5">
-                      Immerse yourself in the serene landscapes, vibrant
-                      culture, and breathtaking beaches. Bali isn't just a
-                      destination; it's the beginning of a journey that stays
-                      with you forever.
-                    </p>
+                    Embark on an adventure through Bali, where ancient traditions meet modern delights. Discover the island's rich tapestry of culture, nature, and spirituality in an unforgettable exploration.</p>
                     <div className="d-flex align-items-center justify-content-center">
                       <a
                         className="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
@@ -359,16 +355,13 @@ function HomeContent() {
                       className="text-white text-uppercase fw-bold mb-4"
                       style={{ letterSpacing: 3 }}
                     >
-                      The Wonders of Bali Discover the Incredible
+                      Origin Of Bali Nature 
                     </h4>
                     <h1 className="display-2 text-capitalize text-white mb-4">
-                      Let Bali inspire you
+                    Let Bali Rejuvenate Your Body.
                     </h1>
                     <p className="mb-5 fs-5">
-                      Immerse yourself in the serene landscapes, vibrant
-                      culture, and breathtaking beaches. Bali isn't just a
-                      destination; it's the beginning of a journey that stays
-                      with you forever.
+                    Bask in the Healing Energy of Bali: Let the Island Rejuvenate Your Body and Soul.
                     </p>
                     <div className="d-flex align-items-center justify-content-center">
                       <a
