@@ -37,61 +37,25 @@ function About() {
             >
               <h5 className="section-about-title pe-3">About Us</h5>
               <h1 className="mb-4">
-                Welcome to <span className="text-primary">Travela</span>
+                Welcome to <span className="text-primary">Nirvana</span>
               </h1>
               <p className="mb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Molestias, dolorum, doloribus sunt dicta, officia voluptatibus
-                libero necessitatibus natus impedit quam ullam assumenda? Id
-                atque iste consectetur. Commodi odit ab saepe!
+              We are five students currently taking the final exam for the Intro to Internet Technology course. 
+              We have been assigned a task to create an informative website themed around tourism in Bali.
+
               </p>
               <p className="mb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusantium quos voluptatem suscipit neque enim, doloribus ipsum
-                rem eos distinctio, dignissimos nisi saepe nulla? Libero numquam
-                perferendis provident placeat molestiae quia?
+              Calvin, who is proficient in design, is in charge of the website layout. David, who loves history and culture,
+               is adding information about Bali's history and traditions. Sube is compiling recommendations for hidden gems in Bali.
+                Finally, Hugo and Vilbert, who is a talented writer, is filling the website with engaging stories.
               </p>
-              <div className="row gy-2 gx-4 mb-4">
-                <div className="col-sm-6">
-                  <p className="mb-0">
-                    <i className="fa fa-arrow-right text-primary me-2" />
-                    First Class Flights
-                  </p>
-                </div>
-                <div className="col-sm-6">
-                  <p className="mb-0">
-                    <i className="fa fa-arrow-right text-primary me-2" />
-                    Handpicked Hotels
-                  </p>
-                </div>
-                <div className="col-sm-6">
-                  <p className="mb-0">
-                    <i className="fa fa-arrow-right text-primary me-2" />5 Star
-                    Accommodations
-                  </p>
-                </div>
-                <div className="col-sm-6">
-                  <p className="mb-0">
-                    <i className="fa fa-arrow-right text-primary me-2" />
-                    Latest Model Vehicles
-                  </p>
-                </div>
-                <div className="col-sm-6">
-                  <p className="mb-0">
-                    <i className="fa fa-arrow-right text-primary me-2" />
-                    150 Premium City Tours
-                  </p>
-                </div>
-                <div className="col-sm-6">
-                  <p className="mb-0">
-                    <i className="fa fa-arrow-right text-primary me-2" />
-                    24/7 Service
-                  </p>
-                </div>
-              </div>
-              <a className="btn btn-primary rounded-pill py-3 px-5 mt-2" href>
-                Read More
-              </a>
+              <p className="mb-4">
+              Through Nirvana, we hope to provide a comprehensive and inspirational guide for travelers who want to experience the beauty of Bali. With hard work and collaboration, we hope this website can be something beneficial for many people.
+              </p>
+             <p className="mb-4">
+             We have worked hard for several weeks, combining our knowledge and interests to produce an informative website. After the launch of our website, Nirvana, finally our final exam for the Intro to Internet Technology course is done.
+             </p>
+             
             </div>
           </div>
         </div>
@@ -101,8 +65,8 @@ function About() {
       <div className="container-fluid guide py-5">
         <div className="container py-5">
           <div className="mx-auto text-center mb-5" style={{ maxWidth: 900 }}>
-            <h5 className="section-title px-3">Travel Guide</h5>
-            <h1 className="mb-0">Meet Our Guide</h1>
+            <h5 className="section-title px-3">Our Team</h5>
+            <h1 className="mb-0">Meet Our Members</h1>
           </div>
           <div className="row g-4">
             <div className="col-md-6 col-lg-3">
@@ -124,19 +88,19 @@ function About() {
                     </a>
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1"
-                      href
+                      href = "http://tiktok.com/davidgtech"
                     >
-                      <i className="fab fa-twitter" />
+                      <i className="fab fa-tiktok" />
                     </a>
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1"
-                      href
+                      href = "https://www.instagram.com/davidgrcias/"
                     >
                       <i className="fab fa-instagram" />
                     </a>
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1"
-                      href
+                      href  = "https://www.linkedin.com/in/davidgrcias/"
                     >
                       <i className="fab fa-linkedin-in" />
                     </a>
@@ -144,8 +108,8 @@ function About() {
                 </div>
                 <div className="guide-title text-center rounded-bottom p-4">
                   <div className="guide-title-inner">
-                    <h4 className="mt-3">Full Name</h4>
-                    <p className="mb-0">Designation</p>
+                    <h4 className="mt-3">David Garcia Saragi</h4>
+                    <p className="mb-0">Team Leader</p>
                   </div>
                 </div>
               </div>
@@ -163,25 +127,25 @@ function About() {
                   <div className="guide-icon rounded-pill p-2">
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1"
-                      href
+                      href = "https://www.facebook.com/calvin.yoananda"
                     >
                       <i className="fab fa-facebook-f" />
                     </a>
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1"
-                      href
+                      href = "https://www.tiktok.com/@kayoo_elaina"
                     >
-                      <i className="fab fa-twitter" />
+                      <i className="fab fa-tiktok" />
                     </a>
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1"
-                      href
+                      href = "https://www.instagram.com/kayoo.h264?igsh=ZzN2b3Bxc3RyZ212"
                     >
                       <i className="fab fa-instagram" />
                     </a>
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1"
-                      href
+                      href ="https://www.linkedin.com/in/calvin-yoananda/"
                     >
                       <i className="fab fa-linkedin-in" />
                     </a>
@@ -189,8 +153,8 @@ function About() {
                 </div>
                 <div className="guide-title text-center rounded-bottom p-4">
                   <div className="guide-title-inner">
-                    <h4 className="mt-3">Full Name</h4>
-                    <p className="mb-0">Designation</p>
+                    <h4 className="mt-3">Calvin Yoananda</h4>
+                    <p className="mb-0">Member</p>
                   </div>
                 </div>
               </div>
@@ -208,25 +172,25 @@ function About() {
                   <div className="guide-icon rounded-pill p-2">
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1"
-                      href
+                      href="https://www.facebook.com/v.jhovan.9?mibextid=ZbWKwL"
                     >
                       <i className="fab fa-facebook-f" />
                     </a>
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1"
-                      href
+                      href ="https://www.tiktok.com/@vilbertjhovantan"
                     >
-                      <i className="fab fa-twitter" />
+                      <i className="fab fa-tiktok" />
                     </a>
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1"
-                      href
+                      href = "https://www.instagram.com/vjhovantan/"
                     >
                       <i className="fab fa-instagram" />
                     </a>
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1"
-                      href
+                      href = "https://id.linkedin.com/in/vilbert-jhovan-68409824b"
                     >
                       <i className="fab fa-linkedin-in" />
                     </a>
@@ -234,8 +198,8 @@ function About() {
                 </div>
                 <div className="guide-title text-center rounded-bottom p-4">
                   <div className="guide-title-inner">
-                    <h4 className="mt-3">Full Name</h4>
-                    <p className="mb-0">Designation</p>
+                    <h4 className="mt-3">Vilbert Jhovan</h4>
+                    <p className="mb-0">Member</p>
                   </div>
                 </div>
               </div>
@@ -254,25 +218,25 @@ function About() {
                   <div className="guide-icon rounded-pill p-2">
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1"
-                      href
+                      href ="https://www.facebook.com/edric.hugo.5/"
                     >
                       <i className="fab fa-facebook-f" />
                     </a>
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1"
-                      href
+                      href ="https://www.tiktok.com/@waswiswosuhuy"
                     >
-                      <i className="fab fa-twitter" />
+                      <i className="fab fa-tiktok" />
                     </a>
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1"
-                      href
+                      href ="https://www.instagram.com/edrichugoo/"
                     >
                       <i className="fab fa-instagram" />
                     </a>
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1"
-                      href
+                      href = "http://www.linkedin.com/in/edrichugo"
                     >
                       <i className="fab fa-linkedin-in" />
                     </a>
@@ -280,8 +244,8 @@ function About() {
                 </div>
                 <div className="guide-title text-center rounded-bottom p-4">
                   <div className="guide-title-inner">
-                    <h4 className="mt-3">Full Name</h4>
-                    <p className="mb-0">Designation</p>
+                    <h4 className="mt-3">Edric Hugo</h4>
+                    <p className="mb-0">Member</p>
                   </div>
                 </div>
               </div>
@@ -300,25 +264,25 @@ function About() {
                   <div className="guide-icon rounded-pill p-2">
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1"
-                      href
+                      href ="https://www.facebook.com/samuel.nicholas.3998?mibextid=ZbWKwL"
                     >
                       <i className="fab fa-facebook-f" />
                     </a>
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1"
-                      href
+                      href ="https://www.tiktok.com/@nicholassubekti?_t=8mG4Jmlk7Rh&_r=1"
                     >
-                      <i className="fab fa-twitter" />
+                      <i className="fab fa-tiktok" />
                     </a>
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1"
-                      href
+                      href ="https://www.instagram.com/nicholassubekti?igsh=MTg1cGZoaHFrNnd3aw=="
                     >
                       <i className="fab fa-instagram" />
                     </a>
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1"
-                      href
+                      href = "https://www.linkedin.com/in/samuel-nicholas-subekti-60020228a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                     >
                       <i className="fab fa-linkedin-in" />
                     </a>
@@ -326,8 +290,8 @@ function About() {
                 </div>
                 <div className="guide-title text-center rounded-bottom p-4">
                   <div className="guide-title-inner">
-                    <h4 className="mt-3">Full Name</h4>
-                    <p className="mb-0">Designation</p>
+                    <h4 className="mt-3">Samuel Nicholas Subekti</h4>
+                    <p className="mb-0">Member</p>
                   </div>
                 </div>
               </div>

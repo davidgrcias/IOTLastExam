@@ -598,7 +598,7 @@ function HomeContent() {
           <div className="container py-5">
             <div className="mx-auto text-center mb-5" style={{ maxWidth: 900 }}>
               <h5 className="section-title px-3">Explore Tour</h5>
-              <h1 className="mb-4">The World</h1>
+              <h1 className="mb-4">The Bali Island</h1>
               <p className="mb-0">
                 With a focus on authentic and comprehensive experiences, Nirvana
                 offers curated travel recommendations that combine popular
@@ -1115,7 +1115,7 @@ function HomeContent() {
                       <div className="gallery-content">
                         <div className="gallery-info">
                           <h5 className="text-white text-uppercase mb-2">
-                            Kelingking Beach
+                            Kuta Beach
                           </h5>
                         </div>
                       </div>
@@ -1303,7 +1303,7 @@ function HomeContent() {
                       <div className="gallery-content">
                         <div className="gallery-info">
                           <h5 className="text-white text-uppercase mb-2">
-                            Kelingking Beach
+                           Kuta Beach
                           </h5>
                         </div>
                       </div>

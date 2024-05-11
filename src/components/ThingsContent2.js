@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import foot from "./Image/foots.jpg"
 
 function ThingsContent2() {
   return (
@@ -9,9 +10,9 @@ function ThingsContent2() {
       <div className="section">
         <div className="container">
           <div className="row justify-content-between align-items-center">
-            <div className="col-lg-5 mb-4 mb-lg-0">
+            <div className="col-lg-5 mb-4 mb-lg-0"> 
               <img
-                src="assets/img/image/images/img_v_2.jpg"
+                src={foot}
                 alt="Image"
                 className="img-fluid"
               />
@@ -31,7 +32,7 @@ function ThingsContent2() {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      How to download and register?
+                    What are the must-visit attractions in Bali?
                     </button>
                   </h2>
                   <div
@@ -41,10 +42,7 @@ function ThingsContent2() {
                     data-bs-parent="#accordion_1"
                   >
                     <div className="accordion-body">
-                      Far far away, behind the word mountains, far from the
-                      countries Vokalia and Consonantia, there live the blind
-                      texts. Separated they live in Bookmarksgrove right at the
-                      coast of the Semantics, a large language ocean.
+                    Must-visit attractions in Bali include the iconic Uluwatu Temple, the breathtaking rice terraces of Tegallalang, and the vibrant Ubud Monkey Forest.
                     </div>
                   </div>
                 </div>{" "}
@@ -59,7 +57,7 @@ function ThingsContent2() {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      How to create your paypal account?
+                      What are the best activities to experience in Bali?
                     </button>
                   </h2>
                   <div
@@ -69,10 +67,7 @@ function ThingsContent2() {
                     data-bs-parent="#accordion_1"
                   >
                     <div className="accordion-body">
-                      A small river named Duden flows by their place and
-                      supplies it with the necessary regelialia. It is a
-                      paradisematic country, in which roasted parts of sentences
-                      fly into your mouth.
+                    Bali offers a plethora of activities, from surfing in Kuta to snorkeling in the pristine waters of Nusa Penida, exploring the artistic community of Ubud, or trekking up Mount Batur to witness a stunning sunrise..
                     </div>
                   </div>
                 </div>{" "}
@@ -87,7 +82,7 @@ function ThingsContent2() {
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      How to link your paypal and bank account?
+                      What is the best time of year to visit Bali?
                     </button>
                   </h2>
                   <div
@@ -97,11 +92,7 @@ function ThingsContent2() {
                     data-bs-parent="#accordion_1"
                   >
                     <div className="accordion-body">
-                      When she reached the first hills of the Italic Mountains,
-                      she had a last view back on the skyline of her hometown
-                      Bookmarksgrove, the headline of Alphabet Village and the
-                      subline of her own road, the Line Lane. Pityful a rethoric
-                      question ran over her cheek, then she continued her way.
+                    The best time to visit Bali is during the dry season, which typically spans from April to October, when the weather is sunny and rainfall is minimal, making it ideal for outdoor activities and sightseeing.
                     </div>
                   </div>
                 </div>{" "}
@@ -116,7 +107,7 @@ function ThingsContent2() {
                       aria-expanded="false"
                       aria-controls="collapseFour"
                     >
-                      We are better than others?
+                      What are the traditional dishes and culinary experiences not to miss in Bali?
                     </button>
                   </h2>
                   <div
@@ -126,11 +117,7 @@ function ThingsContent2() {
                     data-bs-parent="#accordion_1"
                   >
                     <div className="accordion-body">
-                      When she reached the first hills of the Italic Mountains,
-                      she had a last view back on the skyline of her hometown
-                      Bookmarksgrove, the headline of Alphabet Village and the
-                      subline of her own road, the Line Lane. Pityful a rethoric
-                      question ran over her cheek, then she continued her way.
+                    Traditional Balinese dishes not to miss include Nasi Goreng (fried rice), Mie Goreng (fried noodles), Babi Guling (suckling pig), and the iconic Balinese satay. Don't forget to indulge in local delicacies like Pisang Goreng (banana fritters) and refreshing coconut water.
                     </div>
                   </div>
                 </div>{" "}

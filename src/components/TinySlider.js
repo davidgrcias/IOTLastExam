@@ -1,5 +1,13 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import Dest1 from "./Image/D1.jpg";
+import Dest2 from "./Image/D2.jpg";
+import Dest3 from "./Image/D3.jpg";
+import Dest4 from "./Image/D4.jpg";
+import Dest5 from "./Image/D5.jpg";
+import Dest6 from "./Image/D6.jpg";
+import Dest7 from "./Image/D7.jpg";
+import Dest8 from "./Image/D8.jpg";
 
 function TinySlider() {
   return (
@@ -27,13 +35,10 @@ function TinySlider() {
           <div className="row align-items-center justify-content-between  mb-5">
             <div className="col-lg-5" data-aos="fade-up">
               <h2 className="heading mb-3">
-                Discover Hundred of Travel Destinations
+              Beautiful beaches you can explore in Bali!
               </h2>
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics,
-                a large language ocean.
+              Explore Bali's beautiful beaches, from the vibrant shores of Kuta to the tranquil waters of Nusa Dua, offering unforgettable experiences for all who visit.
               </p>
             </div>
             <div
@@ -57,129 +62,127 @@ function TinySlider() {
             <div className="destination">
               <div className="thumb">
                 <img
-                  src="assets/img/image/images/img-1.jpg"
+                  src={Dest1}
                   alt="Image"
                   className="img-fluid"
                 />
-                <div className="price">$430</div>
               </div>
               <div className="mt-4">
                 <h3>
-                  <a href="#">Paradise Beach, Palawan Island</a>
+                  <a href="#">Melasti Beach</a>
                 </h3>
-                <span className="meta">Maldives, Repbulic Maldives</span>
+                <span className="meta">Badung, Bali Island</span>
               </div>
             </div>
             <div className="destination">
               <div className="thumb">
                 <img
-                  src="assets/img/image/images/img-2.jpg"
+                  src={Dest2}
                   alt="Image"
                   className="img-fluid"
                 />
-                <div className="price">$560</div>
               </div>
               <div className="mt-4">
                 <h3>
-                  <a href="#">Paradise Beach, Palawan Island</a>
+                  <a href="#">Canggu Beach</a>
                 </h3>
-                <span className="meta">Maldives, Repbulic Maldives</span>
+                <span className="meta">North Kuta, Bali Island</span>
               </div>
             </div>
             <div className="destination">
               <div className="thumb">
                 <img
-                  src="assets/img/image/images/img-3.jpg"
+                  src={Dest3}
                   alt="Image"
                   className="img-fluid"
                 />
-                <div className="price">$490</div>
+               
               </div>
               <div className="mt-4">
                 <h3>
-                  <a href="#">Paradise Beach, Palawan Island</a>
+                  <a href="#">Seminyak</a>
                 </h3>
-                <span className="meta">Maldives, Repbulic Maldives</span>
+                <span className="meta">Seminyak Village, Bali Island</span>
               </div>
             </div>
             <div className="destination">
               <div className="thumb">
                 <img
-                  src="assets/img/image/images/img-4.jpg"
+                  src={Dest4}
                   alt="Image"
                   className="img-fluid"
                 />
-                <div className="price">$490</div>
+             
               </div>
               <div className="mt-4">
                 <h3>
-                  <a href="#">Paradise Beach, Palawan Island</a>
+                  <a href="#">Kelingking Beach</a>
                 </h3>
-                <span className="meta">Maldives, Repbulic Maldives</span>
+                <span className="meta">Klungkung, Bali Island</span>
               </div>
             </div>
             <div className="destination">
               <div className="thumb">
                 <img
-                  src="assets/img/image/images/img-5.jpg"
+                  src={Dest5}
                   alt="Image"
                   className="img-fluid"
                 />
-                <div className="price">$430</div>
+               
               </div>
               <div className="mt-4">
                 <h3>
-                  <a href="#">Paradise Beach, Palawan Island</a>
+                  <a href="#">Broken Beach</a>
                 </h3>
-                <span className="meta">Maldives, Repbulic Maldives</span>
+                <span className="meta">Nusa Penida, Bali Island</span>
               </div>
             </div>
             <div className="destination">
               <div className="thumb">
                 <img
-                  src="assets/img/image/images/img-6.jpg"
+                  src={Dest6}
                   alt="Image"
                   className="img-fluid"
                 />
-                <div className="price">$560</div>
+               
               </div>
               <div className="mt-4">
                 <h3>
-                  <a href="#">Paradise Beach, Palawan Island</a>
+                  <a href="#">Diamond Beach</a>
                 </h3>
-                <span className="meta">Maldives, Repbulic Maldives</span>
+                <span className="meta">Nusa Penida, Bali Island</span>
               </div>
             </div>
             <div className="destination">
               <div className="thumb">
                 <img
-                  src="assets/img/image/images/img-7.jpg"
+                  src={Dest7}
                   alt="Image"
                   className="img-fluid"
                 />
-                <div className="price">$490</div>
+                
               </div>
               <div className="mt-4">
                 <h3>
-                  <a href="#">Paradise Beach, Palawan Island</a>
+                  <a href="#">Sanur Beach</a>
                 </h3>
-                <span className="meta">Maldives, Repbulic Maldives</span>
+                <span className="meta">Denpasar, Bali Island</span>
               </div>
             </div>
             <div className="destination">
               <div className="thumb">
                 <img
-                  src="assets/img/image/images/img-4.jpg"
+                  src={Dest8}
                   alt="Image"
                   className="img-fluid"
                 />
-                <div className="price">$490</div>
+               
               </div>
               <div className="mt-4">
                 <h3>
-                  <a href="#">Paradise Beach, Palawan Island</a>
+                  <a href="#">Kuta Beach</a>
                 </h3>
-                <span className="meta">Maldives, Repbulic Maldives</span>
+                <span className="meta">Badung, Bali Island</span>
               </div>
             </div>
           </div>
