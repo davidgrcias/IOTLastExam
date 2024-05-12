@@ -6,10 +6,10 @@ function Footer() {
   return (
     <>
       <Helmet>
-        <link rel="stylesheet" href="Footer.css" />
         <link rel="stylesheet" href="templatetravela/lightbox.min.css" />
         <link rel="stylesheet" href="templatetravela/owl.carousel.min.css" />
         <link rel="stylesheet" href="templatetravela/bootstrap.min.css" />
+        <link rel="stylesheet" href="Footer.css" />
       </Helmet>
       {/* Footer Start */}
 

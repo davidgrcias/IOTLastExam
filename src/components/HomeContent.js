@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
+import "./HomeContent.css";
 import ew from "./Image/1ew.jpg";
 import ews from "./Image/2ew.jpg";
 import ewz from "./Image/3ew.jpg";
@@ -26,10 +27,41 @@ import galery8 from "./Image/6 Beach.jpg";
 import galery9 from "./Image/9 Sunset.jpg";
 import garudawisnu from "./Image/gwk.jpg";
 import { Link } from "react-router-dom";
+import GuessGame from "./GuessGame";
 
 import "./Home.css";
 
 function HomeContent() {
+  const unknown = [
+    {
+      id: 1,
+      icon: "gopuram",
+      judul: "Ancient Temple",
+      description:
+        "An ancient temple in Bali typically stands as a serene testament to the island's rich cultural and spiritual heritage. Constructed from volcanic stone, these temples feature intricate carvings of mythological beings and scenes from Hindu epics.",
+    },
+    {
+      id: 2,
+      icon: "umbrella-beach",
+      judul: "Beach",
+      description:
+        "Bali's beaches offer a sanctuary for every type of traveler. Discover the rhythmic dance of the waves, the gentle whisper of palm trees, and the cultural richness that blooms at the water's edge. Each beach tells its own story of natural beauty and serenity, inviting visitors to unwind and soak in the tropical paradise.",
+    },
+    {
+      id: 3,
+      icon: "un",
+      judul: "Canvas of the Gods",
+      description:
+        "The Vibrant Art Scene of Bali Bali is renowned for its intricate wood carvings, delicate batik fabric, and mesmerizing dance performances, each steeped in centuries of history yet vibrantly alive today. This exploration reveals how local artisans preserve their cultural heritage while embracing modern influences, creating a unique fusion that captivates art lovers worldwide.",
+    },
+    {
+      id: 4,
+      icon: "un",
+      judul: "Dance of the Divine Protector",
+      description:
+        "The Barong dance is a visually stunning storytelling art form that depicts the eternal battle between good and evil. Performed with elaborate costumes and masks, the dance centers on the mythical creature Barong, a lion-like figure regarded as the king of spirits and a symbol of protection. Accompanied by gamelan music, the dancers convey a rich narrative of magic, myth, and moral lessons.",
+    },
+  ];
   useEffect(() => {
     // Initialize EmailJS
     if (window.emailjs) {
@@ -107,7 +139,7 @@ function HomeContent() {
                         </p>
                       </div>
                       <div className="service-icon p-4">
-                        <i className="fa fa-globe fa-4x text-primary" />
+                        <i className="fa fa-umbrella-beach fa-4x text-primary" />
                       </div>
                     </div>
                   </div>
@@ -329,13 +361,17 @@ function HomeContent() {
                       className="text-white text-uppercase fw-bold mb-4"
                       style={{ letterSpacing: 3 }}
                     >
-                    Bali Revealed: Unlocking Its Wonders
+                      Bali Revealed: Unlocking Its Wonders
                     </h4>
                     <h1 className="display-2 text-capitalize text-white mb-4">
-                    Let Bali Ignite Your Inspiration
+                      Let Bali Ignite Your Inspiration
                     </h1>
                     <p className="mb-5 fs-5">
-                    Embark on an adventure through Bali, where ancient traditions meet modern delights. Discover the island's rich tapestry of culture, nature, and spirituality in an unforgettable exploration.</p>
+                      Embark on an adventure through Bali, where ancient
+                      traditions meet modern delights. Discover the island's
+                      rich tapestry of culture, nature, and spirituality in an
+                      unforgettable exploration.
+                    </p>
                     <div className="d-flex align-items-center justify-content-center">
                       <a
                         className="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
@@ -355,13 +391,14 @@ function HomeContent() {
                       className="text-white text-uppercase fw-bold mb-4"
                       style={{ letterSpacing: 3 }}
                     >
-                      Origin Of Bali Nature 
+                      Origin Of Bali Nature
                     </h4>
                     <h1 className="display-2 text-capitalize text-white mb-4">
-                    Let Bali Rejuvenate Your Body.
+                      Let Bali Rejuvenate Your Body.
                     </h1>
                     <p className="mb-5 fs-5">
-                    Bask in the Healing Energy of Bali: Let the Island Rejuvenate Your Body and Soul.
+                      Bask in the Healing Energy of Bali: Let the Island
+                      Rejuvenate Your Body and Soul.
                     </p>
                     <div className="d-flex align-items-center justify-content-center">
                       <a
@@ -1296,7 +1333,7 @@ function HomeContent() {
                       <div className="gallery-content">
                         <div className="gallery-info">
                           <h5 className="text-white text-uppercase mb-2">
-                           Kuta Beach
+                            Kuta Beach
                           </h5>
                         </div>
                       </div>
@@ -1592,6 +1629,10 @@ function HomeContent() {
             {/* BORDER END */}
           </div>
         </div>
+        {/* Tour Booking Start */}
+        <GuessGame />
+        {/* Tour Booking End */}
+
         {/* Contact Start */}
         <div
           className="container-fluid contact bg-light py-5"

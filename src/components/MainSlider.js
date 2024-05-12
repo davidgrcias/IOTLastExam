@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import "./MainSlider.css";
-import gong from "./Image/gong.jpg"
-import gunung from "./Image/gunung.jpg"
-import outbound from "./Image/out.jpg"
-import culture from "./Image/puras.jpg"
+import gong from "./Image/gong.jpg";
+import gunung from "./Image/gunung.jpg";
+import outbound from "./Image/out.jpg";
+import culture from "./Image/puras.jpg";
 function MainSlider() {
   useEffect(() => {
     // Make sure to execute DOM manipulations only after the component is mounted
@@ -82,7 +82,10 @@ function MainSlider() {
               <div className="topic">RESTO AND LOUNGE</div>
               <div className="des">
                 {/* lorem 50 */}
-                Gongjatiluwih Restaurant, nestled in Bali's iconic Jatiluwih rice terraces, offers a unique culinary adventure inspired by the island's enchanting landscapes. Experience the beauty of Bali through our immersive dining experience.
+                Gongjatiluwih Restaurant, nestled in Bali's iconic Jatiluwih
+                rice terraces, offers a unique culinary adventure inspired by
+                the island's enchanting landscapes. Experience the beauty of
+                Bali through our immersive dining experience.
               </div>
               <div className="buttons">
                 <button>SEE MORE</button>
@@ -90,13 +93,13 @@ function MainSlider() {
             </div>
           </div>
           <div className="item">
-            <img src={gunung}/>
+            <img src={gunung} />
             <div className="content">
               <div className="author">Photo Spot</div>
               <div className="title">Jatiluwih Village</div>
               <div className="topic">RiceField</div>
               <div className="des">
-              Explore beauty spots for capturing memorable moments.
+                Explore beauty spots for capturing memorable moments.
               </div>
               <div className="buttons">
                 <button>SEE MORE</button>
@@ -104,13 +107,17 @@ function MainSlider() {
             </div>
           </div>
           <div className="item">
-            <img src={outbound}/>
+            <img src={outbound} />
             <div className="content">
               <div className="author">Outdoor Activities</div>
-              <div className="title">YEH HOO WATERFALL</div>
+              <div className="title">YEH HOO</div>
               <div className="topic">Waterfall</div>
               <div className="des">
-              Yeh Hoo Waterfall cascades gracefully amidst the lush tropical forests of Bali, Indonesia, offering a serene oasis for nature lovers. Its crystal-clear waters and tranquil surroundings create an enchanting atmosphere, inviting visitors to immerse themselves in the beauty of this hidden gem.
+                Yeh Hoo Waterfall cascades gracefully amidst the lush tropical
+                forests of Bali, Indonesia, offering a serene oasis for nature
+                lovers. Its crystal-clear waters and tranquil surroundings
+                create an enchanting atmosphere, inviting visitors to immerse
+                themselves in the beauty of this hidden gem.
               </div>
               <div className="buttons">
                 <button>SEE MORE</button>
@@ -124,7 +131,11 @@ function MainSlider() {
               <div className="title">Pura Luhur Sri rambut Sedana</div>
               <div className="topic">Temple</div>
               <div className="des">
-              Pura Luhur Sri Rambut Sedana, or Pura Luhur Batukaru, is a sacred Hindu temple located on the slopes of Mount Batukaru in Tabanan, Bali. It is known for its stunning location and is dedicated to the worship of the god Mahadeva in Balinese Hinduism.
+                Pura Luhur Sri Rambut Sedana, or Pura Luhur Batukaru, is a
+                sacred Hindu temple located on the slopes of Mount Batukaru in
+                Tabanan, Bali. It is known for its stunning location and is
+                dedicated to the worship of the god Mahadeva in
+                Balinese Hinduism.
               </div>
               <div className="buttons">
                 <button>SEE MORE</button>
@@ -156,7 +167,7 @@ function MainSlider() {
             </div>
           </div>
           <div className="item">
-            <img src={culture}/>
+            <img src={culture} />
             <div className="content">
               <div className="title">Sri Rambut Sedana Temple</div>
               <div className="description"> Hinduism Temple</div>

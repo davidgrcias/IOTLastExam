@@ -23,6 +23,7 @@ function TinySlider() {
           rel="stylesheet"
           href="templateuntree/fonts/flaticon/font/flaticon.css"
         />
+        <link rel="stylesheet" href="css/ThingsToDo.css" />
         <script src="js/custom.js"></script>
       </Helmet>
       {/* Footer Start */}
@@ -35,10 +36,12 @@ function TinySlider() {
           <div className="row align-items-center justify-content-between  mb-5">
             <div className="col-lg-5" data-aos="fade-up">
               <h2 className="heading mb-3">
-              Beautiful beaches you can explore in Bali!
+                Beautiful beaches you can explore in Bali!
               </h2>
               <p>
-              Explore Bali's beautiful beaches, from the vibrant shores of Kuta to the tranquil waters of Nusa Dua, offering unforgettable experiences for all who visit.
+                Explore Bali's beautiful beaches, from the vibrant shores of
+                Kuta to the tranquil waters of Nusa Dua, offering unforgettable
+                experiences for all who visit.
               </p>
             </div>
             <div
@@ -61,11 +64,7 @@ function TinySlider() {
           <div className="destination-slider">
             <div className="destination">
               <div className="thumb">
-                <img
-                  src={Dest1}
-                  alt="Image"
-                  className="img-fluid"
-                />
+                <img src={Dest1} alt="Image" className="img-fluid" />
               </div>
               <div className="mt-4">
                 <h3>
@@ -76,11 +75,7 @@ function TinySlider() {
             </div>
             <div className="destination">
               <div className="thumb">
-                <img
-                  src={Dest2}
-                  alt="Image"
-                  className="img-fluid"
-                />
+                <img src={Dest2} alt="Image" className="img-fluid" />
               </div>
               <div className="mt-4">
                 <h3>
@@ -91,12 +86,7 @@ function TinySlider() {
             </div>
             <div className="destination">
               <div className="thumb">
-                <img
-                  src={Dest3}
-                  alt="Image"
-                  className="img-fluid"
-                />
-               
+                <img src={Dest3} alt="Image" className="img-fluid" />
               </div>
               <div className="mt-4">
                 <h3>
@@ -107,12 +97,7 @@ function TinySlider() {
             </div>
             <div className="destination">
               <div className="thumb">
-                <img
-                  src={Dest4}
-                  alt="Image"
-                  className="img-fluid"
-                />
-             
+                <img src={Dest4} alt="Image" className="img-fluid" />
               </div>
               <div className="mt-4">
                 <h3>
@@ -123,12 +108,7 @@ function TinySlider() {
             </div>
             <div className="destination">
               <div className="thumb">
-                <img
-                  src={Dest5}
-                  alt="Image"
-                  className="img-fluid"
-                />
-               
+                <img src={Dest5} alt="Image" className="img-fluid" />
               </div>
               <div className="mt-4">
                 <h3>
@@ -139,12 +119,7 @@ function TinySlider() {
             </div>
             <div className="destination">
               <div className="thumb">
-                <img
-                  src={Dest6}
-                  alt="Image"
-                  className="img-fluid"
-                />
-               
+                <img src={Dest6} alt="Image" className="img-fluid" />
               </div>
               <div className="mt-4">
                 <h3>
@@ -155,12 +130,7 @@ function TinySlider() {
             </div>
             <div className="destination">
               <div className="thumb">
-                <img
-                  src={Dest7}
-                  alt="Image"
-                  className="img-fluid"
-                />
-                
+                <img src={Dest7} alt="Image" className="img-fluid" />
               </div>
               <div className="mt-4">
                 <h3>
@@ -171,12 +141,7 @@ function TinySlider() {
             </div>
             <div className="destination">
               <div className="thumb">
-                <img
-                  src={Dest8}
-                  alt="Image"
-                  className="img-fluid"
-                />
-               
+                <img src={Dest8} alt="Image" className="img-fluid" />
               </div>
               <div className="mt-4">
                 <h3>

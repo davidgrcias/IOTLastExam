@@ -34,7 +34,7 @@ function Game() {
           const averageDecibels = (10 * totalDecibels) / dataArray.length / 2;
           setDecibels(averageDecibels);
 
-          if (averageDecibels >= 500) {
+          if (averageDecibels >= 600) {
             setScreamText("YOU WIN!");
             console.log(
               "Decibels >= 50. Changing image to uang.gif and adding 'animate' class."
@@ -72,7 +72,7 @@ function Game() {
           />
           <div
             className="decibelmeter"
-            style={{ height: decibels + "px" }}
+            style={{ height: 3 * decibels + "px" }}
           ></div>
         </div>
       </div>

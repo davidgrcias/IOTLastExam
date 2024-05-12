@@ -136,3 +136,9 @@
   height: 10px;
   float: left;
 }
+
+#container2,
+#container3,
+#container4 {
+  padding-top: 0px !important;
+}

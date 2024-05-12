@@ -240,15 +240,6 @@ const CategoryDetails = () => {
         like: "2.5k",
       },
       {
-        id: 29,
-        url: img29,
-        name: "Pura Ulun Danu Bratan",
-        category: "historical-trip",
-        writer: "Calvin Yoananda",
-        date: "04 May 2024",
-        like: "419",
-      },
-      {
         id: 30,
         url: img30,
         name: "Bali Bird Park",

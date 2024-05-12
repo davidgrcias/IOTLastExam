@@ -16,8 +16,8 @@
   --bs-purple: #7464a1;
   --bs-pink: #d63384;
   --bs-red: #a16468;
-  --bs-orange: #fd7e14;
-  --bs-yellow: #e4c662;
+  --bs-orange: #0d6efd!important;
+  --bs-yellow: #6610f2!important;
   --bs-green: #67c29c;
   --bs-teal: #64a19d;
   --bs-cyan: #1cabc4;
@@ -11579,4 +11579,3 @@ body {
 .footer {
   padding: 5rem 0;
 }
-
