@@ -52,14 +52,14 @@ function HomeContent() {
       icon: "fa-om",
       judul: "Hinduism",
       description:
-        "The Vibrant Art Scene of Bali Bali is renowned for its intricate wood carvings, delicate batik fabric, and mesmerizing dance performances, each steeped in centuries of history yet vibrantly alive today. This exploration reveals how local artisans preserve their cultural heritage while embracing modern influences, creating a unique fusion that captivates art lovers worldwide.",
+        "Hinduism has deeply influenced the culture of Bali, Indonesia. Balinese Hinduism is a unique blend of traditional Hindu beliefs mixed with local customs and practices. The religion plays a central role in daily life, shaping everything from art and dance to festivals and rituals.",
     },
     {
       id: 4,
       icon: "fa-mountain",
       judul: "Mountain",
       description:
-        "The Barong dance is a visually stunning storytelling art form that depicts the eternal battle between good and evil. Performed with elaborate costumes and masks, the dance centers on the mythical creature Barong, a lion-like figure regarded as the king of spirits and a symbol of protection. Accompanied by gamelan music, the dancers convey a rich narrative of magic, myth, and moral lessons.",
+        "Bali's mountains, including Mount Agung and Mount Batur, are cherished by the Balinese people and hold a deep connection to the island's heritage and beliefs. Many temples and sacred sites are situated on or near the mountains, offering breathtaking views and hiking trails that attract hikers from around the world.",
     },
   ];
   useEffect(() => {
@@ -454,7 +454,7 @@ function HomeContent() {
                           alt
                         />
                         <div className="destination-overlay p-4">
-                          <h4 className="text-white mb-2 mt-3">AYANA Resort</h4>
+                          <h4 className="text-white mb-2 mt-3">Ayana Resort</h4>
                         </div>
                         <div className="search-icon">
                           <a href={Des7} data-lightbox="destination-6">

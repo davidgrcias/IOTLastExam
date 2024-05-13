@@ -10,3 +10,22 @@
 #hwhite:hover path {
   color: white !important;
 }
+
+#carouselId .carousel-control-next-icon,
+#carouselId .carousel-control-prev-icon {
+  color: #fff !important;
+}
+
+.national-info a:hover {
+  color: white !important;
+  font-size: 18px !important;
+}
+
+.national-item .national-plus-icon:hover svg {
+  transform: scale(2) !important;
+}
+
+.national-item .national-plus-icon svg {
+  transform: scale(1) !important;
+  transition: 2s;
+}

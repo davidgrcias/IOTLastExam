@@ -1,5 +1,5 @@
 import React from "react";
-import MainSlider from "./MainSlider"; // Adjust the path if necessary
+// Adjust the path if necessary
 import TinySlider from "./TinySlider"; // Adjust the path if necessary
 import RelaxHeader from "./RelaxHeader"; // Adjust the path if necessary
 import ThingsContent1 from "./ThingsContent1";
@@ -13,7 +13,7 @@ function ThingsToDo() {
     <div>
       <RelaxHeader />
       <ThingsContent1 />
-      <MainSlider />
+
       <TinySlider />
       <TinySlider2 />
       <TinySlider3 />

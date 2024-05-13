@@ -48,6 +48,7 @@
   z-index: 99;
   padding-bottom: 0px;
   padding-top: 0px;
-  height: 11%;
+  height: 4.7em;
   background: rgba(255, 255, 255, 1);
+  transition: 0.7s;
 }
