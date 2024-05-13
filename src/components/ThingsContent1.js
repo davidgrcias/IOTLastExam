@@ -79,7 +79,7 @@ function ThingsContent1() {
               <div className="col-lg-3 mb-4 mb-lg-0">
                 <div className="heading-content" data-aos="fade-up">
                   <h2>
-                    Jatiluwih's <span className="d-block">Facilities</span>
+                  Bali Terraces's <span className="d-block">Facilities</span>
                   </h2>
                   <p>
                     Jatiluwih's facilities provide an authentic Balinese

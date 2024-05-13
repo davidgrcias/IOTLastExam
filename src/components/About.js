@@ -2,45 +2,53 @@ import React from "react";
 import "./About.css";
 import { Helmet } from "react-helmet";
 
-import img1 from "./imgoftestimonial/img1.jpeg";
-import img2 from "./imgoftestimonial/img2.jpeg";
-import img3 from "./imgoftestimonial/img3.jpeg";
-import img4 from "./imgoftestimonial/img4.jpeg";
-import img5 from "./imgoftestimonial/img5.jpeg";
+
+import aboutall from "./Image/aboutall.jpg";
+import about1 from "./Image/about1.jpg";
+import about2 from "./Image/about2.jpg";
+import about3 from "./Image/about3.jpg";
+import about4 from "./Image/about4.jpg";
+import about5 from "./Image/about5.jpg";
+import testi from "./Image/testi.jpg"
+import testi1 from "./Image/testi1.jpg"
+import testi2 from "./Image/testi2.jpg"
+import testi3 from "./Image/testi3.jpg"
+import testi4 from "./Image/testi4.jpg"
+
 
 function About() {
   const testimonials = [
     {
       id: 1,
-      url: img1,
+      url: testi1,
       name: "David Garcia Saragih",
       category: "President",
       text: "I'm very glad that I can participate in this dream team with my fellow friends, so I can grow my skill on programming especially in web developing field and also I can make a new experience on teamwork.",
     },
     {
       id: 2,
-      url: img2,
+      url: testi3,
       name: "Vilbert Jhovan",
       category: "Vice President",
       text: "I'm verry happy into this Group with David as A leader can  take care the members and with the supportive friends i feel optimize can win this Competition with this website.",
     },
     {
       id: 3,
-      url: img3,
+      url: testi4,
       name: "Edric Hugo",
       category: "Member",
-      text: "I felt excited during a project, especially because I was learning something new.",
+      text: "I felt excited during a project, especially because I was learning something new.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ",
     },
     {
       id: 4,
-      url: img4,
+      url: testi,
       name: "Samuel Nicholas",
       category: "Member",
-      text: "I feel happy when I work on this project, because it improves my skill for sure.",
+      text: "I feel happy when I work on this project, because it improves my skill for sure.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ",
     },
     {
       id: 5,
-      url: img5,
+      url: testi2,
       name: "Calvin Yoananda",
       category: "Member",
       text: "Sometimes I feel confused and angry, often my work is replaced by someone else because it doesn't meet their expectations. but i happy to work together with my friend to develop my skill and make a memories before we separated in the next few days and a new experience also.",
@@ -72,7 +80,7 @@ function About() {
                 }}
               >
                 <img
-                  src="assets/img/about-img.jpg"
+                  src={aboutall}
                   className="img-fluid w-100 h-100"
                   alt
                 />
@@ -87,7 +95,7 @@ function About() {
             >
               <h5 className="section-about-title pe-3">About Us</h5>
               <h1 className="mb-4">
-                Welcome to <span className="text-primary">Nirvana</span>
+                Know Deeper <span className="text-primary">With Our Team</span>
               </h1>
               <p className="mb-4">
                 We are five students currently taking the final exam for the
@@ -120,7 +128,7 @@ function About() {
         </div>
       </div>
       {/* About End */}
-      {/* Travel Guide Start */}
+      {/* Our Members */}
       <div className="container-fluid guide py-5">
         <div className="container py-5">
           <div className="mx-auto text-center mb-5" style={{ maxWidth: 900 }}>
@@ -133,7 +141,7 @@ function About() {
                 <div className="guide-img">
                   <div className="guide-img-efects">
                     <img
-                      src="assets/img/guide-1.jpg"
+                      src={about1}
                       className="img-fluid w-100 rounded-top"
                       alt="Image"
                     />
@@ -178,7 +186,7 @@ function About() {
                 <div className="guide-img">
                   <div className="guide-img-efects">
                     <img
-                      src="assets/img/guide-2.jpg"
+                      src={about2}
                       className="img-fluid w-100 rounded-top"
                       alt="Image"
                     />
@@ -223,7 +231,7 @@ function About() {
                 <div className="guide-img">
                   <div className="guide-img-efects">
                     <img
-                      src="assets/img/guide-3.jpg"
+                      src={about3}
                       className="img-fluid w-100 rounded-top"
                       alt="Image"
                     />
@@ -269,7 +277,7 @@ function About() {
                 <div className="guide-img">
                   <div className="guide-img-efects">
                     <img
-                      src="assets/img/guide-4.jpg"
+                      src={about4}
                       className="img-fluid w-100 rounded-top"
                       alt="Image"
                     />
@@ -315,7 +323,7 @@ function About() {
                 <div className="guide-img">
                   <div className="guide-img-efects">
                     <img
-                      src="assets/img/guide-4.jpg"
+                      src={about5}
                       className="img-fluid w-100 rounded-top"
                       alt="Image"
                     />
