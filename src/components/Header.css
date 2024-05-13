@@ -17,3 +17,37 @@
     color: white !important;
   }
 }
+
+#orange {
+  background-color: transparent !important;
+  margin-top: -18em !important;
+}
+
+#colorlib-main-nav {
+  overflow: hidden !important;
+}
+
+#hamburger i,
+#hamburger i::before,
+#hamburger i::after {
+  background-color: #fff;
+  border: 0.11em solid black !important;
+  padding: 0.1em !important;
+}
+
+.active {
+  color: lightblue !important;
+}
+
+.fixed {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 99;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  height: 11%;
+  background: rgba(255, 255, 255, 1);
+}

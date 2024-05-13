@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 import "./HomeContent.css";
-import ew from "./Image/1ew.jpg";
+import ew from "./Image/woi.jpeg";
 import ews from "./Image/2ew.jpg";
 import ewz from "./Image/3ew.jpg";
 import Des from "./Image/2 Beach Club.jpg";
@@ -35,29 +35,29 @@ function HomeContent() {
   const unknown = [
     {
       id: 1,
-      icon: "gopuram",
+      icon: "fa-gopuram",
       judul: "Ancient Temple",
       description:
         "An ancient temple in Bali typically stands as a serene testament to the island's rich cultural and spiritual heritage. Constructed from volcanic stone, these temples feature intricate carvings of mythological beings and scenes from Hindu epics.",
     },
     {
       id: 2,
-      icon: "umbrella-beach",
+      icon: "fa-umbrella-beach",
       judul: "Beach",
       description:
         "Bali's beaches offer a sanctuary for every type of traveler. Discover the rhythmic dance of the waves, the gentle whisper of palm trees, and the cultural richness that blooms at the water's edge. Each beach tells its own story of natural beauty and serenity, inviting visitors to unwind and soak in the tropical paradise.",
     },
     {
       id: 3,
-      icon: "un",
-      judul: "Canvas of the Gods",
+      icon: "fa-om",
+      judul: "Hinduism",
       description:
         "The Vibrant Art Scene of Bali Bali is renowned for its intricate wood carvings, delicate batik fabric, and mesmerizing dance performances, each steeped in centuries of history yet vibrantly alive today. This exploration reveals how local artisans preserve their cultural heritage while embracing modern influences, creating a unique fusion that captivates art lovers worldwide.",
     },
     {
       id: 4,
-      icon: "un",
-      judul: "Dance of the Divine Protector",
+      icon: "fa-mountain",
+      judul: "Mountain",
       description:
         "The Barong dance is a visually stunning storytelling art form that depicts the eternal battle between good and evil. Performed with elaborate costumes and masks, the dance centers on the mythical creature Barong, a lion-like figure regarded as the king of spirits and a symbol of protection. Accompanied by gamelan music, the dancers convey a rich narrative of magic, myth, and moral lessons.",
     },
@@ -118,189 +118,36 @@ function HomeContent() {
         <div className="container-fluid bg-light service py-5">
           <div className="container py-5">
             <div className="mx-auto text-center mb-5" style={{ maxWidth: 900 }}>
-              <h5 className="section-title px-3">Bali</h5>
-              <h1 className="mb-0">Description</h1>
+              <h5 className="section-title px-3">
+                Things That Bali is Famous for
+              </h5>
+              <h1 className="mb-0">What is Bali Most Famous For?</h1>
             </div>
             <div className="row g-4">
-              <div className="col-lg-6">
+              <div className="col-lg-12">
                 <div className="row g-4">
-                  <div className="col-12">
-                    <div className="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0">
-                      <div className="service-content text-end">
-                        <h5 className="mb-4">WorldWide Tours</h5>
-                        <p className="mb-0">
-                          Famous more for its enchanting allure than even
-                          Indonesia itself, Bali stands as a beacon to travelers
-                          from every corner of the globe. Its stunning beauty
-                          draws countless tourists, eager to explore its lush
-                          landscapes, rich culture, and pristine beaches.
-                          Discover why Bali isn't just a place to visit—it's a
-                          world to experience.
-                        </p>
-                      </div>
-                      <div className="service-icon p-4">
-                        <i className="fa fa-umbrella-beach fa-4x text-primary" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-12">
-                    <div className="service-content-inner d-flex align-items-center  bg-white border border-primary rounded p-4 pe-0">
-                      <div className="service-content text-end">
-                        <h5 className="mb-4">Hotel Reservation</h5>
-                        <p className="mb-0">
-                          Nestled in paradise, our hotels in Bali offer more
-                          than just a place to sleep. They are gateways to
-                          luxury, comfort, and the authentic Balinese
-                          hospitality that lingers in the heart of every
-                          traveler. Whether it's a beachfront suite or a
-                          secluded garden villa, find your perfect retreat and
-                          immerse yourself in the serene beauty of Bali. Come,
-                          let your next vacation be a tale of indulgence and
-                          relaxation at one of Bali's prestigious hotels.
-                        </p>
-                      </div>
-                      <div className="service-icon p-4">
-                        <i className="fa fa-hotel fa-4x text-primary" />
+                  {unknown.map((unknown) => (
+                    <div className="col-12">
+                      <div
+                        id="hwhite"
+                        className="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0"
+                      >
+                        <div className="service-content text-start">
+                          <h5 className="mb-4">{unknown.judul}</h5>
+                          <p className="mb-0">{unknown.description}</p>
+                        </div>
+                        <div className="service-icon p-4">
+                          <i
+                            className={`fa ${unknown.icon} fa-4x text-primary`}
+                          />
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-12">
-                    <div className="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0">
-                      <div className="service-content text-end">
-                        <h5 className="mb-4">Travel Guides</h5>
-                        <p className="mb-0">
-                          Navigate the enchanting island of Bali with our expert
-                          travel guides. From hidden gems to iconic landmarks,
-                          our guides are crafted to help you discover the very
-                          best of Bali. Whether you're seeking adventure,
-                          relaxation, or cultural immersion, our travel guides
-                          provide all the insights you need to create
-                          unforgettable memories. Embark on your journey with
-                          the ultimate companion—experience Bali like never
-                          before.
-                        </p>
-                      </div>
-                      <div className="service-icon p-4">
-                        <i className="fa fa-user fa-4x text-primary" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-12">
-                    <div className="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0">
-                      <div className="service-content text-end">
-                        <h5 className="mb-4">Event Management</h5>
-                        <p className="mb-0">
-                          Travel with ease and comfort, knowing Bali is
-                          dedicated to the safety of all its visitors. With
-                          comprehensive security measures and a welcoming local
-                          community, you can relax and enjoy the island's
-                          stunning scenery and rich culture. Experience the
-                          tranquil peace of Bali, where safety complements the
-                          beauty, making every moment worry-free.
-                        </p>
-                      </div>
-                      <div className="service-icon p-4">
-                        <i className="fa fa-cog fa-4x text-primary" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <div className="row g-4">
-                  <div className="col-12">
-                    <div className="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0">
-                      <div className="service-icon p-4">
-                        <i className="fa fa-globe fa-4x text-primary" />
-                      </div>
-                      <div className="service-content">
-                        <h5 className="mb-4">WorldWide Tours</h5>
-                        <p className="mb-0">
-                          Explore the enchanting allure of Bali, renowned not
-                          only for its breathtaking beauty but as a destination
-                          that transcends even the charm of Indonesia itself.
-                          Bali beckons travelers from around the world, inviting
-                          them to delve into its verdant landscapes, vibrant
-                          culture, and immaculate beaches. Discover why Bali
-                          isn’t merely a place to visit—it’s a realm to be
-                          experienced.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-12">
-                    <div className="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0">
-                      <div className="service-icon p-4">
-                        <i className="fa fa-hotel fa-4x text-primary" />
-                      </div>
-                      <div className="service-content">
-                        <h5 className="mb-4">Hotel Reservation</h5>
-                        <p className="mb-0">
-                          Tucked away in this paradise, our hotels in Bali
-                          provide more than just accommodations; they offer
-                          gateways to opulence, comfort, and genuine Balinese
-                          hospitality that remains etched in the memories of
-                          every visitor. Whether you prefer a beachfront suite
-                          or a secluded garden villa, find your ideal sanctuary
-                          and immerse yourself in Bali's tranquil beauty. Let
-                          your next vacation be a story of luxury and relaxation
-                          at one of Bali’s esteemed hotels.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-12">
-                    <div className="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0">
-                      <div className="service-icon p-4">
-                        <i className="fa fa-user fa-4x text-primary" />
-                      </div>
-                      <div className="service-content">
-                        <h5 className="mb-4">Travel Guides</h5>
-                        <p className="mb-0">
-                          Embark on a journey across the magical island of Bali
-                          with our expert travel guides. From undiscovered
-                          treasures to celebrated attractions, our guides are
-                          meticulously designed to help you uncover the best of
-                          Bali. Whether your quest is for adventure,
-                          tranquility, or cultural enrichment, our travel guides
-                          equip you with all the knowledge needed to forge
-                          indelible memories. Begin your adventure with the
-                          ultimate companion—experience Bali as never before.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-12">
-                    <div className="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0">
-                      <div className="service-icon p-4">
-                        <i className="fa fa-cog fa-4x text-primary" />
-                      </div>
-                      <div className="service-content">
-                        <h5 className="mb-4">Event Management</h5>
-                        <p className="mb-0">
-                          Travel with assurance and ease, secure in the
-                          knowledge that Bali prioritizes the safety of all its
-                          visitors. With robust security measures and a
-                          hospitable local community, you can unwind and savor
-                          the island’s spectacular vistas and rich heritage.
-                          Experience the serene calm of Bali, where safety
-                          enhances the allure, ensuring every moment is
-                          blissfully carefree.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  ))}
                 </div>
               </div>
               <div className="col-12">
-                <div className="text-center">
-                  <a
-                    className="btn btn-primary rounded-pill py-3 px-5 mt-2"
-                    href
-                  >
-                    Service More
-                  </a>
-                </div>
+                <div className="text-center"></div>
               </div>
             </div>
           </div>

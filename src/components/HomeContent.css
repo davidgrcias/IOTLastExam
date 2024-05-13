@@ -5,3 +5,8 @@
   background-position: center !important;
   background-size: cover !important;
 }
+
+#hwhite:hover svg,
+#hwhite:hover path {
+  color: white !important;
+}

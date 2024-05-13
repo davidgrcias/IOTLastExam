@@ -11,68 +11,127 @@ function Header() {
         <link rel="stylesheet" href="templatetravela/lightbox.min.css" />
         <link rel="stylesheet" href="templatetravela/owl.carousel.min.css" />
         <link rel="stylesheet" href="templatetravela/bootstrap.min.css" />
+        <link
+          href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700"
+          rel="stylesheet"
+          type="text/css"
+        />
+
+        <link
+          rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+
+        <link rel="stylesheet" href="templatenavbar/css/style.css" />
+        {/*<script src="templatenavbar/js/jquery.min.js"></script> */}
+        <script src="templatenavbar/js/popper.js"></script>
+        <script src="templatenavbar/js/bootstrap.min.js"></script>
+        <script src="templatenavbar/js/main.js"></script>
+        <script src="templatenavbar/js/navbarcustom.js"></script>
       </Helmet>
 
-      <div className="container-fluid position-relative p-0">
-        <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-          <NavLink className="navbar-brand" to="/">
-            <img
-              src="/assets/img/wi.png"
-              alt="Start Bootstrap"
-              style={{
-                height: "10em",
-              }}
-            />
-          </NavLink>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
+      <div>
+        <nav
+          id="colorlib-main-nav"
+          role="navigation"
+          class="site-navbar site-navbar-target js-sticky-header"
+        >
+          <a
+            href="#"
+            className="js-colorlib-nav-toggle colorlib-nav-toggle active"
           >
-            <span className="fa fa-bars" />
-          </button>
-          <div className="collapse navbar-collapse" id="navbarCollapse">
-            <div className="navbar-nav ms-auto py-0">
-              <NavLink
-                to="/"
-                className="nav-item nav-link"
-                exact
-                activeClassName="active"
-                id="link"
-              >
-                <i className="fa-solid fa-house"></i> Home
-              </NavLink>
-              <NavLink
-                to="/Things-to-do"
-                className="nav-item nav-link"
-                activeClassName="active"
-                id="link"
-              >
-                <i className="fas fa-tasks"></i> Things to do
-              </NavLink>
-              <NavLink
-                to="/About"
-                className="nav-item nav-link"
-                activeClassName="active"
-                id="link"
-              >
-                <i className="fa-solid fa-people-group"></i> About Us
-              </NavLink>
-              <NavLink
-                to="/Game"
-                className="nav-item nav-link"
-                activeClassName="active"
-                id="link"
-              >
-                <i className="fa-solid fa-gamepad"></i> Game
-              </NavLink>
+            <i />
+          </a>
+          <div className="js-fullheight colorlib-table">
+            <div className="img" />
+            <div className="colorlib-table-cell js-fullheight">
+              <div className="row no-gutters">
+                <div className="col-md-12 text-center" id="orange">
+                  <NavLink className="navbar-brand" to="/">
+                    <img
+                      src="/assets/img/wi.png"
+                      alt="Start Bootstrap"
+                      class="mb-4"
+                      style={{
+                        height: "8em",
+                        marginLeft: "0.3em",
+                      }}
+                    />
+                  </NavLink>
+
+                  <ul>
+                    <li activeClassName="active">
+                      <NavLink
+                        to="/"
+                        className="nav-item nav-link"
+                        exact
+                        id="link"
+                      >
+                        <i className="fa-solid fa-house"></i> Home
+                      </NavLink>
+                    </li>
+                    <li activeClassName="active">
+                      <NavLink
+                        to="/Things-to-do"
+                        className="nav-item nav-link"
+                        id="link"
+                      >
+                        <i className="fas fa-tasks"></i> Things to do
+                      </NavLink>
+                    </li>
+                    <li activeClassName="active">
+                      <NavLink
+                        to="/About"
+                        className="nav-item nav-link"
+                        id="link"
+                      >
+                        <i className="fa-solid fa-people-group"></i> About Us
+                      </NavLink>
+                    </li>
+                    <li activeClassName="active">
+                      <NavLink
+                        to="/Game"
+                        className="nav-item nav-link"
+                        id="link"
+                      >
+                        <i className="fa-solid fa-gamepad"></i> Game
+                      </NavLink>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            {/*<a href className="btn btn-primary rounded-pill py-2 px-4 ms-lg-4">
-              Contact
-            </a>*/}
           </div>
         </nav>
+        <div id="colorlib-page">
+          <header>
+            <div className="container">
+              <div className="colorlib-navbar-brand">
+                <NavLink className="colorlib-logo" to="/">
+                  <img
+                    src="/assets/img/wi.png"
+                    alt="Start Bootstrap"
+                    style={{
+                      height: "8em",
+                      marginTop: "-1em",
+                    }}
+                  />
+                </NavLink>
+              </div>
+              <a
+                href="#"
+                className="js-colorlib-nav-toggle colorlib-nav-toggle"
+                id="hamburger"
+                style={{
+                  height: "8em",
+                  marginTop: "1.5em",
+                }}
+              >
+                <i />
+              </a>
+            </div>
+          </header>
+        </div>
       </div>
     </>
   );

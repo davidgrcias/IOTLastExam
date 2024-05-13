@@ -16,7 +16,7 @@ https://templatemo.com/tm-583-festava-live
   color: var(--secondary-color);
 }
 #bydavid {
-  background-color: #ee5007 !important;
+  background-color: #13357b !important;
   color: #fff !important;
   transition: 0.4s;
 }
@@ -32,8 +32,8 @@ https://templatemo.com/tm-583-festava-live
 -----------------------------------------*/
 
 :root {
-  --custom-btn-bg-color: #ee5007;
-  --custom-btn-bg-hover-color: #c01f27;
+  --custom-btn-bg-color: #0d6efd;
+  --custom-btn-bg-hover-color: #0d6efd;
 }
 
 /*---------------------------------------
