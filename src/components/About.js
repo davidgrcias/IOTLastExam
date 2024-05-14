@@ -2,19 +2,17 @@ import React from "react";
 import "./About.css";
 import { Helmet } from "react-helmet";
 
-
 import aboutall from "./Image/aboutall.jpg";
 import about1 from "./Image/about1.jpg";
 import about2 from "./Image/about2.jpg";
 import about3 from "./Image/about3.jpg";
 import about4 from "./Image/about4.jpg";
 import about5 from "./Image/about5.jpg";
-import testi from "./Image/testi.jpg"
-import testi1 from "./Image/testi1.jpg"
-import testi2 from "./Image/testi2.jpg"
-import testi3 from "./Image/testi3.jpg"
-import testi4 from "./Image/testi4.jpg"
-
+import testi from "./Image/testi.jpg";
+import testi1 from "./Image/testi1.jpg";
+import testi2 from "./Image/testi2.jpg";
+import testi3 from "./Image/testi3.jpg";
+import testi4 from "./Image/testi4.jpg";
 
 function About() {
   const testimonials = [
@@ -68,7 +66,7 @@ function About() {
         <script src="js/main.js"></script>
       </Helmet>
       {/* About Start */}
-      <div className="container-fluid about py-5">
+      <div className="container-fluid about py-5 mt-5">
         <div className="container py-5">
           <div className="row g-5 align-items-center">
             <div className="col-lg-5">
@@ -79,11 +77,7 @@ function About() {
                   borderColor: "transparent #13357B transparent #13357B",
                 }}
               >
-                <img
-                  src={aboutall}
-                  className="img-fluid w-100 h-100"
-                  alt
-                />
+                <img src={aboutall} className="img-fluid w-100 h-100" alt />
               </div>
             </div>
             <div
@@ -382,7 +376,9 @@ function About() {
                 className="testimonial-item text-center rounded pb-4"
               >
                 <div className="testimonial-comment bg-light rounded p-4">
-                  <p className="text-center mb-5">{testi.text}</p>
+                  <p className="text-center mb-5" id="testitext">
+                    {testi.text}
+                  </p>
                 </div>
                 <div className="testimonial-img p-1">
                   <img
@@ -393,7 +389,9 @@ function About() {
                 </div>
                 <div style={{ marginTop: "-35px" }}>
                   <h5 className="mb-0">{testi.name}</h5>
-                  <p className="mb-0">{testi.category}</p>
+                  <p className="mb-0" id="testicat">
+                    {testi.category}
+                  </p>
                   <div className="d-flex justify-content-center">
                     <i className="fas fa-star text-primary" />
                     <i className="fas fa-star text-primary" />

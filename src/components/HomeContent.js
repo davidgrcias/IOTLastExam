@@ -27,7 +27,6 @@ import galery8 from "./Image/6 Beach.jpg";
 import galery9 from "./Image/9 Sunset.jpg";
 import garudawisnu from "./Image/gwk.jpg";
 import { Link } from "react-router-dom";
-import GuessGame from "./GuessGame";
 
 import "./Home.css";
 
@@ -112,8 +111,171 @@ function HomeContent() {
         <link rel="stylesheet" href="templatetravela/lightbox.min.css" />
         <link rel="stylesheet" href="templatetravela/owl.carousel.min.css" />
         <link rel="stylesheet" href="templatetravela/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/VideoHeader.css" />
       </Helmet>
       <div>
+        {/* Carousel Start */}
+        <div className="carousel-header">
+          <div
+            id="carouselId"
+            className="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <ol className="carousel-indicators">
+              <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to={0}
+                className="active"
+              />
+              <li data-bs-target="#carouselId" data-bs-slide-to={1} />
+              <li data-bs-target="#carouselId" data-bs-slide-to={2} />
+            </ol>
+            <div className="carousel-inner" role="listbox">
+              <div className="carousel-item active">
+                <img src={ew} className="img-fluid" alt="Image" />
+                <div className="carousel-caption">
+                  <div className="p-3" style={{ maxWidth: 900 }}>
+                    <h4
+                      className="text-white text-uppercase fw-bold mb-4"
+                      style={{ letterSpacing: 3 }}
+                      id="ke1"
+                    >
+                      The Wonders of Bali Discover the Incredible
+                    </h4>
+                    <h1
+                      className="display-2 text-capitalize text-white mb-4"
+                      id="ke2"
+                    >
+                      Let Bali inspire you
+                    </h1>
+                    <p className="mb-5 fs-5" id="ke3">
+                      Immerse yourself in the serene landscapes, vibrant
+                      culture, and breathtaking beaches. Bali isn't just a
+                      destination; it's the beginning of a journey that stays
+                      with you forever.
+                    </p>
+                    <div className="d-flex align-items-center justify-content-center">
+                      <a
+                        className="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
+                        href="#"
+                      >
+                        Discover Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="video-wrap">
+                  <video autoPlay loop muted className="custom-video" poster>
+                    <source
+                      src="/assets/video/pexels-2022395.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <img src={ews} className="img-fluid" alt="Image" />
+                <div className="carousel-caption">
+                  <div className="p-3" style={{ maxWidth: 900 }}>
+                    <h4
+                      className="text-white text-uppercase fw-bold mb-4"
+                      style={{ letterSpacing: 3 }}
+                    >
+                      Bali Revealed: Unlocking Its Wonders
+                    </h4>
+                    <h1 className="display-2 text-capitalize text-white mb-4">
+                      Let Bali Ignite Your Inspiration
+                    </h1>
+                    <p className="mb-5 fs-5">
+                      Embark on an adventure through Bali, where ancient
+                      traditions meet modern delights. Discover the island's
+                      rich tapestry of culture, nature, and spirituality in an
+                      unforgettable exploration.
+                    </p>
+                    <div className="d-flex align-items-center justify-content-center">
+                      <a
+                        className="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
+                        href="#"
+                      >
+                        Discover Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="video-wrap">
+                  <video autoPlay loop muted className="custom-video" poster>
+                    <source src="/assets/video/2.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <img src={ewz} className="img-fluid" alt="Image" />
+                <div className="carousel-caption">
+                  <div className="p-3" style={{ maxWidth: 900 }}>
+                    <h4
+                      className="text-white text-uppercase fw-bold mb-4"
+                      style={{ letterSpacing: 3 }}
+                    >
+                      Origin Of Bali Nature
+                    </h4>
+                    <h1 className="display-2 text-capitalize text-white mb-4">
+                      Let Bali Rejuvenate Your Body.
+                    </h1>
+                    <p className="mb-5 fs-5">
+                      Bask in the Healing Energy of Bali: Let the Island
+                      Rejuvenate Your Body and Soul.
+                    </p>
+                    <div className="d-flex align-items-center justify-content-center">
+                      <a
+                        className="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
+                        href="#"
+                      >
+                        Discover Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="video-wrap">
+                  <video autoPlay loop muted className="custom-video" poster>
+                    <source src="/assets/video/3.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+            </div>
+            <button
+              className="carousel-control-prev"
+              id="arrow"
+              type="button"
+              data-bs-target="#carouselId"
+              data-bs-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon btn bg-primary"
+                aria-hidden="false"
+              >
+                {" "}
+                <i class="fa-solid fa-arrow-left"></i>{" "}
+              </span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              id="arrow"
+              data-bs-target="#carouselId"
+              data-bs-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon btn bg-primary"
+                aria-hidden="false"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </span>
+              <span className="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        {/* Carousel End */}
         {/* Services Start */}
         <div className="container-fluid bg-light service py-5">
           <div className="container py-5">
@@ -153,139 +315,6 @@ function HomeContent() {
           </div>
         </div>
         {/* Services End */}
-        {/* Carousel Start */}
-        <div className="carousel-header">
-          <div
-            id="carouselId"
-            className="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <ol className="carousel-indicators">
-              <li
-                data-bs-target="#carouselId"
-                data-bs-slide-to={0}
-                className="active"
-              />
-              <li data-bs-target="#carouselId" data-bs-slide-to={1} />
-              <li data-bs-target="#carouselId" data-bs-slide-to={2} />
-            </ol>
-            <div className="carousel-inner" role="listbox">
-              <div className="carousel-item active">
-                <img src={ew} className="img-fluid" alt="Image" />
-                <div className="carousel-caption">
-                  <div className="p-3" style={{ maxWidth: 900 }}>
-                    <h4
-                      className="text-white text-uppercase fw-bold mb-4"
-                      style={{ letterSpacing: 3 }}
-                    >
-                      The Wonders of Bali Discover the Incredible
-                    </h4>
-                    <h1 className="display-2 text-capitalize text-white mb-4">
-                      Let Bali inspire you
-                    </h1>
-                    <p className="mb-5 fs-5">
-                      Immerse yourself in the serene landscapes, vibrant
-                      culture, and breathtaking beaches. Bali isn't just a
-                      destination; it's the beginning of a journey that stays
-                      with you forever.
-                    </p>
-                    <div className="d-flex align-items-center justify-content-center">
-                      <a
-                        className="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
-                        href="#"
-                      >
-                        Discover Now
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <img src={ews} className="img-fluid" alt="Image" />
-                <div className="carousel-caption">
-                  <div className="p-3" style={{ maxWidth: 900 }}>
-                    <h4
-                      className="text-white text-uppercase fw-bold mb-4"
-                      style={{ letterSpacing: 3 }}
-                    >
-                      Bali Revealed: Unlocking Its Wonders
-                    </h4>
-                    <h1 className="display-2 text-capitalize text-white mb-4">
-                      Let Bali Ignite Your Inspiration
-                    </h1>
-                    <p className="mb-5 fs-5">
-                      Embark on an adventure through Bali, where ancient
-                      traditions meet modern delights. Discover the island's
-                      rich tapestry of culture, nature, and spirituality in an
-                      unforgettable exploration.
-                    </p>
-                    <div className="d-flex align-items-center justify-content-center">
-                      <a
-                        className="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
-                        href="#"
-                      >
-                        Discover Now
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <img src={ewz} className="img-fluid" alt="Image" />
-                <div className="carousel-caption">
-                  <div className="p-3" style={{ maxWidth: 900 }}>
-                    <h4
-                      className="text-white text-uppercase fw-bold mb-4"
-                      style={{ letterSpacing: 3 }}
-                    >
-                      Origin Of Bali Nature
-                    </h4>
-                    <h1 className="display-2 text-capitalize text-white mb-4">
-                      Let Bali Rejuvenate Your Body.
-                    </h1>
-                    <p className="mb-5 fs-5">
-                      Bask in the Healing Energy of Bali: Let the Island
-                      Rejuvenate Your Body and Soul.
-                    </p>
-                    <div className="d-flex align-items-center justify-content-center">
-                      <a
-                        className="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
-                        href="#"
-                      >
-                        Discover Now
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <button
-              className="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselId"
-              data-bs-slide="prev"
-            >
-              <span
-                className="carousel-control-prev-icon btn bg-primary"
-                aria-hidden="false"
-              />
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button
-              className="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselId"
-              data-bs-slide="next"
-            >
-              <span
-                className="carousel-control-next-icon btn bg-primary"
-                aria-hidden="false"
-              />
-              <span className="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-        {/* Carousel End */}
 
         {/* Navbar & Hero End */}
 
@@ -685,10 +714,7 @@ function HomeContent() {
           <div className="mx-auto text-center mb-5" style={{ maxWidth: 900 }}>
             <h5 className="section-title px-3">Our Gallery</h5>
             <h1 className="mb-4">
-              A Masterpiece of Nature: Crafted by the Divine In{" "}
-              <span className="font-weigh-bold text-decoration-underline">
-                Bali
-              </span>
+              A Masterpiece of Nature: Crafted by the Divine In Bali
             </h1>
             <p className="mb-0">
               Behold a creation of exquisite beauty, where every aspect of its
@@ -1477,7 +1503,7 @@ function HomeContent() {
           </div>
         </div>
         {/* Tour Booking Start */}
-        <GuessGame />
+
         {/* Tour Booking End */}
 
         {/* Contact Start */}

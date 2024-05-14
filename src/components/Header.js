@@ -44,7 +44,7 @@ function Header() {
           </a>
           <div className="js-fullheight colorlib-table">
             <div className="img" />
-            <div className="colorlib-table-cell js-fullheight">
+            <div className="colorlib-table-cell js-fullheight" id="mobi">
               <div className="row no-gutters">
                 <div className="col-md-12 text-center" id="orange">
                   <NavLink className="navbar-brand" to="/">
@@ -95,6 +95,15 @@ function Header() {
                         id="link"
                       >
                         <i className="fa-solid fa-gamepad"></i> Game
+                      </NavLink>
+                    </li>
+                    <li activeClassName="active">
+                      <NavLink
+                        to="/Information"
+                        className="nav-item nav-link"
+                        id="link"
+                      >
+                        <i className="fa-solid fa-circle-info"></i> Information
                       </NavLink>
                     </li>
                   </ul>

@@ -30,6 +30,7 @@ import img28 from "./imgofgame/img28.jpg";
 import img29 from "./imgofgame/img29.jpg";
 import img30 from "./imgofgame/img30.jpg";
 import emailjs from "emailjs-com";
+import "./Game.css";
 
 function GuessGame() {
   const [randomGame, setRandomGame] = useState({});
@@ -282,7 +283,7 @@ function GuessGame() {
   return (
     <>
       <div className="container-fluid booking py-5">
-        <div className="container py-5">
+        <div className="container py-5" id="game">
           <div className="row g-5 align-items-center">
             <div className="col-lg-4">
               <img src={randomGame.url} alt="Image" className="img-fluid" />{" "}

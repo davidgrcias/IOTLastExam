@@ -18,7 +18,9 @@ function Footer() {
           <div className="row g-5">
             <div className="col-md-6 col-lg-6 col-xl-6">
               <div className="footer-item d-flex flex-column">
-                <h4 className="mb-4 text-white">Get In Touch</h4>
+                <h4 className="mb-4 text-white" id="white">
+                  Get In Touch
+                </h4>
 
                 <a className="text-white" href>
                   <i className="fa-solid fa-house" /> &nbsp;Universitas
@@ -62,7 +64,9 @@ function Footer() {
             </div>
             <div className="col-md-6 col-lg-6 col-xl-6">
               <div className="footer-item d-flex flex-column">
-                <h4 className="mb-4 text-white">Company</h4>
+                <h4 className="mb-4 text-white" id="white">
+                  Company
+                </h4>
                 <a className="text-white" href>
                   <i className="fas fa-angle-right me-2" /> About
                 </a>

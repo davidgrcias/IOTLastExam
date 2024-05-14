@@ -10,3 +10,7 @@
   border-radius: 50%;
   object-fit: cover; /* Ensures the image fills the circle without being distorted */
 }
+
+#testicat {
+  color: black !important;
+}

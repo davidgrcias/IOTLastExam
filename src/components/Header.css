@@ -20,11 +20,15 @@
 
 #orange {
   background-color: transparent !important;
-  margin-top: -18em !important;
+  margin-top: -4em !important;
 }
 
 #colorlib-main-nav {
   overflow: hidden !important;
+}
+
+#hamburger {
+  margin-right: 1em;
 }
 
 #hamburger i,
@@ -35,7 +39,8 @@
   padding: 0.1em !important;
 }
 
-.active {
+nav .active,
+#mobi .active {
   color: lightblue !important;
 }
 

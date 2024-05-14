@@ -3,7 +3,7 @@ import VideoHeader from "./VideoHeader"; // Adjust the path if necessary
 import { Helmet } from "react-helmet";
 import HomeContent from "./HomeContent"; // Adjust the path if necessary
 
-import "./Home.css";
+// import "./Home.css";
 
 function Home() {
   return (
@@ -13,7 +13,7 @@ function Home() {
         <link rel="stylesheet" href="templatetravela/owl.carousel.min.css" />
         <link rel="stylesheet" href="templatetravela/bootstrap.min.css" />
       </Helmet>*/}
-      <VideoHeader />
+
       <HomeContent />
     </div>
   );
