@@ -1577,7 +1577,7 @@ function HomeContent() {
         </div>
         {/* Contact End */}
       </div>
-<<<<<<< HEAD
+
       {/* START */}
       {/* <div
         id="lightbox"
@@ -1631,9 +1631,6 @@ function HomeContent() {
         </div>
       </div> */}
       {/* END */}
-=======
-      <Cursor />
->>>>>>> bf4007f6724f76db720d5a5f349db569f5602aab
     </div>
   );
 }

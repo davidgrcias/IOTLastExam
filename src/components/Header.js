@@ -36,10 +36,7 @@ function Header() {
           role="navigation"
           class="site-navbar site-navbar-target js-sticky-header"
         >
-          <a
-            href="#"
-            className="js-colorlib-nav-toggle colorlib-nav-toggle active"
-          >
+          <a className="js-colorlib-nav-toggle colorlib-nav-toggle active">
             <i />
           </a>
           <div className="js-fullheight colorlib-table">
@@ -128,7 +125,6 @@ function Header() {
                 </NavLink>
               </div>
               <a
-                href="#"
                 className="js-colorlib-nav-toggle colorlib-nav-toggle"
                 id="hamburger"
                 style={{
