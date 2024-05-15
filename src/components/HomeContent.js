@@ -30,6 +30,7 @@ import garudawisnu from "./Image/gwk.jpg";
 import Des5 from "./Image/8 Greenmountain.jpg";
 import Des7 from "./Image/The World AYANA Resort.jpg";
 import { Link } from "react-router-dom";
+import Cursor from "./cursor";
 
 import "./Home.css";
 
@@ -1576,6 +1577,7 @@ function HomeContent() {
         </div>
         {/* Contact End */}
       </div>
+<<<<<<< HEAD
       {/* START */}
       {/* <div
         id="lightbox"
@@ -1629,6 +1631,9 @@ function HomeContent() {
         </div>
       </div> */}
       {/* END */}
+=======
+      <Cursor />
+>>>>>>> bf4007f6724f76db720d5a5f349db569f5602aab
     </div>
   );
 }

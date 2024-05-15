@@ -13,6 +13,7 @@ import testi1 from "./Image/testi1.jpg";
 import testi2 from "./Image/testi2.jpg";
 import testi3 from "./Image/testi3.jpg";
 import testi4 from "./Image/testi4.jpg";
+import Cursor  from "./cursor";
 
 function About() {
   const testimonials = [
@@ -406,6 +407,7 @@ function About() {
         </div>
       </div>
       {/* Testimonial End */}
+      <Cursor />
     </div>
   );
 }

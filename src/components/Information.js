@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 import axios from "axios";
+import Cursor from "./cursor";
 
 function Information() {
   const [data, setData] = useState({});
@@ -164,6 +165,7 @@ function Information() {
             </div>
           )}
         </div>
+        <Cursor />
       </div>
 
       <div className="container-fluid bg-light service py-5">
