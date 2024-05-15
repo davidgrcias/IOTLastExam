@@ -7,6 +7,7 @@ import ThingsContent2 from "./ThingsContent2";
 import TinySlider2 from "./TinySlider2";
 import TinySlider3 from "./TinySlider3";
 import TinySlider4 from "./TinySlider4";
+import Cursor from "./cursor";
 
 function ThingsToDo() {
   return (
@@ -19,6 +20,8 @@ function ThingsToDo() {
       <TinySlider3 />
       <TinySlider4 />
       <ThingsContent2 />
+      <Cursor />
+
 
       {/* You can add more components as needed */}
     </div>

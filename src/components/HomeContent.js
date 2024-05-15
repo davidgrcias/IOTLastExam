@@ -27,6 +27,7 @@ import galery8 from "./Image/6 Beach.jpg";
 import galery9 from "./Image/9 Sunset.jpg";
 import garudawisnu from "./Image/gwk.jpg";
 import { Link } from "react-router-dom";
+import Cursor from "./cursor";
 
 import "./Home.css";
 
@@ -1625,6 +1626,7 @@ function HomeContent() {
         </div>
         {/* Contact End */}
       </div>
+      <Cursor />
     </div>
   );
 }
