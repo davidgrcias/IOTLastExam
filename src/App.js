@@ -8,11 +8,13 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import CategoryDetails from "./components/CategoryDetails"; // Import the new component
 import Information from "./components/Information";
+import FloatButton from "./components/FloatButton";
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <FloatButton />
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

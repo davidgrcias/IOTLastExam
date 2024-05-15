@@ -4,14 +4,15 @@ import "./HomeContent.css";
 import ew from "./Image/woi.jpeg";
 import ews from "./Image/2ew.jpg";
 import ewz from "./Image/3ew.jpg";
-import Des from "./Image/2 Beach Club.jpg";
-import Des1 from "./Image/3ew.jpg";
-import Des2 from "./Image/5 Architecture.jpg";
-import Des3 from "./Image/4 Architechure.jpg";
-import Des4 from "./Image/7 sengkedan.jpg";
-import Des5 from "./Image/8 Greenmountain.jpg";
-import Des6 from "./Image/The World Kintamani.jpg";
-import Des7 from "./Image/The World AYANA Resort.jpg";
+import img1 from "./Image/2 Beach Club.jpg";
+import img2 from "./Image/3ew.jpg";
+import img3 from "./Image/5 Architecture.jpg";
+import img4 from "./Image/purapuseh.jpeg";
+import img5 from "./Image/7 sengkedan.jpg";
+import img6 from "./Image/8 Greenmountain.jpg";
+import img7 from "./Image/The World Kintamani.jpg";
+import img8 from "./Image/The World AYANA Resort.jpg";
+import img9 from "./Image/uluwatu.jpeg";
 import tour from "./Image/historycal.jpeg";
 import tour1 from "./Image/Family.jpg";
 import tour2 from "./Image/Popular Travel Blogs (3) tanah lot.jpg";
@@ -26,6 +27,8 @@ import galery7 from "./Image/g8.jpg";
 import galery8 from "./Image/6 Beach.jpg";
 import galery9 from "./Image/9 Sunset.jpg";
 import garudawisnu from "./Image/gwk.jpg";
+import Des5 from "./Image/8 Greenmountain.jpg";
+import Des7 from "./Image/The World AYANA Resort.jpg";
 import { Link } from "react-router-dom";
 
 import "./Home.css";
@@ -59,6 +62,71 @@ function HomeContent() {
       judul: "Mountain",
       description:
         "Bali's mountains, including Mount Agung and Mount Batur, are cherished by the Balinese people and hold a deep connection to the island's heritage and beliefs. Many temples and sacred sites are situated on or near the mountains, offering breathtaking views and hiking trails that attract hikers from around the world.",
+    },
+  ];
+  const pdestination = [
+    {
+      id: 1,
+      url: img1,
+      name: "Coffee Cartel Seminyak",
+      description:
+        "A popular cafe known for its specialty coffee and brunch menu in Seminyak.",
+    },
+    {
+      id: 2,
+      url: img2,
+      name: "Bali Sea",
+      description:
+        "A beautiful sea offering stunning sunset views and a variety of water activities.",
+    },
+    {
+      id: 3,
+      url: img3,
+      name: "Handara Gate",
+      description:
+        "A famous gate with a breathtaking view of the lush Balinese landscape, perfect for photos.",
+    },
+    {
+      id: 4,
+      url: img5,
+      name: "Sengkedan",
+      description:
+        "Beautiful rice terraces showcasing traditional Balinese agriculture and stunning scenery.",
+    },
+    {
+      id: 5,
+      url: img4,
+      name: "Pura Puseh",
+      description:
+        "A historic temple offering insight into Balinese culture and religious practices.",
+    },
+    {
+      id: 6,
+      url: img6,
+      name: "Kelingking Beach",
+      description:
+        "A breathtaking beach with a unique cliff formation, ideal for adventurous visitors.",
+    },
+    {
+      id: 7,
+      url: img7,
+      name: "Kintamani",
+      description:
+        "A highland area known for its volcano, lake, and panoramic views.",
+    },
+    {
+      id: 8,
+      url: img8,
+      name: "Ayana Resort Bali",
+      description:
+        "A luxurious resort offering world-class amenities and stunning ocean views.",
+    },
+    {
+      id: 9,
+      url: img9,
+      name: "Uluwatu Temple",
+      description:
+        "A majestic sea temple perched on a cliff, offering stunning ocean views and traditional Kecak dance performances.",
     },
   ];
   useEffect(() => {
@@ -343,153 +411,36 @@ function HomeContent() {
               <div className="tab-content">
                 <div id="tab-1" className="tab-pane fade show p-0 active">
                   <div className="row g-4">
-                    <div className="col-xl-8">
+                    <div className="col-xl-12">
                       <div className="row g-4">
-                        <div className="col-lg-6">
-                          <div className="destination-img">
-                            <img
-                              className="img-fluid rounded w-100"
-                              src={Des}
-                              alt
-                            />
-                            <div className="destination-overlay p-4">
-                              <h4 className="text-white mb-2 mt-3">
-                                Beach Club
-                              </h4>
-                            </div>
-                            <div className="search-icon">
-                              <a href={Des} data-lightbox="destination-1">
-                                <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-6">
-                          <div className="destination-img">
-                            <img
-                              className="img-fluid rounded w-100"
-                              src={Des1}
-                              alt
-                            />
-                            <div className="destination-overlay p-4">
-                              <h4 className="text-white mb-2 mt-3">Bali Sea</h4>
-                            </div>
-                            <div className="search-icon">
-                              <a href={Des1} data-lightbox="destination-2">
-                                <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
-                              </a>
+                        {pdestination.map((pdestination) => (
+                          <div className="col-lg-4">
+                            <div className="destination-img">
+                              <img
+                                className="img-fluid rounded w-100"
+                                src={pdestination.url}
+                                alt
+                              />
+                              <div className="destination-overlay p-4">
+                                <h4 className="text-white mb-2 mt-3">
+                                  {pdestination.name}
+                                </h4>
+
+                                <p className="text-white caption">
+                                  {pdestination.description}
+                                </p>
+                              </div>
+                              <div className="search-icon">
+                                <a
+                                  href={pdestination.url}
+                                  data-lightbox="destination-1"
+                                >
+                                  <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
+                                </a>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                        <div className="col-lg-6">
-                          <div className="destination-img">
-                            <img
-                              className="img-fluid rounded w-100"
-                              src={Des2}
-                              alt
-                            />
-                            <div className="destination-overlay p-4">
-                              <h4 className="text-white mb-2 mt-3">
-                                Handara Gate
-                              </h4>
-                            </div>
-                            <div className="search-icon">
-                              <a href={Des2} data-lightbox="destination-7">
-                                <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-6">
-                          <div className="destination-img">
-                            <img
-                              className="img-fluid rounded w-100"
-                              src={Des4}
-                              alt
-                            />
-                            <div className="destination-overlay p-4">
-                              <h4 className="text-white mb-2 mt-3">
-                                Sengkedan
-                              </h4>
-                            </div>
-                            <div className="search-icon">
-                              <a href={Des4} data-lightbox="destination-8">
-                                <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-xl-4">
-                      <div className="destination-img h-100">
-                        <img
-                          className="img-fluid rounded w-100 h-100"
-                          src={Des3}
-                          style={{ objectFit: "cover", minHeight: 300 }}
-                          alt
-                        />
-                        <div className="destination-overlay p-4">
-                          <h4 className="text-white mb-2 mt-3">Pura Puseh</h4>
-                        </div>
-                        <div className="search-icon">
-                          <a href={Des3} data-lightbox="destination-4">
-                            <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-4">
-                      <div className="destination-img">
-                        <img
-                          className="img-fluid rounded w-100"
-                          src={Des5}
-                          alt
-                        />
-                        <div className="destination-overlay p-4">
-                          <h4 className="text-white mb-2 mt-3">
-                            Kelingking Beach
-                          </h4>
-                        </div>
-                        <div className="search-icon">
-                          <a href={Des5} data-lightbox="destination-4">
-                            <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-4">
-                      <div className="destination-img">
-                        <img
-                          className="img-fluid rounded w-100"
-                          src={Des6}
-                          alt
-                        />
-                        <div className="destination-overlay p-4">
-                          <h4 className="text-white mb-2 mt-3">Kintamani</h4>
-                        </div>
-                        <div className="search-icon">
-                          <a href={Des6} data-lightbox="destination-5">
-                            <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-4">
-                      <div className="destination-img">
-                        <img
-                          className="img-fluid rounded w-100"
-                          src={Des7}
-                          alt
-                        />
-                        <div className="destination-overlay p-4">
-                          <h4 className="text-white mb-2 mt-3">Ayana Resort</h4>
-                        </div>
-                        <div className="search-icon">
-                          <a href={Des7} data-lightbox="destination-6">
-                            <i className="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary" />
-                          </a>
-                        </div>
+                        ))}
                       </div>
                     </div>
                   </div>
@@ -1625,6 +1576,59 @@ function HomeContent() {
         </div>
         {/* Contact End */}
       </div>
+      {/* START */}
+      {/* <div
+        id="lightbox"
+        tabIndex={-1}
+        className="lightbox"
+        style={{ top: "2076.4px", left: 0 }}
+      >
+        <div className="lb-outerContainer" style={{ width: 398, height: 575 }}>
+          <div className="lb-container">
+            <img
+              className="lb-image"
+              src="/static/media/4 Architechure.e105ded4b9ef5ef83c7b.jpg"
+              alt
+              style={{ width: 398, height: 575 }}
+            />
+            <div className="lb-nav" style={{ pointerEvents: "auto" }}>
+              <a
+                className="lb-prev"
+                role="button"
+                tabIndex={0}
+                aria-label="Previous image"
+                href
+                style={{ display: "none" }}
+              />
+              <a
+                className="lb-next"
+                role="button"
+                tabIndex={0}
+                aria-label="Next image"
+                href
+                style={{}}
+              />
+            </div>
+            <div className="lb-loader" style={{ display: "none" }}>
+              <a className="lb-cancel" role="button" tabIndex={0} />
+            </div>
+          </div>
+        </div>
+        <div className="lb-dataContainer" style={{ width: 398 }}>
+          <div className="lb-data">
+            <div className="lb-details">
+              <span className="lb-caption" style={{ display: "none" }} />
+              <span className="lb-number" style={{ display: "inline" }}>
+                Image 1 of 2
+              </span>
+            </div>
+            <div className="lb-closeContainer">
+              <a className="lb-close" role="button" tabIndex={0} />
+            </div>
+          </div>
+        </div>
+      </div> */}
+      {/* END */}
     </div>
   );
 }

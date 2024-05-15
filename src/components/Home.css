@@ -366,12 +366,13 @@
 @media (max-width: 768px) {
   .carousel-header .carousel-inner .carousel-item img,
   .carousel-header .carousel-inner .carousel-item .carousel-caption {
-    height: 700px;
+    height: 800px;
     margin-top: -100px;
+    padding-top: 125px !important;
   }
 
   .carousel-header {
-    height: 700px !important;
+    height: 660px !important;
   }
 
   .carousel-header .carousel-control-prev .carousel-control-prev-icon,
@@ -1273,4 +1274,33 @@
   display: flex !important;
   width: 35px !important;
   height: 35px !important;
+}
+
+.lb-number {
+  display: none !important;
+}
+
+.destination-img {
+  position: relative;
+}
+
+.destination-overlay {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.destination-overlay h4 {
+  margin-top: 2em !important;
+}
+.caption {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.search-icon a {
+  z-index: 99 !important;
 }

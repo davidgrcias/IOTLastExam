@@ -35,7 +35,7 @@
 #hamburger i::before,
 #hamburger i::after {
   background-color: #fff;
-  border: 0.11em solid black !important;
+  border: 0.11em solid #13357b !important;
   padding: 0.1em !important;
 }
 

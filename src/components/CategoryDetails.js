@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { useParams } from "react-router-dom";
+import $ from "jquery";
 
 import img1 from "./imgoftourcategory/img1.jpg";
 import img2 from "./imgoftourcategory/img2.jpg";
@@ -38,6 +39,9 @@ const CategoryDetails = () => {
   const [filteredImages, setFilteredImages] = useState([]);
 
   useEffect(() => {
+    $(document).ready(function () {
+      $(this).scrollTop(0);
+    });
     // Assuming images data is fetched or imported here
     const images = [
       {
