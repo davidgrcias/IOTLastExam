@@ -31,6 +31,8 @@ import img29 from "./imgofgame/img29.jpg";
 import img30 from "./imgofgame/img30.jpg";
 import emailjs from "emailjs-com";
 import "./Game.css";
+import Particle from "./Particle";
+// Import the SCSS file
 
 function GuessGame() {
   const [randomGame, setRandomGame] = useState({});
@@ -282,7 +284,8 @@ function GuessGame() {
   ];
   return (
     <>
-      <div className="container-fluid booking py-5">
+      <Particle />
+      <div className="container-fluid booking py-5" id="booking">
         <div className="container py-5" id="game">
           <div className="row g-5 align-items-center">
             <div className="col-lg-4">
@@ -290,15 +293,25 @@ function GuessGame() {
               {/* The image in the img src will change randomly between img1 to img30 every the page refreshing*/}
             </div>
             <div className="col-lg-8">
-              <h1 className="text-white mb-3">Guess Game</h1>
-              <p className="text-white mb-4">
-                Guess{" "}
-                <span className="text-warning">
-                  Tourist Attraction and It's Region
-                </span>{" "}
-                In Bali (The results (win/lose) will be sent to the email
-                address that has been entered.)
-              </p>
+              <div className="waviy">
+                <span style={{ "--i": 1 }}>G</span>
+                <span style={{ "--i": 2 }}>U</span>
+                <span style={{ "--i": 3 }}>E</span>
+                <span style={{ "--i": 4 }}>S</span>
+                <span style={{ "--i": 5 }}>S</span>
+                <span style={{ "--i": 6 }}>&nbsp;</span>
+                <span style={{ "--i": 7 }}>G</span>
+                <span style={{ "--i": 8 }}>A</span>
+                <span style={{ "--i": 9 }}>M</span>
+                <span style={{ "--i": 10 }}>E</span>
+              </div>
+              <div id="textgame">
+                <p className="mb-4">
+                  Guess Tourist Attraction and It's Region In Bali (The results
+                  (win/lose) will be sent to the email address that has been
+                  entered.)
+                </p>
+              </div>
               <form onSubmit={handleSubmit}>
                 <div className="row g-3">
                   <div className="col-md-6">

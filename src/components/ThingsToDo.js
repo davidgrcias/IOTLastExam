@@ -12,7 +12,6 @@ function ThingsToDo() {
   return (
     <div>
       <RelaxHeader />
-      <ThingsContent1 />
 
       <TinySlider />
       <TinySlider2 />

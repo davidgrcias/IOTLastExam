@@ -14,3 +14,7 @@
 .copyright {
   font-size: 16px;
 }
+
+#foot {
+  z-index: 1000 !important;
+}

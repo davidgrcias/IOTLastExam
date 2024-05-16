@@ -81,7 +81,7 @@ function FloatButton() {
             </li>
             <li>
               <a href="#" onclick="window.dialog.showModal();">
-                Add Food
+                Scream Challenge &nbsp;<i class="fa-solid fa-gamepad"></i>
               </a>
             </li>
             <li>

@@ -3,6 +3,11 @@
   color: white !important;
 }
 
+.footer {
+  z-index: 99 !important;
+  display: none !important  ;
+}
+
 .footer a {
   color: white !important;
 }

@@ -906,8 +906,7 @@ body {
 
 /*** Tour Booking Start ***/
 .booking {
-  background: linear-gradient(rgba(19, 53, 123, 0.8), rgba(19, 53, 123, 0.8)),
-    url(../img/tour-booking-bg.jpg);
+  background: none !important;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1251,6 +1250,7 @@ body {
 
 /*** Footer Start ***/
 .footer {
+  position: relative;
   background: var(--bs-dark);
 }
 .footer .footer-item a {
@@ -1270,5 +1270,6 @@ body {
 .copyright {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   background: var(--bs-dark) !important;
+  position: relative;
 }
 /*** copyright end ***/
