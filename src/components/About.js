@@ -143,9 +143,9 @@ function About() {
                   <div className="guide-icon rounded-pill p-2">
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1 scm"
-                      href
+                      href="https://www.youtube.com/@DavidGTech"
                     >
-                      <i className="fab fa-facebook-f" />
+                      <i className="fab fa-youtube" />
                     </a>
                     <a
                       className="btn btn-square btn-primary rounded-circle mx-1 scm"
