@@ -30,7 +30,6 @@ import garudawisnu from "./Image/gwk.jpg";
 import Des5 from "./Image/8 Greenmountain.jpg";
 import Des7 from "./Image/The World AYANA Resort.jpg";
 import { Link } from "react-router-dom";
-import Cursor from "./cursor";
 
 import "./Home.css";
 
