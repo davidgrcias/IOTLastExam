@@ -77,7 +77,7 @@ function About() {
                   borderColor: "transparent #13357B transparent #13357B",
                 }}
               >
-                <img src={aboutall} className="img-fluid w-100 h-100" alt />
+                <img src={aboutall} className="img-fluid w-100 h-100" />
               </div>
             </div>
             <div
