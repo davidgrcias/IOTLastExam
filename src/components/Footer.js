@@ -19,7 +19,7 @@ function Footer() {
             <div className="col-md-6 col-lg-6 col-xl-6">
               <div className="footer-item d-flex flex-column">
                 <h4 className="mb-4 text-white" id="white">
-                  Get In Touch
+                  Contact us :
                 </h4>
 
                 <a className="text-white" href>
@@ -37,54 +37,29 @@ function Footer() {
                   <i class="fas fa-share fa-2x text-white me-2"></i>
                   <a
                     class="btn-square btn btn-primary rounded-circle mx-1 scm"
-                    href=""
+                    href="https://www.youtube.com/@DavidGTech"
                   >
-                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-youtube"></i>
                   </a>
                   <a
                     class="btn-square btn btn-primary rounded-circle mx-1 scm"
-                    href=""
+                    href="http://tiktok.com/davidgtech"
                   >
-                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-tiktok"></i>
                   </a>
                   <a
                     class="btn-square btn btn-primary rounded-circle mx-1 scm"
-                    href=""
+                    href="https://www.instagram.com/davidgrcias/"
                   >
                     <i class="fab fa-instagram"></i>
                   </a>
                   <a
                     class="btn-square btn btn-primary rounded-circle mx-1 scm"
-                    href=""
+                    href="https://www.linkedin.com/in/davidgrcias/"
                   >
                     <i class="fab fa-linkedin-in"></i>
                   </a>
                 </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-6 col-xl-6">
-              <div className="footer-item d-flex flex-column">
-                <h4 className="mb-4 text-white" id="white">
-                  Company
-                </h4>
-                <a className="text-white" href>
-                  <i className="fas fa-angle-right me-2" /> About
-                </a>
-                <a className="text-white" href>
-                  <i className="fas fa-angle-right me-2" /> Careers
-                </a>
-                <a className="text-white" href>
-                  <i className="fas fa-angle-right me-2" /> Blog
-                </a>
-                <a className="text-white" href>
-                  <i className="fas fa-angle-right me-2" /> Press
-                </a>
-                <a className="text-white" href>
-                  <i className="fas fa-angle-right me-2" /> Gift Cards
-                </a>
-                <a className="text-white" href>
-                  <i className="fas fa-angle-right me-2" /> Magazine
-                </a>
               </div>
             </div>
           </div>
